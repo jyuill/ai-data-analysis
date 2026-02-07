@@ -1,0 +1,1300 @@
+﻿type,date,amount,id,name,memo,source,category,spend_type,vendor,month,year,amount_inv
+DEBIT,2025-03-01,-14.81,2.02503E+14,"GITHUB, INC.","GITHUB, INC.",cap_one_visa,business,bus - fixed,,03-2025,2025,$14.81 
+DEBIT,2025-03-02,-12.65,809-45080-100003027281,Point Of Sale Withdrawal,Store VancouverBCCA,beem_ch,food & bev,nec - discretionary,,03-2025,2025,$12.65 
+DEBIT,2025-03-02,-24.63,2025-02-20~2025-03-03~1325391,Amazon Channels,,td_visa,entertainment,discretionary,,03-2025,2025,$24.63 
+DEBIT,2025-03-02,-6.71,2025-02-20~2025-03-03~1325381,Amazon Channels,,td_visa,entertainment,discretionary,,03-2025,2025,$6.71 
+DEBIT,2025-03-02,-3.32,2025-02-20~2025-03-04~1824354,CITY OF VAN PAYBYPHONE,,td_visa,auto/local trans,discretionary,,03-2025,2025,$3.32 
+DEBIT,2025-03-02,-4.15,2025-02-20~2025-03-04~1824344,CITY OF VAN PAYBYPHONE,,td_visa,auto/local trans,discretionary,,03-2025,2025,$4.15 
+DEBIT,2025-03-03,-845.38,809-45080-100003027281,External Withdrawal Mortgage,Mortgage Home Trust Company 0002772430,beem_ch,rental inc,condo - fixed,,03-2025,2025,$845.38 
+DEBIT,2025-03-03,-104.51,809-45080-100003027281,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,03-2025,2025,$104.51 
+DEBIT,2025-03-03,-172.51,809-45080-100003027281,Point Of Sale Withdrawal,AU COMPTOIR VANCOUVERBCCA,beem_ch,food & bev,nec - discretionary,,03-2025,2025,$172.51 
+DEBIT,2025-03-03,-27.61,2.02503E+14,Amazon Web Services,Amazon Web Services,cap_one_visa,business,bus - fixed,,03-2025,2025,$27.61 
+DEBIT,2025-03-03,-15.67,2.02503E+12,TESLA,TESLA,cap_one_visa,entertainment,discretionary,,03-2025,2025,$15.67 
+DEBIT,2025-03-03,-72.99,2.02503E+12,DD/DOORDASHIGNITEPIZZE,DD/DOORDASHIGNITEPIZZE,cap_one_visa,food & bev,nec - discretionary,Doordash,03-2025,2025,$72.99 
+DEBIT,2025-03-03,-140,2.50622E+16,Telus Comm BPY,,td_ch,utilities,nec - fixed,,03-2025,2025,$140.00 
+DEBIT,2025-03-03,-360.02,2.50622E+16,Strata KAS 3604 FEE,,td_ch,rental inc,condo - fixed,,03-2025,2025,$360.02 
+CHECK,2025-03-03,-2125,2.50631E+16,CHQ#00041-4141056204,,td_ch,rent,nec - fixed,,03-2025,2025,"$2,125.00 "
+DEBIT,2025-03-03,-1.7,2025-02-20~2025-03-04~1824334,EASYPARK PAYBYPHONE,,td_visa,auto/local trans,discretionary,,03-2025,2025,$1.70 
+DEBIT,2025-03-04,-3.77,809-45080-100003027281,Point Of Sale Withdrawal,365 MARKET CA 2 MISSISSAUGONCA,beem_ch,food & bev,nec - discretionary,,03-2025,2025,$3.77 
+DEBIT,2025-03-04,-51.63,809-45080-100003027281,Point Of Sale Withdrawal,CHOICES CAMBIE # 906 VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,,03-2025,2025,$51.63 
+DEBIT,2025-03-05,-4.73,809-45080-100003027281,Point Of Sale Withdrawal,365 MARKET CA 2 MISSISSAUGONCA,beem_ch,food & bev,discretionary,,03-2025,2025,$4.73 
+DEBIT,2025-03-05,-3.77,809-45080-100003027281,Point Of Sale Withdrawal,365 MARKET CA 2 MISSISSAUGONCA,beem_ch,food & bev,discretionary,,03-2025,2025,$3.77 
+DEBIT,2025-03-05,-3.13,2.02503E+14,GOOGLE *Google One,GOOGLE *Google One,cap_one_visa,utilities,nec - fixed,,03-2025,2025,$3.13 
+DEBIT,2025-03-06,-3.03,809-45080-100003027281,Point Of Sale Withdrawal,365 MARKET CA 2 MISSISSAUGONCA,beem_ch,food & bev,discretionary,,03-2025,2025,$3.03 
+DEBIT,2025-03-06,-3.77,809-45080-100003027281,Point Of Sale Withdrawal,365 MARKET CA 2 MISSISSAUGONCA,beem_ch,food & bev,discretionary,,03-2025,2025,$3.77 
+DEBIT,2025-03-06,-43.14,2.02503E+14,DD/DOORDASHJUKEFRIEDCH,DD/DOORDASHJUKEFRIEDCH,cap_one_visa,food & bev,nec - discretionary,Doordash,03-2025,2025,$43.14 
+DEBIT,2025-03-06,-1563.48,2025-02-20~2025-03-10~1211341,WWW.CANADIANTIRE.CA,,td_visa,auto/local trans,nec - discretionary,,03-2025,2025,"$1,563.48 "
+DEBIT,2025-03-07,-4.47,2.02503E+14,APPLE.COM/BILL,APPLE.COM/BILL,cap_one_visa,supplies/services,disc - fixed,iCloud storage,03-2025,2025,$4.47 
+DEBIT,2025-03-07,-57.02,2.02503E+14,DD/DOORDASHMEETINYALET,DD/DOORDASHMEETINYALET,cap_one_visa,food & bev,nec - discretionary,Doordash,03-2025,2025,$57.02 
+DEBIT,2025-03-08,-81.7,809-45080-100003027281,Point Of Sale Withdrawal,SAVE ON FOODS #937 VANCOUVERBCCA,beem_ch,food & bev,discretionary,,03-2025,2025,$81.70 
+DEBIT,2025-03-08,-14.21,2.02503E+13,Spotify P34B9AA250,Spotify P34B9AA250,cap_one_visa,entertainment,discretionary,,03-2025,2025,$14.21 
+DEBIT,2025-03-09,-198.87,809-45080-100003027281,Point Of Sale Withdrawal,CANADIAN TIRE #389 VANCOUVERBCCA,beem_ch,supplies/services,discretionary,,03-2025,2025,$198.87 
+DEBIT,2025-03-09,-3.6,2025-02-20~2025-03-10~1211351,TESLA,,td_visa,auto/local trans,nec - discretionary,Telsa - chg,03-2025,2025,$3.60 
+DEBIT,2025-03-10,-2.82,809-45080-100003027281,Point Of Sale Withdrawal,365 MARKET CA 2 MISSISSAUGONCA,beem_ch,food & bev,nec - discretionary,,03-2025,2025,$2.82 
+DEBIT,2025-03-10,-50.06,2.02503E+13,DD/DOORDASHTHEPERIPERI,DD/DOORDASHTHEPERIPERI,cap_one_visa,food & bev,nec - discretionary,Doordash,03-2025,2025,$50.06 
+DEBIT,2025-03-10,-76.61,2.02503E+12,DD/DOORDASHIGNITEPIZZE,DD/DOORDASHIGNITEPIZZE,cap_one_visa,food & bev,nec - discretionary,Doordash,03-2025,2025,$76.61 
+DEBIT,2025-03-11,-5.19,809-45080-100003027281,Point Of Sale Withdrawal,TIM HORTONS #8088 VANCOUVERBCCA,beem_ch,food & bev,discretionary,,03-2025,2025,$5.19 
+DEBIT,2025-03-11,-124.09,809-45080-100003027281,External Withdrawal,Auto Insurance Insurance Corporation of BC 030180216750,beem_ch,auto/local trans,nec - fixed,ICBC,03-2025,2025,$124.09 
+DEBIT,2025-03-11,-59.52,2.02503E+13,DD/DOORDASHNOOK,DD/DOORDASHNOOK,cap_one_visa,food & bev,nec - discretionary,Doordash,03-2025,2025,$59.52 
+DEBIT,2025-03-12,-12.1,809-45080-100003027281,Point Of Sale Withdrawal,Store VancouverBCCA,beem_ch,food & bev,nec - discretionary,,03-2025,2025,$12.10 
+DEBIT,2025-03-12,-1.15,2025-02-20~2025-03-14~1815618,CITY OF VAN PAYBYPHONE,,td_visa,auto/local trans,discretionary,,03-2025,2025,$1.15 
+DEBIT,2025-03-12,-1.15,2025-02-20~2025-03-14~1815608,CITY OF VAN PAYBYPHONE,,td_visa,auto/local trans,discretionary,,03-2025,2025,$1.15 
+DEBIT,2025-03-13,-20.9,809-45080-100003027281,Point Of Sale Withdrawal,SQ *PUREBREAD BAKERY I SquamishBCCA,beem_ch,food & bev,nec - discretionary,,03-2025,2025,$20.90 
+DEBIT,2025-03-13,-151.9,809-45080-100003027281,Point Of Sale Withdrawal,TST-Nook Restaurant - VancouverBCCA,beem_ch,food & bev,nec - discretionary,Nook,03-2025,2025,$151.90 
+DEBIT,2025-03-13,-2.96,2025-02-20~2025-03-14~1815588,TESLA,,td_visa,auto/local trans,nec - discretionary,Telsa - chg,03-2025,2025,$2.96 
+DEBIT,2025-03-14,-853.66,809-45080-100003027281,External Withdrawal,Personal Loans SCOTIA BANK - SPL LOAN PAYMENT 0000072329207701603,beem_ch,auto/local trans,nec - fixed,,03-2025,2025,$853.66 
+DEBIT,2025-03-14,-146.14,809-45080-100003027281,External Withdrawal,Auto Insurance Insurance Corporation of BC 038199839901,beem_ch,auto/local trans,nec - fixed,ICBC,03-2025,2025,$146.14 
+CREDIT,2025-03-14,1800,809-45080-100003027281,External Deposit,Payroll Deposit Electronic Arts Inc. 202503141,beem_ch,income,,,03-2025,2025,"($1,800.00)"
+CREDIT,2025-03-14,2085.16,809-45080-100003027281,External Deposit Rent/Leases,Rent/Leases VANTAGE WEST-NEW TRUST AR4070,beem_ch,rental inc,condo - fixed,,03-2025,2025,"($2,085.16)"
+DEBIT,2025-03-14,-27.99,2.02503E+14,APPLE.COM/BILL,APPLE.COM/BILL,cap_one_visa,business,bus - fixed,ChatGPT,03-2025,2025,$27.99 
+CREDIT,2025-03-14,1624.25,2.50731E+16,Electronic Arts PAY,,td_ch,income,,EA,03-2025,2025,"($1,624.25)"
+DEBIT,2025-03-14,-6.71,2025-02-20~2025-03-14~1815598,Amazon Channels,,td_visa,entertainment,discretionary,,03-2025,2025,$6.71 
+DEBIT,2025-03-14,-266.7,2025-02-20~2025-03-17~1203321,GS DAYLODGE BLACKCOMB,,td_visa,recreation/educ,discretionary,,03-2025,2025,$266.70 
+DEBIT,2025-03-14,-600.6,2025-02-20~2025-03-17~1203311,GS DAYLODGE BLACKCOMB,,td_visa,recreation/educ,discretionary,,03-2025,2025,$600.60 
+DEBIT,2025-03-15,-14.05,2025-02-20~2025-03-17~1203341,TESLA,,td_visa,travel/transport,nec - discretionary,Telsa - chg,03-2025,2025,$14.05 
+DEBIT,2025-03-15,-12.31,2025-02-20~2025-03-17~1203331,Amazon Channels,,td_visa,entertainment,discretionary,,03-2025,2025,$12.31 
+DEBIT,2025-03-16,-78.52,809-45080-100003027281,Point Of Sale Withdrawal,FERGIES CAFE SQUAMISHBCCA,beem_ch,food & bev,nec - discretionary,,03-2025,2025,$78.52 
+DEBIT,2025-03-16,-189.3,809-45080-100003027281,Point Of Sale Withdrawal,MILESTONES WHISTLERBCCA,beem_ch,food & bev,nec - discretionary,,03-2025,2025,$189.30 
+DEBIT,2025-03-16,-39.35,809-45080-100003027281,Point Of Sale Withdrawal,MERLINS BAR &amp; GRILL WHISTLERBCCA,beem_ch,food & bev,nec - discretionary,,03-2025,2025,$39.35 
+DEBIT,2025-03-16,-86.1,2025-02-20~2025-03-18~1803214,CHATEAU WHISTLER RESORT,,td_visa,travel/transport,discretionary,,03-2025,2025,$86.10 
+DEBIT,2025-03-16,-1833.18,2025-02-20~2025-03-18~1803204,CHATEAU WHISTLER RESORT,,td_visa,travel/transport,discretionary,,03-2025,2025,"$1,833.18 "
+DEBIT,2025-03-17,-117,809-45080-100003027281,Point Of Sale Withdrawal,SAVE ON FOODS #937 VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,,03-2025,2025,$117.00 
+DEBIT,2025-03-17,-22.05,809-45080-100003027281,Point Of Sale Withdrawal,SHINE AUTO WASH VANCOUVERBCCA,beem_ch,auto/local trans,discretionary,Shine carwash,03-2025,2025,$22.05 
+DEBIT,2025-03-17,-136.62,2.02503E+14,INTEREST CHARGES,INTEREST CHARGES,cap_one_visa,int/bank chg/tax,discretionary,,03-2025,2025,$136.62 
+CREDIT,2025-03-17,375,2.50742E+16,E-TRANSFER ***Mwz,,td_ch,transfer/pmt,,,03-2025,2025,($375.00)
+DEBIT,2025-03-17,-2200,2.50762E+16,RT595 TFR-TO C/C,,td_ch,transfer/pmt,,,03-2025,2025,"$2,200.00 "
+DEBIT,2025-03-17,-5.57,2025-02-20~2025-03-17~1203351,TESLA,,td_visa,auto/local trans,nec - discretionary,Telsa - chg,03-2025,2025,$5.57 
+CREDIT,2025-03-17,2200,2025-02-20~2025-03-18~1803224,PAYMENT - THANK YOU,,td_visa,transfer/pmt,,,03-2025,2025,"($2,200.00)"
+DEBIT,2025-03-17,-65,2025-02-20~2025-03-19~1804349,INDIGO PARK - PARKING NOT,,td_visa,auto/local trans,discretionary,,03-2025,2025,$65.00 
+DEBIT,2025-03-18,-2.82,809-45080-100003027281,Point Of Sale Withdrawal,365 MARKET CA 2 MISSISSAUGONCA,beem_ch,food & bev,discretionary,EA,03-2025,2025,$2.82 
+DEBIT,2025-03-19,-3.77,809-45080-100003027281,Point Of Sale Withdrawal,365 MARKET CA 2 MISSISSAUGONCA,beem_ch,food & bev,discretionary,EA,03-2025,2025,$3.77 
+DEBIT,2025-03-19,-39.04,2.02503E+13,DD/DOORDASHTHEPERIPERI,DD/DOORDASHTHEPERIPERI,cap_one_visa,food & bev,nec - discretionary,Doordash,03-2025,2025,$39.04 
+CREDIT,2025-03-19,2700,2025-03-20~2025-03-20~1759341,PAYMENT - THANK YOU,,td_visa,transfer/pmt,,,03-2025,2025,"($2,700.00)"
+DEBIT,2025-03-19,-0.04,2025-02-20~2025-03-19~2058228,INTEREST CHARGE -PURCHASE,,td_visa,int/bank chg/tax,discretionary,,03-2025,2025,$0.04 
+DEBIT,2025-03-20,-3.77,809-45080-100003027281,Point Of Sale Withdrawal,365 MARKET CA 2 MISSISSAUGONCA,beem_ch,food & bev,discretionary,EA,03-2025,2025,$3.77 
+DEBIT,2025-03-20,-21.56,809-45080-100003027281,Point Of Sale Withdrawal,Store VancouverBCCA,beem_ch,food & bev,nec - discretionary,,03-2025,2025,$21.56 
+DEBIT,2025-03-22,-22.74,809-45080-100003027281,Point Of Sale Withdrawal,ANGRY OTTER @ CAMBIE VANCOUVERBCCA,beem_ch,food & bev,discretionary,,03-2025,2025,$22.74 
+DEBIT,2025-03-22,-42.1,809-45080-100003027281,Point Of Sale Withdrawal,CHOICES CAMBIE # 906 VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,,03-2025,2025,$42.10 
+DEBIT,2025-03-22,-33.42,2.02503E+14,DD/DOORDASHIGNITEPIZZE,DD/DOORDASHIGNITEPIZZE,cap_one_visa,food & bev,nec - discretionary,Doordash,03-2025,2025,$33.42 
+DEBIT,2025-03-22,-3.35,2025-03-20~2025-03-24~1211055,Ad free for PrimeVideo,,td_visa,entertainment,disc - fixed,,03-2025,2025,$3.35 
+DEBIT,2025-03-24,-63.51,809-45080-100003027281,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,03-2025,2025,$63.51 
+DEBIT,2025-03-24,-117.63,2.02503E+13,DD/DOORDASHSULAINDIANR,DD/DOORDASHSULAINDIANR,cap_one_visa,food & bev,nec - discretionary,Doordash,03-2025,2025,$117.63 
+DEBIT,2025-03-24,-5,2025-03-20~2025-03-25~1800220,IMPARK00011928U,,td_visa,auto/local trans,discretionary,,03-2025,2025,$5.00 
+DEBIT,2025-03-25,-5.19,809-45080-100003027281,Point Of Sale Withdrawal,TIM HORTONS #8088 VANCOUVERBCCA,beem_ch,food & bev,discretionary,,03-2025,2025,$5.19 
+DEBIT,2025-03-25,-11.19,2025-03-20~2025-03-26~1803472,Amazon.ca Prime Member,,td_visa,entertainment,disc - fixed,,03-2025,2025,$11.19 
+DEBIT,2025-03-26,-2.82,809-45080-100003027281,Point Of Sale Withdrawal,365 MARKET CA 2 MISSISSAUGONCA,beem_ch,food & bev,discretionary,,03-2025,2025,$2.82 
+DEBIT,2025-03-26,-159.9,809-45080-100003027281,Point Of Sale Withdrawal,SQ *BEACH HOUSE West VancoBCCA,beem_ch,food & bev,nec - discretionary,,03-2025,2025,$159.90 
+DEBIT,2025-03-26,-52.12,2.02503E+14,DD/DOORDASHMEETONMAIN,DD/DOORDASHMEETONMAIN,cap_one_visa,food & bev,nec - discretionary,Doordash,03-2025,2025,$52.12 
+DEBIT,2025-03-26,-2.15,2025-03-20~2025-03-28~1811042,CITY OF VAN PAYBYPHONE,,td_visa,auto/local trans,discretionary,,03-2025,2025,$2.15 
+DEBIT,2025-03-27,-2.82,809-45080-100003027281,Point Of Sale Withdrawal,365 MARKET CA 2 MISSISSAUGONCA,beem_ch,food & bev,discretionary,,03-2025,2025,$2.82 
+DEBIT,2025-03-27,-130.02,809-45080-100003027281,Point Of Sale Withdrawal,TST-Jay Nok Modern Tha VancouverBCCA,beem_ch,food & bev,nec - discretionary,,03-2025,2025,$130.02 
+DEBIT,2025-03-27,-28.34,2.02503E+14,HOSTPAPA WEB HOSTING,HOSTPAPA WEB HOSTING,cap_one_visa,business,bus - fixed,,03-2025,2025,$28.34 
+CREDIT,2025-03-28,1800,809-45080-100003027281,External Deposit,Payroll Deposit Electronic Arts Inc. 202503281,beem_ch,income,,,03-2025,2025,"($1,800.00)"
+DEBIT,2025-03-28,-10.49,2.02503E+14,DOORDASHDASHPASS,DOORDASHDASHPASS,cap_one_visa,food & bev,nec - discretionary,Doordash,03-2025,2025,$10.49 
+DEBIT,2025-03-28,-40.29,2.02503E+14,APPLE.COM/BILL,APPLE.COM/BILL,cap_one_visa,entertainment,discretionary,,03-2025,2025,$40.29 
+CREDIT,2025-03-28,1624.25,2.50871E+16,Electronic Arts PAY,,td_ch,income,,EA,03-2025,2025,"($1,624.25)"
+DEBIT,2025-03-28,-6.15,2025-03-20~2025-03-31~1154240,CITY OF VAN PAYBYPHONE,,td_visa,auto/local trans,discretionary,,03-2025,2025,$6.15 
+DEBIT,2025-03-28,-1.65,2025-03-20~2025-03-31~1154250,CITY OF VAN PAYBYPHONE,,td_visa,auto/local trans,discretionary,,03-2025,2025,$1.65 
+DEBIT,2025-03-29,-155.55,809-45080-100003027281,Bill Payment,"TD VISA, Confirmation 30022722",beem_ch,transfer/pmt,,,03-2025,2025,$155.55 
+DEBIT,2025-03-29,-227.26,809-45080-100003027281,Bill Payment,"Koodo Mobile, Confirmation 30022721",beem_ch,utilities,nec - fixed,,03-2025,2025,$227.26 
+DEBIT,2025-03-29,-3000,809-45080-100003027281,Bill Payment,"Capital One Mastercard, Confirmation 30022720",beem_ch,transfer/pmt,,,03-2025,2025,"$3,000.00 "
+DEBIT,2025-03-29,-42.3,809-45080-100003027281,Bill Payment,"BC Hydro, Confirmation 30022718",beem_ch,utilities,nec - fixed,,03-2025,2025,$42.30 
+DEBIT,2025-03-29,-128.76,809-45080-100003027281,Point Of Sale Withdrawal,TST-Las Margaritas VancouverBCCA,beem_ch,food & bev,nec - discretionary,,03-2025,2025,$128.76 
+CREDIT,2025-03-29,155.55,2025-03-20~2025-03-31~1929026,PAYMENT - THANK YOU,,td_visa,transfer/pmt,,,03-2025,2025,($155.55)
+DEBIT,2025-03-30,-25.39,809-45080-100003027281,Point Of Sale Withdrawal,LIBERTY WINE MERCHANTS VANCOUVERBCCA,beem_ch,food & bev,discretionary,,03-2025,2025,$25.39 
+DEBIT,2025-03-30,-94.95,809-45080-100003027281,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,03-2025,2025,$94.95 
+CREDIT,2025-03-31,3000,2.02503E+14,PAYMENT,PAYMENT,cap_one_visa,transfer/pmt,,,03-2025,2025,"($3,000.00)"
+CREDIT,2025-03-31,100,2.02503E+14,PAYMENT,PAYMENT,cap_one_visa,transfer/pmt,,,03-2025,2025,($100.00)
+DEBIT,2025-03-31,-72.77,2.02503E+13,DD/DOORDASHIGNITEPIZZE,DD/DOORDASHIGNITEPIZZE,cap_one_visa,food & bev,nec - discretionary,Doordash,03-2025,2025,$72.77 
+DEBIT,2025-03-31,-14.55,2.02503E+12,GOOGLE *YouTubePremium,GOOGLE *YouTubePremium,cap_one_visa,entertainment,disc - fixed,,03-2025,2025,$14.55 
+DEBIT,2025-03-31,-100,2.50882E+16,CAPTL ONE MC U5H3A7,,td_ch,transfer/pmt,,,03-2025,2025,$100.00 
+DEBIT,2025-03-31,-145.6,2.50902E+16,Telus Comm BPY,,td_ch,utilities,nec - fixed,,03-2025,2025,$145.60 
+DEBIT,2025-03-31,-3.95,2.50911E+16,MONTHLY ACCOUNT FEE,,td_ch,int/bank chg/tax,nec - fixed,,03-2025,2025,$3.95 
+DEBIT,2025-03-31,-136.06,2025-03-20~2025-03-31~1154260,TST-Nook Restaurant -,,td_visa,food & bev,nec - discretionary,Nook,03-2025,2025,$136.06 
+DEBIT,2025-04-01,-2.82,3094,Point Of Sale Withdrawal,365 MARKET CA 2 MISSISSAUGONCA,beem_ch,food & bev,discretionary,,04-2025,2025,$2.82 
+DEBIT,2025-04-01,-845.38,3093,External Withdrawal Mortgage,Home Trust Company 0002824971,beem_ch,rental inc,condo - fixed,,04-2025,2025,$845.38 
+DEBIT,2025-04-01,-3.77,3092,Point Of Sale Withdrawal,365 MARKET CA 2 MISSISSAUGONCA,beem_ch,food & bev,discretionary,EA,04-2025,2025,$3.77 
+DEBIT,2025-04-01,-14.69,2.02504E+14,"GITHUB, INC.","GITHUB, INC.",cap_one_visa,business,bus - fixed,,04-2025,2025,$14.69 
+DEBIT,2025-04-01,-360.02,2.50912E+16,KAS 3604 Radius FEE,,td_ch,rental inc,condo - fixed,,04-2025,2025,$360.02 
+CHECK,2025-04-01,-2125,2.50921E+16,CHQ#00042-1142721489,,td_ch,rent,nec - fixed,,04-2025,2025,"$2,125.00 "
+DEBIT,2025-04-02,-3.77,3097,Point Of Sale Withdrawal,365 MARKET CA 2 MISSISSAUGONCA,beem_ch,food & bev,discretionary,EA,04-2025,2025,$3.77 
+DEBIT,2025-04-02,-132.83,3096,Point Of Sale Withdrawal,INDIAN FUSION RESTAURA NORTH VANCBCCA,beem_ch,food & bev,nec - discretionary,,04-2025,2025,$132.83 
+DEBIT,2025-04-02,-10,3095,Point Of Sale Withdrawal SQ,*GORDON AND MARION North VancBCCA,beem_ch,food & bev,discretionary,,04-2025,2025,$10.00 
+DEBIT,2025-04-02,-30.33,2.02504E+14,Amazon Web Services,Amazon Web Services,cap_one_visa,business,bus - fixed,,04-2025,2025,$30.33 
+DEBIT,2025-04-02,-15.67,2.02504E+14,TESLA,TESLA,cap_one_visa,entertainment,discretionary,,04-2025,2025,$15.67 
+DEBIT,2025-04-02,-49.06,2.02504E+14,DOORDASHTHEPERIPERI,DOORDASHTHEPERIPERI,cap_one_visa,food & bev,nec - discretionary,Doordash,04-2025,2025,$49.06 
+DEBIT,2025-04-02,-6.71,2025-03-20~2025-04-02~1804142,Amazon Channels,,td_visa,entertainment,discretionary,,04-2025,2025,$6.71 
+DEBIT,2025-04-03,-2.82,3099,Point Of Sale Withdrawal,365 MARKET CA 2 MISSISSAUGONCA,beem_ch,food & bev,discretionary,EA,04-2025,2025,$2.82 
+DEBIT,2025-04-03,-3.77,3098,Point Of Sale Withdrawal,365 MARKET CA 2 MISSISSAUGONCA,beem_ch,food & bev,discretionary,EA,04-2025,2025,$3.77 
+DEBIT,2025-04-03,-24.63,2025-03-20~2025-04-03~1814105,Amazon Channels,,td_visa,entertainment,discretionary,,04-2025,2025,$24.63 
+DEBIT,2025-04-04,-23.52,3100,Point Of Sale Withdrawal,Store VancouverBCCA,beem_ch,food & bev,nec - discretionary,,04-2025,2025,$23.52 
+DEBIT,2025-04-05,-46.18,3101,Point Of Sale Withdrawal BC,LIQUOR #177 VANCOUVERBCCA,beem_ch,food & bev,discretionary,,04-2025,2025,$46.18 
+DEBIT,2025-04-05,-3.13,2.02504E+14,GOOGLE *Google One,GOOGLE *Google One,cap_one_visa,utilities,nec - fixed,,04-2025,2025,$3.13 
+DEBIT,2025-04-06,-106.24,3103,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,04-2025,2025,$106.24 
+DEBIT,2025-04-06,-11.53,3102,Point Of Sale Withdrawal,TST-The Juice Truck- W VancouverBCCA,beem_ch,food & bev,discretionary,,04-2025,2025,$11.53 
+DEBIT,2025-04-06,-5,2025-03-20~2025-04-08~1804466,IMPARK00011928U,,td_visa,auto/local trans,discretionary,,04-2025,2025,$5.00 
+DEBIT,2025-04-06,-7.83,2025-03-20~2025-04-07~1223300,PrimeVideo.c*QG53R45L3,,td_visa,entertainment,discretionary,,04-2025,2025,$7.83 
+DEBIT,2025-04-07,-73.71,2.02504E+13,DD/DOORDASHCACTUSCLUBC,DD/DOORDASHCACTUSCLUBC,cap_one_visa,food & bev,nec - discretionary,Doordash,04-2025,2025,$73.71 
+DEBIT,2025-04-07,-81.16,2.02504E+12,DD/DOORDASHIGNITEPIZZE,DD/DOORDASHIGNITEPIZZE,cap_one_visa,food & bev,nec - discretionary,Doordash,04-2025,2025,$81.16 
+DEBIT,2025-04-07,-77.43,2025-03-20~2025-04-08~1804476,AMZN Mktp CA*JA77U1DB3,,td_visa,supplies/services,discretionary,,04-2025,2025,$77.43 
+DEBIT,2025-04-08,-3.77,3105,Point Of Sale Withdrawal,365 MARKET CA 2 MISSISSAUGONCA,beem_ch,food & bev,discretionary,EA,04-2025,2025,$3.77 
+DEBIT,2025-04-08,-21.56,3104,Point Of Sale Withdrawal,Store VancouverBCCA,beem_ch,food & bev,nec - discretionary,,04-2025,2025,$21.56 
+DEBIT,2025-04-08,-14.21,2.02504E+14,Spotify P35A9F85C1,Spotify P35A9F85C1,cap_one_visa,entertainment,discretionary,,04-2025,2025,$14.21 
+DEBIT,2025-04-08,-4.47,2.02504E+14,APPLE.COM/BILL,APPLE.COM/BILL,cap_one_visa,supplies/services,disc - fixed,iCloud storage,04-2025,2025,$4.47 
+DEBIT,2025-04-09,-2.82,3106,Point Of Sale Withdrawal,365 MARKET CA 2 MISSISSAUGONCA,beem_ch,food & bev,discretionary,,04-2025,2025,$2.82 
+DEBIT,2025-04-10,-3.77,3107,Point Of Sale Withdrawal,365 MARKET CA 2 MISSISSAUGONCA,beem_ch,food & bev,discretionary,,04-2025,2025,$3.77 
+DEBIT,2025-04-10,-31.92,2.02504E+14,DD/DOORDASHTHEPERIPERI,DD/DOORDASHTHEPERIPERI,cap_one_visa,food & bev,nec - discretionary,Doordash,04-2025,2025,$31.92 
+DEBIT,2025-04-10,-124.2,2.51001E+16,FLAIR DIRECT CA _V,,td_ch,travel/transport,discretionary,,04-2025,2025,$124.20 
+DEBIT,2025-04-11,-14.09,3109,External Withdrawal Auto,Insurance Insurance Corporation of BC,beem_ch,auto/local trans,nec - fixed,ICBC,04-2025,2025,$14.09 
+CREDIT,2025-04-11,1800,3108,External Deposit Payroll,Deposit Electronic Arts Inc. 202504111,beem_ch,income,,,04-2025,2025,"($1,800.00)"
+DEBIT,2025-04-11,-39.04,2.02504E+14,DD/DOORDASHCACTUSCLUBC,DD/DOORDASHCACTUSCLUBC,cap_one_visa,food & bev,nec - discretionary,Doordash,04-2025,2025,$39.04 
+CREDIT,2025-04-11,1624.25,2.51011E+16,Electronic Arts PAY,,td_ch,income,,EA,04-2025,2025,"($1,624.25)"
+DEBIT,2025-04-12,-54.23,3110,Point Of Sale Withdrawal BC,LIQUOR #177 VANCOUVERBCCA,beem_ch,food & bev,discretionary,,04-2025,2025,$54.23 
+DEBIT,2025-04-12,-40.22,2.02504E+14,DD/DOORDASHSULAINDIANR,DD/DOORDASHSULAINDIANR,cap_one_visa,food & bev,nec - discretionary,Doordash,04-2025,2025,$40.22 
+DEBIT,2025-04-13,-127.62,2025-03-20~2025-04-15~1808309,THE STABLE HOUSE BISTRO,,td_visa,food & bev,nec - discretionary,,04-2025,2025,$127.62 
+DEBIT,2025-04-13,-16.79,2025-03-20~2025-04-14~1227179,AMZN Mktp CA*8V9TU9I63,,td_visa,supplies/services,discretionary,,04-2025,2025,$16.79 
+DEBIT,2025-04-14,-7.85,3112,External Withdrawal Personal,Loans SCOTIA BANK - SPL LOAN PAYMENT 0000073329207701603,beem_ch,auto/local trans,nec - fixed,,04-2025,2025,$7.85 
+DEBIT,2025-04-14,-146.14,3111,External Withdrawal Auto,Insurance Insurance Corporation of BC,beem_ch,auto/local trans,nec - fixed,ICBC,04-2025,2025,$146.14 
+DEBIT,2025-04-14,-76.61,2.02504E+13,DD/DOORDASHIGNITEPIZZE,DD/DOORDASHIGNITEPIZZE,cap_one_visa,food & bev,nec - discretionary,Doordash,04-2025,2025,$76.61 
+DEBIT,2025-04-14,-32.54,2.02504E+13,REBEL.CA,REBEL.CA,cap_one_visa,business,bus - fixed,,04-2025,2025,$32.54 
+DEBIT,2025-04-14,-27.99,2.02504E+13,APPLE.COM/BILL,APPLE.COM/BILL,cap_one_visa,business,bus - fixed,ChatGPT,04-2025,2025,$27.99 
+DEBIT,2025-04-14,-1200,2.51021E+16,COINBASE R 1200.00_V,,td_ch,investment,discretionary,,04-2025,2025,"$1,200.00 "
+DEBIT,2025-04-14,-6.71,2025-03-20~2025-04-14~1227189,Amazon Channels,,td_visa,entertainment,discretionary,,04-2025,2025,$6.71 
+DEBIT,2025-04-15,-10.07,3114,Point Of Sale Withdrawal,TIM HORTONS #8088 VANCOUVERBCCA,beem_ch,food & bev,discretionary,,04-2025,2025,$10.07 
+CREDIT,2025-04-15,2037.91,3113,External Deposit Rent/Leases,VANTAGE WEST-NEW TRUST AR4070,beem_ch,rental inc,condo - fixed,,04-2025,2025,"($2,037.91)"
+DEBIT,2025-04-15,-12.31,2025-03-20~2025-04-15~1808319,Amazon Channels,,td_visa,entertainment,discretionary,,04-2025,2025,$12.31 
+DEBIT,2025-04-16,-134.7,3115,Point Of Sale Withdrawal,CHOICES CAMBIE # 906 VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,,04-2025,2025,$134.70 
+DEBIT,2025-04-17,-9.67,3116,Point Of Sale Withdrawal,RA-EA-63111 BURNABYBCCA,beem_ch,food & bev,discretionary,,04-2025,2025,$9.67 
+DEBIT,2025-04-17,-71.53,2.02504E+14,INTEREST CHARGES,INTEREST CHARGES,cap_one_visa,int/bank chg/tax,discretionary,,04-2025,2025,$71.53 
+DEBIT,2025-04-18,-98.35,3118,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,04-2025,2025,$98.35 
+DEBIT,2025-04-18,-10.49,3117,Point Of Sale Withdrawal,TST-The Juice Truck- W VancouverBCCA,beem_ch,food & bev,discretionary,,04-2025,2025,$10.49 
+DEBIT,2025-04-18,-154.8,2025-03-20~2025-04-21~1256026,10K RUN* VANCOUVER SUN,,td_visa,recreation/educ,discretionary,,04-2025,2025,$154.80 
+DEBIT,2025-04-18,-5,2025-03-20~2025-04-21~1256036,IMPARK00011928U,,td_visa,auto/local trans,discretionary,,04-2025,2025,$5.00 
+DEBIT,2025-04-19,-43.14,2.02504E+13,DD/DOORDASHJUKEFRIEDCH,DD/DOORDASHJUKEFRIEDCH,cap_one_visa,food & bev,nec - discretionary,Doordash,04-2025,2025,$43.14 
+DEBIT,2025-04-19,-32.54,2.02504E+13,REBEL.CA,REBEL.CA,cap_one_visa,business,bus - fixed,,04-2025,2025,$32.54 
+DEBIT,2025-04-20,-72.33,1000030272813120D,Point Of Sale Withdrawal,CHOICES WEST 16TH #460 VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,,04-2025,2025,$72.33 
+DEBIT,2025-04-20,-190.22,1000030272813119D,Point Of Sale Withdrawal,FIORE FAMIGLIA VANCOUVERBCCA,beem_ch,food & bev,nec - discretionary,,04-2025,2025,$190.22 
+DEBIT,2025-04-20,-7.83,2025-03-20~2025-04-21~1256046,PrimeVideo.c*GM0AC9CI3,,td_visa,entertainment,discretionary,,04-2025,2025,$7.83 
+DEBIT,2025-04-21,-16.17,1000030272813121D,Point Of Sale Withdrawal,GUSTO VANCOUVERBCCA,beem_ch,food & bev,nec - discretionary,,04-2025,2025,$16.17 
+DEBIT,2025-04-21,-22.04,2.02504E+13,REBEL.CA,REBEL.CA,cap_one_visa,business,bus - fixed,,04-2025,2025,$22.04 
+DEBIT,2025-04-21,-1.7,2025-04-22~2025-04-22~1806558,EASYPARK PAYBYPHONE,,td_visa,auto/local trans,discretionary,,04-2025,2025,$1.70 
+DEBIT,2025-04-22,-2.93,1000030272813123D,Point Of Sale Withdrawal,365 MARKET CA 2 MISSISSAUGONCA,beem_ch,food & bev,discretionary,,04-2025,2025,$2.93 
+DEBIT,2025-04-22,-3.77,1000030272813122D,Point Of Sale Withdrawal,365 MARKET CA 2 MISSISSAUGONCA,beem_ch,food & bev,discretionary,,04-2025,2025,$3.77 
+DEBIT,2025-04-22,-32.54,2.02504E+14,REBEL.CA,REBEL.CA,cap_one_visa,business,bus - fixed,,04-2025,2025,$32.54 
+DEBIT,2025-04-22,-3.35,2025-04-22~2025-04-22~1806568,Ad free for PrimeVideo,,td_visa,entertainment,disc - fixed,,04-2025,2025,$3.35 
+DEBIT,2025-04-23,-2.82,1000030272813125D,Point Of Sale Withdrawal,365 MARKET CA 2 MISSISSAUGONCA,beem_ch,food & bev,discretionary,,04-2025,2025,$2.82 
+DEBIT,2025-04-23,-3.77,1000030272813124D,Point Of Sale Withdrawal,365 MARKET CA 2 MISSISSAUGONCA,beem_ch,food & bev,discretionary,,04-2025,2025,$3.77 
+DEBIT,2025-04-23,-72.76,2.02504E+14,DD/DOORDASHIGNITEPIZZE,DD/DOORDASHIGNITEPIZZE,cap_one_visa,food & bev,nec - discretionary,Doordash,04-2025,2025,$72.76 
+DEBIT,2025-04-24,-3.77,1000030272813126D,Point Of Sale Withdrawal,365 MARKET CA 2 MISSISSAUGONCA,beem_ch,food & bev,discretionary,,04-2025,2025,$3.77 
+DEBIT,2025-04-24,-9.59,7.40645E+22,Indigo ParkVANCOUVER BC (Apple Pay),,scotia_visa,auto/local trans,discretionary,,04-2025,2025,$9.59 
+CREDIT,2025-04-25,1800,1000030272813128C,External Deposit,Payroll Deposit Electronic Arts Inc. 202504251,beem_ch,income,,,04-2025,2025,"($1,800.00)"
+DEBIT,2025-04-25,-25.3,1000030272813127D,Point Of Sale Withdrawal,VANCOUVER CONVENTION C VANCOUVERBCCA,beem_ch,recreation/educ,discretionary,,04-2025,2025,$25.30 
+DEBIT,2025-04-25,-59.24,2.02504E+14,DD/DOORDASHMEETINYALET,DD/DOORDASHMEETINYALET,cap_one_visa,food & bev,nec - discretionary,Doordash,04-2025,2025,$59.24 
+CREDIT,2025-04-25,1624.25,2.51151E+16,Electronic Arts PAY,,td_ch,income,,EA,04-2025,2025,"($1,624.25)"
+DEBIT,2025-04-25,-1310.52,2.51151E+16,COINBASE R 1310.52_V,,td_ch,investment,discretionary,,04-2025,2025,"$1,310.52 "
+DEBIT,2025-04-25,-11.19,2025-04-22~2025-04-28~1251595,Amazon.ca Prime Member,,td_visa,entertainment,disc - fixed,,04-2025,2025,$11.19 
+DEBIT,2025-04-26,-11.79,1000030272813131D,Point Of Sale Withdrawal,Store VancouverBCCA,beem_ch,food & bev,nec - discretionary,,04-2025,2025,$11.79 
+DEBIT,2025-04-26,-33.6,1000030272813130D,Point Of Sale Withdrawal,KINTEC FOOTLABS INC. SURREYBCCA,beem_ch,recreation/educ,nec - discretionary,,04-2025,2025,$33.60 
+DEBIT,2025-04-26,-12.54,1000030272813129D,Point Of Sale Withdrawal,BODY ENERGY CLUB VANCOUVERBCCA,beem_ch,food & bev,discretionary,,04-2025,2025,$12.54 
+DEBIT,2025-04-26,-28.34,2.02504E+14,HOSTPAPA WEB HOSTING,HOSTPAPA WEB HOSTING,cap_one_visa,business,bus - fixed,,04-2025,2025,$28.34 
+DEBIT,2025-04-26,-39.04,2.02504E+14,DD/DOORDASHTHEPERIPERI,DD/DOORDASHTHEPERIPERI,cap_one_visa,food & bev,nec - discretionary,Doordash,04-2025,2025,$39.04 
+DEBIT,2025-04-26,-3.2,2025-04-22~2025-04-28~1251605,COMPASS ACCOUNT BURNAB,,td_visa,auto/local trans,discretionary,,04-2025,2025,$3.20 
+DEBIT,2025-04-27,-95,1000030272813132D,Point Of Sale Withdrawal,TST-Nook Restaurant - VancouverBCCA,beem_ch,food & bev,nec - discretionary,Nook,04-2025,2025,$95.00 
+DEBIT,2025-04-28,-51.09,1000030272813133D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,04-2025,2025,$51.09 
+DEBIT,2025-04-28,-10.49,2.02504E+14,DOORDASHDASHPASS,DOORDASHDASHPASS,cap_one_visa,food & bev,nec - discretionary,Doordash,04-2025,2025,$10.49 
+DEBIT,2025-04-28,-32.54,2.02504E+14,REBEL.CA,REBEL.CA,cap_one_visa,business,bus - fixed,,04-2025,2025,$32.54 
+DEBIT,2025-04-28,-24.63,2.02504E+14,APPLE.COM/BILL,APPLE.COM/BILL,cap_one_visa,entertainment,disc - fixed,Crave,04-2025,2025,$24.63 
+DEBIT,2025-04-28,-300,2025-04-22~2025-04-29~1858575,BENEVITY DONATIONS,,td_visa,gifts/donations,discretionary,,04-2025,2025,$300.00 
+DEBIT,2025-04-28,-300,2025-04-22~2025-04-29~1858565,BENEVITY DONATIONS,,td_visa,gifts/donations,discretionary,,04-2025,2025,$300.00 
+DEBIT,2025-04-28,-5,2025-04-22~2025-04-29~1858555,IMPARK00011928U,,td_visa,auto/local trans,discretionary,,04-2025,2025,$5.00 
+DEBIT,2025-04-29,-11.03,1000030272813137D,Point Of Sale Withdrawal,SQ *DEVILLE COFFEE CAL CalgaryABCA,beem_ch,food & bev,discretionary,,04-2025,2025,$11.03 
+DEBIT,2025-04-29,-3.99,1000030272813136D,Point Of Sale Withdrawal,YVR Pacific Coast News RichmondBCCA,beem_ch,food & bev,discretionary,,04-2025,2025,$3.99 
+DEBIT,2025-04-29,-7.88,1000030272813135D,Point Of Sale Withdrawal,579 - LEE'S DONUTS @ Y RICHMONDBCCA,beem_ch,food & bev,discretionary,,04-2025,2025,$7.88 
+DEBIT,2025-04-29,-4.19,1000030272813134D,Point Of Sale Withdrawal,579 - LEE'S DONUTS @ Y RICHMONDBCCA,beem_ch,food & bev,discretionary,,04-2025,2025,$4.19 
+DEBIT,2025-04-29,-78.67,2.02504E+14,DD/DOORDASHCACTUSCLUBC,DD/DOORDASHCACTUSCLUBC,cap_one_visa,food & bev,nec - discretionary,Doordash,04-2025,2025,$78.67 
+DEBIT,2025-04-29,-145.6,2.51192E+16,Telus Comm BPY,,td_ch,utilities,nec - fixed,,04-2025,2025,$145.60 
+DEBIT,2025-04-29,-4.65,2025-04-22~2025-05-01~1844168,COMPASS ACCOUNT BURNAB,,td_visa,auto/local trans,discretionary,,04-2025,2025,$4.65 
+DEBIT,2025-04-30,-14.55,2.02504E+14,GOOGLE *YouTubePremium,GOOGLE *YouTubePremium,cap_one_visa,entertainment,disc - fixed,,04-2025,2025,$14.55 
+DEBIT,2025-04-30,-3.95,2.51211E+16,MONTHLY ACCOUNT FEE,,td_ch,int/bank chg/tax,nec - fixed,,04-2025,2025,$3.95 
+DEBIT,2025-04-30,-252,2025-04-22~2025-05-02~1903016,RUSTIC KITCHEN & BAR,,td_visa,food & bev,nec - discretionary,,04-2025,2025,$252.00 
+DEBIT,2025-05-01,-845.38,809-45080-100003027281,External Withdrawal Mortgage,Mortgage Home Trust Company 0002877426,beem_ch,rental inc,condo - fixed,,05-2025,2025,$845.38 
+DEBIT,2025-05-01,-12.29,1000030272813138D,Point Of Sale Withdrawal,SHELL C00507 MEDICINE HABCA,beem_ch,travel/transport,discretionary,,05-2025,2025,$12.29 
+DEBIT,2025-05-01,-14.21,2.02505E+14,"GITHUB, INC.","GITHUB, INC.",cap_one_visa,business,bus - fixed,,05-2025,2025,$14.21 
+DEBIT,2025-05-01,-360.02,2.51212E+16,KAS 3604 Radius FEE,,td_ch,rental inc,condo - fixed,,05-2025,2025,$360.02 
+CHECK,2025-05-01,-2125,2.51221E+16,CHQ#00043-4141804206,,td_ch,rent,nec - fixed,,05-2025,2025,"$2,125.00 "
+DEBIT,2025-05-02,-40.2,809-45080-100003027281,Point Of Sale Withdrawal,TST-Silver Buckle Medicine HABCA,beem_ch,food & bev,discretionary,,05-2025,2025,$40.20 
+DEBIT,2025-05-02,-37.23,1000030272813141D,Point Of Sale Withdrawal,THIRSTY'S COLD BEER & MEDICINE HABCA,beem_ch,food & bev,discretionary,,05-2025,2025,$37.23 
+DEBIT,2025-05-02,-15.67,2.02505E+14,TESLA,TESLA,cap_one_visa,entertainment,discretionary,,05-2025,2025,$15.67 
+CREDIT,2025-05-02,1121.66,2.51222E+16,EMS FR: 9469-6051374,,td_ch,transfer/pmt,,,05-2025,2025,"($1,121.66)"
+CREDIT,2025-05-02,500,2.51222E+16,JO251 TFR-FR 6051374,,td_ch,transfer/pmt,,,05-2025,2025,($500.00)
+CREDIT,2025-05-02,6300.5,2.51222E+16,JQ395 TFR-FR 6051374,,td_ch,transfer/pmt,,,05-2025,2025,"($6,300.50)"
+DEBIT,2025-05-02,-5,2.51222E+16,NSF PAID FEE,,td_ch,int/bank chg/tax,nec - fixed,,05-2025,2025,$5.00 
+CREDIT,2025-05-02,1225.61,2025-04-22~2025-05-05~1921538,PAYMENT - THANK YOU,,td_visa,transfer/pmt,,,05-2025,2025,"($1,225.61)"
+DEBIT,2025-05-02,-235.2,2025-04-22~2025-05-05~1241524,INTUIT *TURBOTAX,,td_visa,int/bank chg/tax,nec - discretionary,#N/A,05-2025,2025,$235.20 
+DEBIT,2025-05-03,-28.68,2.02505E+14,Amazon Web Services,Amazon Web Services,cap_one_visa,business,bus - fixed,,05-2025,2025,$28.68 
+DEBIT,2025-05-03,-47.19,2.02505E+14,REBEL.CA,REBEL.CA,cap_one_visa,business,bus - fixed,,05-2025,2025,$47.19 
+DEBIT,2025-05-04,-9.44,809-45080-100003027281,Point Of Sale Withdrawal,LA PREP CALGARYABCA,beem_ch,food & bev,discretionary,,05-2025,2025,$9.44 
+DEBIT,2025-05-04,-5,2025-04-22~2025-05-05~1241534,PETRO-CANADA 38979,,td_visa,travel/transport,nec - discretionary,,05-2025,2025,$5.00 
+DEBIT,2025-05-04,-810.99,2025-04-22~2025-05-06~1757608,AVIS RENT A CAR,,td_visa,travel/transport,discretionary,,05-2025,2025,$810.99 
+DEBIT,2025-05-05,-33.46,809-45080-100003027281,Point Of Sale Withdrawal,THE HOME DEPOT #7259 VANCOUVERBCCA,beem_ch,supplies/services,nec - discretionary,,05-2025,2025,$33.46 
+DEBIT,2025-05-05,-3.13,2.02505E+14,GOOGLE *Google One,GOOGLE *Google One,cap_one_visa,utilities,nec - fixed,,05-2025,2025,$3.13 
+DEBIT,2025-05-06,-5.19,809-45080-100003027281,Point Of Sale Withdrawal,TIM HORTONS #8088 VANCOUVERBCCA,beem_ch,food & bev,nec - discretionary,,05-2025,2025,$5.19 
+DEBIT,2025-05-06,-124.35,809-45080-100003027281,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,05-2025,2025,$124.35 
+DEBIT,2025-05-06,-5.59,2025-04-22~2025-05-06~1757618,PrimeVideo.c*NB6WN0BZ1,,td_visa,entertainment,#N/A,#N/A,05-2025,2025,$5.59 
+DEBIT,2025-05-06,-5,2025-04-22~2025-05-07~1754092,IMPARK00011928U,,td_visa,auto/local trans,discretionary,,05-2025,2025,$5.00 
+DEBIT,2025-05-07,-103.02,809-45080-100003027281,Point Of Sale Withdrawal,TST-Nook Restaurant - VancouverBCCA,beem_ch,food & bev,nec - discretionary,Nook,05-2025,2025,$103.02 
+DEBIT,2025-05-07,-37.33,2.02505E+14,REBEL.CA,REBEL.CA,cap_one_visa,business,bus - fixed,,05-2025,2025,$37.33 
+DEBIT,2025-05-07,-12.59,2.02505E+14,REBEL.CA,REBEL.CA,cap_one_visa,business,bus - fixed,,05-2025,2025,$12.59 
+DEBIT,2025-05-07,-364,2025-04-22~2025-05-09~1820133,KENT EMPLOYMENT LAW,,td_visa,income,nec - discretionary,Kent Law,05-2025,2025,$364.00 
+DEBIT,2025-05-08,-14.21,2.02505E+14,Spotify P369575BF7,Spotify P369575BF7,cap_one_visa,entertainment,discretionary,,05-2025,2025,$14.21 
+DEBIT,2025-05-08,-4.47,2.02505E+14,APPLE.COM/BILL,APPLE.COM/BILL,cap_one_visa,supplies/services,disc - fixed,iCloud storage,05-2025,2025,$4.47 
+CREDIT,2025-05-09,1800,809-45080-100003027281,External Deposit,Payroll Deposit Electronic Arts Inc. 202505091,beem_ch,income,,,05-2025,2025,"($1,800.00)"
+DEBIT,2025-05-09,-15.9,809-45080-100003027281,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,05-2025,2025,$15.90 
+CREDIT,2025-05-09,1823.89,2.51291E+16,Electronic Arts PAY,,td_ch,income,,EA,05-2025,2025,"($1,823.89)"
+DEBIT,2025-05-09,-4400,2.51291E+16,CAPTL ONE MC U6Z8A2,,td_ch,transfer/pmt,,,05-2025,2025,"$4,400.00 "
+DEBIT,2025-05-09,-6300.5,2.51292E+16,CANADA TXD,,td_ch,int/bank chg/tax,nec - fixed,,05-2025,2025,"$6,300.50 "
+CREDIT,2025-05-09,3000,2.51292E+16,JX501 TFR-FR 6051374,,td_ch,transfer/pmt,,,05-2025,2025,"($3,000.00)"
+DEBIT,2025-05-09,-414.12,2025-04-22~2025-05-12~1255390,APPLE STORE #R280,,td_visa,recreation/educ,discretionary,,05-2025,2025,$414.12 
+DEBIT,2025-05-10,-21.37,809-45080-100003027281,Point Of Sale Withdrawal,SAVE ON FOODS #937 VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,,05-2025,2025,$21.37 
+DEBIT,2025-05-10,-54.23,809-45080-100003027281,Point Of Sale Withdrawal,BC LIQUOR #177 VANCOUVERBCCA,beem_ch,food & bev,discretionary,,05-2025,2025,$54.23 
+DEBIT,2025-05-10,-10,809-45080-100003027281,Point Of Sale Withdrawal,SQ FOOD BUSINESS VANCOUVERBCCA,beem_ch,food & bev,discretionary,,05-2025,2025,$10.00 
+DEBIT,2025-05-10,-24.73,2.02505E+14,DD/DOORDASHJUKEFRIEDCH,DD/DOORDASHJUKEFRIEDCH,cap_one_visa,food & bev,nec - discretionary,Doordash,05-2025,2025,$24.73 
+DEBIT,2025-05-10,-75.15,2025-04-22~2025-05-12~1255410,WWW.BLOOMEX.CA,,td_visa,gifts/donations,discretionary,,05-2025,2025,$75.15 
+DEBIT,2025-05-10,-3.2,2025-04-22~2025-05-12~1255400,COMPASS ACCOUNT BURNAB,,td_visa,auto/local trans,discretionary,,05-2025,2025,$3.20 
+DEBIT,2025-05-11,-67.25,2025-04-22~2025-05-12~1255420,AMZN Mktp CA*NI6MM1V11,,td_visa,supplies/services,discretionary,#N/A,05-2025,2025,$67.25 
+DEBIT,2025-05-11,-2.15,2025-04-22~2025-05-13~1802235,CITY OF VAN PAYBYPHONE,,td_visa,auto/local trans,discretionary,,05-2025,2025,$2.15 
+DEBIT,2025-05-12,-30.73,809-45080-100003027281,Point Of Sale Withdrawal,THE HOME DEPOT #7259 VANCOUVERBCCA,beem_ch,supplies/services,nec - discretionary,,05-2025,2025,$30.73 
+DEBIT,2025-05-12,-116.06,809-45080-100003027281,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,05-2025,2025,$116.06 
+DEBIT,2025-05-12,-124.09,809-45080-100003027281,External Withdrawal,Auto Insurance Insurance Corporation of BC 032787264141,beem_ch,auto/local trans,nec - fixed,ICBC,05-2025,2025,$124.09 
+CREDIT,2025-05-12,4400,2.02505E+14,PAYMENT,PAYMENT,cap_one_visa,transfer/pmt,,,05-2025,2025,"($4,400.00)"
+DEBIT,2025-05-12,-617.96,2.51312E+16,RODNEY'S OYSTER,,td_ch,food & bev,nec - discretionary,,05-2025,2025,$617.96 
+CREDIT,2025-05-12,600,2.51321E+16,RL015 TFR-FR 6051374,,td_ch,transfer/pmt,,,05-2025,2025,($600.00)
+CREDIT,2025-05-12,3000,2.51321E+16,E-TRANSFER ***dMs,,td_ch,transfer/pmt,,,05-2025,2025,"($3,000.00)"
+CREDIT,2025-05-12,3000,2.51321E+16,E-TRANSFER ***6EG,,td_ch,transfer/pmt,,,05-2025,2025,"($3,000.00)"
+CREDIT,2025-05-12,3000,2.51321E+16,E-TRANSFER ***5qV,,td_ch,transfer/pmt,,,05-2025,2025,"($3,000.00)"
+DEBIT,2025-05-12,-8000,2.51321E+16,RL404 TFR-TO 6051374,,td_ch,transfer/pmt,,,05-2025,2025,"$8,000.00 "
+CREDIT,2025-05-12,1678,2025-04-22~2025-05-13~1802245,PAYMENT - THANK YOU,,td_visa,transfer/pmt,,,05-2025,2025,"($1,678.00)"
+DEBIT,2025-05-12,-855.2,2025-04-22~2025-05-13~1802225,BCAA - INSURANCE,,td_visa,rental inc,condo - fixed,,05-2025,2025,$855.20 
+DEBIT,2025-05-12,-5,2025-04-22~2025-05-14~1756349,IMPARK00011928U,,td_visa,auto/local trans,discretionary,,05-2025,2025,$5.00 
+DEBIT,2025-05-13,-165.18,809-45080-100003027281,Point Of Sale Withdrawal,GRANVILLE ISLAND KEG # VANCOUVERBCCA,beem_ch,food & bev,nec - discretionary,,05-2025,2025,$165.18 
+DEBIT,2025-05-13,-39.88,7.40387E+22,Rebel186-662-0711 ON,,scotia_visa,business,bus - fixed,,05-2025,2025,$39.88 
+DEBIT,2025-05-13,-37.91,2025-04-22~2025-05-14~1756369,Kindle Svcs,,td_visa,supplies/services,discretionary,,05-2025,2025,$37.91 
+DEBIT,2025-05-13,-1.45,2025-04-22~2025-05-14~1756359,IMPARK CANVERRUSPBP,,td_visa,auto/local trans,discretionary,,05-2025,2025,$1.45 
+DEBIT,2025-05-14,-23.1,809-45080-100003027281,Point Of Sale Withdrawal,SHINE AUTO WASH VANCOUVERBCCA,beem_ch,auto/local trans,discretionary,Shine carwash,05-2025,2025,$23.10 
+DEBIT,2025-05-14,-146.14,809-45080-100003027281,External Withdrawal,Auto Insurance Insurance Corporation of BC 034449246589,beem_ch,auto/local trans,nec - fixed,ICBC,05-2025,2025,$146.14 
+DEBIT,2025-05-14,-54.42,809-45080-100003027281,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,05-2025,2025,$54.42 
+DEBIT,2025-05-14,-27.99,2.02505E+13,APPLE.COM/BILL,APPLE.COM/BILL,cap_one_visa,business,bus - fixed,ChatGPT,05-2025,2025,$27.99 
+DEBIT,2025-05-14,-5,2025-04-22~2025-05-15~1756310,IMPARK00011928U,,td_visa,auto/local trans,discretionary,,05-2025,2025,$5.00 
+CREDIT,2025-05-15,2037.91,809-45080-100003027281,External Deposit Rent/Leases,Rent/Leases VANTAGE WEST-NEW TRUST AR4070,beem_ch,rental inc,condo - fixed,,05-2025,2025,"($2,037.91)"
+DEBIT,2025-05-15,-75.28,809-45080-100003027281,Point Of Sale Withdrawal,ST. AUGUSTINE&#39;S VANCOUVERBCCA,beem_ch,food & bev,nec - discretionary,,05-2025,2025,$75.28 
+DEBIT,2025-05-15,-100,2.51352E+16,KAS 3604 Radius FEE,,td_ch,rental inc,condo - fixed,,05-2025,2025,$100.00 
+DEBIT,2025-05-15,-12.31,2025-04-22~2025-05-15~1756320,Amazon Channels,,td_visa,entertainment,discretionary,,05-2025,2025,$12.31 
+DEBIT,2025-05-15,-8.6,2025-04-22~2025-05-16~1816241,UBER CANADA/UBERTRIP,,td_visa,auto/local trans,discretionary,,05-2025,2025,$8.60 
+DEBIT,2025-05-15,-3,2025-04-22~2025-05-16~1816231,UBER CANADA/UBERTRIP,,td_visa,auto/local trans,discretionary,,05-2025,2025,$3.00 
+DEBIT,2025-05-15,-3.2,2025-04-22~2025-05-16~1816221,COMPASS ACCOUNT BURNAB,,td_visa,auto/local trans,discretionary,,05-2025,2025,$3.20 
+DEBIT,2025-05-16,-9.92,809-45080-100003027281,Point Of Sale Withdrawal,SQ *ELYSIAN COFFEE - B VancouverBCCA,beem_ch,food & bev,nec - discretionary,,05-2025,2025,$9.92 
+DEBIT,2025-05-16,-25,2025-04-22~2025-05-16~1816251,FLO SERVICES,,td_visa,auto/local trans,nec - fixed,Flo - chg,05-2025,2025,$25.00 
+DEBIT,2025-05-16,-2.15,2025-04-22~2025-05-20~1328298,CITY OF VAN PAYBYPHONE,,td_visa,auto/local trans,discretionary,,05-2025,2025,$2.15 
+DEBIT,2025-05-16,-1.15,2025-04-22~2025-05-20~1328288,CITY OF VAN PAYBYPHONE,,td_visa,auto/local trans,discretionary,,05-2025,2025,$1.15 
+DEBIT,2025-05-16,-4.18,2025-04-22~2025-05-20~1328278,CITY OF VAN PAYBYPHONE,,td_visa,auto/local trans,discretionary,,05-2025,2025,$4.18 
+DEBIT,2025-05-17,-25.07,809-45080-100003027281,Point Of Sale Withdrawal,THE HOME DEPOT #7259 VANCOUVERBCCA,beem_ch,supplies/services,nec - discretionary,,05-2025,2025,$25.07 
+DEBIT,2025-05-17,-38.41,809-45080-100003027281,Point Of Sale Withdrawal,BARBERS LEGACY VANCOUVERBCCA,beem_ch,supplies/services,nec - discretionary,,05-2025,2025,$38.41 
+DEBIT,2025-05-17,-112.67,809-45080-100003027281,Point Of Sale Withdrawal,CHOICES CAMBIE # 906 VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,,05-2025,2025,$112.67 
+DEBIT,2025-05-17,-37.4,809-45080-100003027281,Point Of Sale Withdrawal,ALIBI ROOM Maple RidgBCCA,beem_ch,food & bev,nec - discretionary,,05-2025,2025,$37.40 
+DEBIT,2025-05-17,-32.03,2.02505E+14,INTEREST CHARGES,INTEREST CHARGES,cap_one_visa,int/bank chg/tax,discretionary,,05-2025,2025,$32.03 
+DEBIT,2025-05-17,-7.6,2.02505E+14,MOBI BY ROGERS,MOBI BY ROGERS,cap_one_visa,auto/local trans,discretionary,,05-2025,2025,$7.60 
+DEBIT,2025-05-17,-31.92,2.02505E+14,DD/DOORDASHTHEPERIPERI,DD/DOORDASHTHEPERIPERI,cap_one_visa,food & bev,nec - discretionary,Doordash,05-2025,2025,$31.92 
+DEBIT,2025-05-18,-45.03,809-45080-100003027281,Point Of Sale Withdrawal,BC LIQUOR #177 VANCOUVERBCCA,beem_ch,food & bev,discretionary,,05-2025,2025,$45.03 
+DEBIT,2025-05-19,-70.26,2.02505E+14,DD/DOORDASHIGNITEPIZZE,DD/DOORDASHIGNITEPIZZE,cap_one_visa,food & bev,nec - discretionary,Doordash,05-2025,2025,$70.26 
+DEBIT,2025-05-20,-2.82,809-45080-100003027281,Point Of Sale Withdrawal,365 MARKET CA 2 MISSISSAUGONCA,beem_ch,food & bev,discretionary,,05-2025,2025,$2.82 
+DEBIT,2025-05-20,-3.77,809-45080-100003027281,Point Of Sale Withdrawal,365 MARKET CA 2 MISSISSAUGONCA,beem_ch,food & bev,discretionary,,05-2025,2025,$3.77 
+DEBIT,2025-05-22,-125.84,2.02505E+14,AG1 USA,AG1 USA,cap_one_visa,food & bev,discretionary,,05-2025,2025,$125.84 
+DEBIT,2025-05-22,-35.81,2.02505E+14,DD/DOORDASHCACTUSCLUBC,DD/DOORDASHCACTUSCLUBC,cap_one_visa,food & bev,nec - discretionary,Doordash,05-2025,2025,$35.81 
+DEBIT,2025-05-22,-3.35,2025-05-21~2025-05-22~1759541,Ad free for PrimeVideo,,td_visa,entertainment,disc - fixed,,05-2025,2025,$3.35 
+DEBIT,2025-05-23,-3.77,809-45080-100003027281,Point Of Sale Withdrawal,365 MARKET CA 2 MISSISSAUGONCA,beem_ch,food & bev,discretionary,,05-2025,2025,$3.77 
+CREDIT,2025-05-23,1800,809-45080-100003027281,External Deposit,Payroll Deposit Electronic Arts Inc. 202505231,beem_ch,income,,,05-2025,2025,"($1,800.00)"
+DEBIT,2025-05-23,-138.28,809-45080-100003027281,Point Of Sale Withdrawal,TST-Nook Restaurant - VancouverBCCA,beem_ch,food & bev,nec - discretionary,Nook,05-2025,2025,$138.28 
+CREDIT,2025-05-23,2119.76,2.51431E+16,Electronic Arts PAY,,td_ch,income,,EA,05-2025,2025,"($2,119.76)"
+DEBIT,2025-05-25,-11.19,2025-05-21~2025-05-26~1203024,Amazon.ca Prime Member,,td_visa,supplies/services,disc - fixed,,05-2025,2025,$11.19 
+DEBIT,2025-05-26,-85.7,809-45080-100003027281,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,05-2025,2025,$85.70 
+DEBIT,2025-05-26,-112.45,2.02505E+14,DD/DOORDASHIGNITEPIZZE,DD/DOORDASHIGNITEPIZZE,cap_one_visa,food & bev,nec - discretionary,Doordash,05-2025,2025,$112.45 
+DEBIT,2025-05-27,-115.3,809-45080-100003027281,Point Of Sale Withdrawal,SQ *TAP &amp; BARREL BRIDG VancouverBCCA,beem_ch,food & bev,nec - discretionary,,05-2025,2025,$115.30 
+DEBIT,2025-05-27,-30.61,2.02505E+14,HOSTPAPA WEB HOSTING,HOSTPAPA WEB HOSTING,cap_one_visa,business,bus - fixed,,05-2025,2025,$30.61 
+DEBIT,2025-05-27,-2.07,2.02505E+14,EvoCarShare,EvoCarShare,cap_one_visa,auto/local trans,discretionary,,05-2025,2025,$2.07 
+DEBIT,2025-05-27,-2.24,2.02505E+14,EvoCarShare,EvoCarShare,cap_one_visa,auto/local trans,discretionary,,05-2025,2025,$2.24 
+DEBIT,2025-05-27,-34.77,2025-05-21~2025-05-28~1808285,AMZN Mktp CA*NN3LR1FL0,,td_visa,supplies/services,discretionary,,05-2025,2025,$34.77 
+DEBIT,2025-05-28,-10.49,2.02505E+14,DOORDASHDASHPASS,DOORDASHDASHPASS,cap_one_visa,food & bev,nec - discretionary,Doordash,05-2025,2025,$10.49 
+DEBIT,2025-05-28,-30,2.02505E+14,BENEVITY DONATIONS,BENEVITY DONATIONS,cap_one_visa,gifts/donations,discretionary,,05-2025,2025,$30.00 
+DEBIT,2025-05-28,-30,2.02505E+14,BENEVITY DONATIONS,BENEVITY DONATIONS,cap_one_visa,gifts/donations,discretionary,,05-2025,2025,$30.00 
+DEBIT,2025-05-28,-24.63,2.02505E+14,APPLE.COM/BILL,APPLE.COM/BILL,cap_one_visa,entertainment,disc - fixed,Crave,05-2025,2025,$24.63 
+DEBIT,2025-05-29,-45.59,809-45080-100003027281,Point Of Sale Withdrawal,BREWERY CREEK COLD BEE VANCOUVERBCCA,beem_ch,food & bev,discretionary,,05-2025,2025,$45.59 
+DEBIT,2025-05-29,-38.04,2.02505E+14,DD/DOORDASHTHEPERIPERI,DD/DOORDASHTHEPERIPERI,cap_one_visa,food & bev,nec - discretionary,Doordash,05-2025,2025,$38.04 
+DEBIT,2025-05-29,-100,2.51491E+16,TD ATM W/D 002080,,td_ch,transfer/pmt,,,05-2025,2025,$100.00 
+DEBIT,2025-05-29,-5.59,2025-05-21~2025-05-29~1817351,PrimeVideo.c*NN29W4PI0,,td_visa,entertainment,nec - discretionary,,05-2025,2025,$5.59 
+DEBIT,2025-05-30,-7.48,809-45080-100003027281,Point Of Sale Withdrawal,TIM HORTONS #8088 VANCOUVERBCCA,beem_ch,food & bev,discretionary,,05-2025,2025,$7.48 
+CREDIT,2025-05-30,1800,809-45080-100003027281,External Deposit,Payroll Deposit Electronic Arts Inc. 202505302,beem_ch,income,,,05-2025,2025,"($1,800.00)"
+CREDIT,2025-05-30,1800,809-45080-100003027281,External Deposit,Payroll Deposit Electronic Arts Inc. 202505302,beem_ch,income,,,05-2025,2025,"($1,800.00)"
+CREDIT,2025-05-30,1800,809-45080-100003027281,External Deposit,Payroll Deposit Electronic Arts Inc. 202505302,beem_ch,income,,,05-2025,2025,"($1,800.00)"
+CREDIT,2025-05-30,1800,809-45080-100003027281,External Deposit,Payroll Deposit Electronic Arts Inc. 202505302,beem_ch,income,,,05-2025,2025,"($1,800.00)"
+DEBIT,2025-05-30,-14.55,2.02505E+14,GOOGLE *YouTubePremium,GOOGLE *YouTubePremium,cap_one_visa,entertainment,disc - fixed,,05-2025,2025,$14.55 
+CREDIT,2025-05-30,717.17,2.51501E+16,Electronic Arts PAY,,td_ch,income,,EA,05-2025,2025,($717.17)
+CREDIT,2025-05-30,14897.84,2.51501E+16,Electronic Arts PAY,,td_ch,income,,EA,05-2025,2025,"($14,897.84)"
+CREDIT,2025-05-30,43708.15,2.51501E+16,Electronic Arts PAY,,td_ch,income,,EA,05-2025,2025,"($43,708.15)"
+CREDIT,2025-05-30,55757.85,2.51501E+16,Electronic Arts PAY,,td_ch,income,,EA,05-2025,2025,"($55,757.85)"
+DEBIT,2025-05-30,-1580.7,2.51501E+16,JJ270 TFR-TO C/C,,td_ch,transfer/pmt,,,05-2025,2025,"$1,580.70 "
+DEBIT,2025-05-30,-115000,2.51501E+16,JJ205 TFR-TO 6051374,,td_ch,transfer/pmt,,,05-2025,2025,"$115,000.00 "
+DEBIT,2025-05-30,-145.6,2.51502E+16,Telus Comm BPY,,td_ch,utilities,nec - fixed,,05-2025,2025,$145.60 
+DEBIT,2025-05-30,-0.65,2.51511E+16,OVERDRAFT INTEREST,,td_ch,int/bank chg/tax,discretionary,,05-2025,2025,$0.65 
+DEBIT,2025-05-30,-3.95,2.51511E+16,MONTHLY ACCOUNT FEE,,td_ch,int/bank chg/tax,nec - fixed,,05-2025,2025,$3.95 
+CREDIT,2025-05-30,1580.7,2025-05-21~2025-06-02~1922072,PAYMENT - THANK YOU,,td_visa,transfer/pmt,,,05-2025,2025,"($1,580.70)"
+DEBIT,2025-05-31,-131.25,809-45080-100003027281,Point Of Sale Withdrawal,VANCOUVER ART GALLERY VANCOUVERBCCA,beem_ch,recreation/educ,discretionary,,05-2025,2025,$131.25 
+DEBIT,2025-05-31,-24.6,809-45080-100003027281,Point Of Sale Withdrawal,A1 HOTDOG BURNABYBCCA,beem_ch,food & bev,discretionary,,05-2025,2025,$24.60 
+DEBIT,2025-05-31,-15.18,809-45080-100003027281,Point Of Sale Withdrawal,SQ *COMMODORE BALLROOM TORONTOONCA,beem_ch,food & bev,discretionary,,05-2025,2025,$15.18 
+DEBIT,2025-05-31,-7.14,7.40645E+22,UberTORONTO ON (Apple Pay),,scotia_visa,auto/local trans,discretionary,,05-2025,2025,$7.14 
+DEBIT,2025-05-31,-2,7.40645E+22,UberTORONTO ON (Apple Pay),,scotia_visa,auto/local trans,discretionary,,05-2025,2025,$2.00 
+DEBIT,2025-05-31,-14.5,2025-05-21~2025-06-02~1245275,INDIGO PARK,,td_visa,auto/local trans,discretionary,,05-2025,2025,$14.50 
+DEBIT,2025-05-31,-15,2025-05-21~2025-06-02~1245265,EASYPARK CP9,,td_visa,auto/local trans,discretionary,,05-2025,2025,$15.00 
+DEBIT,2025-06-01,-3.05,2025-05-21~2025-06-02~1245285,ZIPBY,,td_visa,auto/local trans,discretionary,,06-2025,2025,$3.05 
+DEBIT,2025-06-02,-13000,809-45080-100003027281,Transfer Withdrawal,Transfer to 100003077328,beem_ch,transfer/pmt,,,06-2025,2025,"$13,000.00 "
+DEBIT,2025-06-02,-845.38,1000030272813184D,External Withdrawal,Mortgage Home Trust Company 0002931857,beem_ch,rental inc,condo - fixed,,06-2025,2025,$845.38 
+DEBIT,2025-06-02,-29.29,2.02506E+14,Amazon Web Services,Amazon Web Services,cap_one_visa,business,bus - fixed,,06-2025,2025,$29.29 
+DEBIT,2025-06-02,-14.69,2.02506E+14,TESLA,TESLA,cap_one_visa,entertainment,discretionary,,06-2025,2025,$14.69 
+DEBIT,2025-06-02,-14.17,2.02506E+12,"GITHUB, INC.","GITHUB, INC.",cap_one_visa,business,bus - fixed,,06-2025,2025,$14.17 
+CREDIT,2025-06-02,634.85,,PAYMENT,Payment,cap_one_visa,transfer/pmt,,,06-2025,2025,($634.85)
+DEBIT,2025-06-02,-32.54,7.40387E+22,Rebel186-662-0711 ON,,scotia_visa,business,bus - fixed,,06-2025,2025,$32.54 
+CREDIT,2025-06-02,58.61,7.4529E+22,TD TrustTORONTO,,scotia_visa,transfer/pmt,,,06-2025,2025,($58.61)
+DEBIT,2025-06-02,-52.94,2.51531E+16,BC HYDRO J5Q3L2,,td_ch,utilities,nec - fixed,,06-2025,2025,$52.94 
+DEBIT,2025-06-02,-634.85,2.51531E+16,CAPTL ONE MC J5Q3L3,,td_ch,transfer/pmt,,,06-2025,2025,$634.85 
+DEBIT,2025-06-02,-371.28,2.51531E+16,KOODO MOBILE J5Q3L4,,td_ch,utilities,nec - fixed,,06-2025,2025,$371.28 
+DEBIT,2025-06-02,-58.61,2.51531E+16,SCOTIA VISA J5Q3W2,,td_ch,transfer/pmt,,,06-2025,2025,$58.61 
+DEBIT,2025-06-02,-360.02,2.51532E+16,KAS 3604 Radius FEE,,td_ch,rental inc,condo - fixed,,06-2025,2025,$360.02 
+CHECK,2025-06-02,-2125,2.51541E+16,CHQ#00044-1142194659,,td_ch,rent,nec - fixed,,06-2025,2025,"$2,125.00 "
+DEBIT,2025-06-02,-217.67,2025-05-21~2025-06-04~1805448,FLAIR DIREC GUG2E4,,td_visa,travel/transport,discretionary,,06-2025,2025,$217.67 
+DEBIT,2025-06-03,-44.74,1000030272813188D,Point Of Sale Withdrawal,THE HOME DEPOT #7042 VANCOUVERBCCA,beem_ch,supplies/services,nec - discretionary,,06-2025,2025,$44.74 
+CREDIT,2025-06-03,52.6,1000030272813187C,Point Of Sale Deposit,THE HOME DEPOT #7042 VANCOUVERBCCA,beem_ch,supplies/services,nec - discretionary,,06-2025,2025,($52.60)
+DEBIT,2025-06-03,-12.6,1000030272813186D,Point Of Sale Withdrawal,SHINE AUTO WASH VANCOUVERBCCA,beem_ch,auto/local trans,discretionary,Shine carwash,06-2025,2025,$12.60 
+DEBIT,2025-06-03,-52.6,1000030272813185D,Point Of Sale Withdrawal,THE HOME DEPOT #7042 VANCOUVERBCCA,beem_ch,supplies/services,nec - discretionary,,06-2025,2025,$52.60 
+DEBIT,2025-06-03,-27.43,2.40212E+22,PaddleLondon,,scotia_visa,business,discretionary,,06-2025,2025,$27.43 
+CREDIT,2025-06-03,1431.9,2.51542E+16,EMS FR: 9469-6051374,,td_ch,transfer/pmt,,,06-2025,2025,"($1,431.90)"
+CREDIT,2025-06-03,250,2.51542E+16,WQ411 TFR-FR 6051374,,td_ch,transfer/pmt,,,06-2025,2025,($250.00)
+DEBIT,2025-06-03,-5,2.51542E+16,NSF PAID FEE,,td_ch,int/bank chg/tax,nec - discretionary,,06-2025,2025,$5.00 
+DEBIT,2025-06-04,-66.7,,DoorDash,Dining,cap_one_visa,food & bev,nec - discretionary,Doordash,06-2025,2025,$66.70 
+DEBIT,2025-06-05,-3.13,,GOOGLE *Google One,Internet,cap_one_visa,utilities,nec - fixed,,06-2025,2025,$3.13 
+DEBIT,2025-06-06,-4.6,1000030272813189D,Point Of Sale Withdrawal,UNCLE FATIH'S PIZZA VANCOUVERBCCA,beem_ch,food & bev,nec - discretionary,,06-2025,2025,$4.60 
+DEBIT,2025-06-06,-43.88,,DoorDash,Dining,cap_one_visa,food & bev,nec - discretionary,Doordash,06-2025,2025,$43.88 
+DEBIT,2025-06-07,-20.4,1000030272813193D,Point Of Sale Withdrawal,TST-Silver Buckle Medicine HABCA,beem_ch,food & bev,nec - discretionary,,06-2025,2025,$20.40 
+DEBIT,2025-06-07,-30.88,1000030272813192D,Point Of Sale Withdrawal,PISTON BROKE BREWING BROOKSABCA,beem_ch,food & bev,nec - discretionary,,06-2025,2025,$30.88 
+DEBIT,2025-06-07,-12.68,1000030272813191D,Point Of Sale Withdrawal,STARBUCKS PIER A VANCOUVERBCCA,beem_ch,food & bev,nec - discretionary,,06-2025,2025,$12.68 
+DEBIT,2025-06-07,-83.81,1000030272813190D,Point Of Sale Withdrawal,SQ *TAP & BARREL BRIDG VancouverBCCA,beem_ch,food & bev,nec - discretionary,,06-2025,2025,$83.81 
+DEBIT,2025-06-08,-77.68,1000030272813202D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,06-2025,2025,$77.68 
+DEBIT,2025-06-08,-9.99,1000030272813201D,Point Of Sale Withdrawal,JAPADOG RICHMONDBCCA,beem_ch,food & bev,nec - discretionary,,06-2025,2025,$9.99 
+DEBIT,2025-06-08,-5.67,1000030272813200D,Point Of Sale Withdrawal,STARBUCKS #75596 CALGARYABCA,beem_ch,food & bev,nec - discretionary,,06-2025,2025,$5.67 
+DEBIT,2025-06-08,-9.44,1000030272813199D,Point Of Sale Withdrawal,LA PREP CALGARYABCA,beem_ch,food & bev,nec - discretionary,,06-2025,2025,$9.44 
+DEBIT,2025-06-08,-18.3,1000030272813198D,Point Of Sale Withdrawal,TST-Silver Buckle Medicine HABCA,beem_ch,food & bev,nec - discretionary,,06-2025,2025,$18.30 
+DEBIT,2025-06-08,-71.98,1000030272813197D,Point Of Sale Withdrawal,TST-Silver Buckle Medicine HABCA,beem_ch,food & bev,nec - discretionary,,06-2025,2025,$71.98 
+DEBIT,2025-06-08,-111,1000030272813196D,Point Of Sale Withdrawal,TST-Silver Buckle Medicine HABCA,beem_ch,food & bev,nec - discretionary,,06-2025,2025,$111.00 
+DEBIT,2025-06-08,-9.6,1000030272813195D,Point Of Sale Withdrawal,TST-Silver Buckle Medicine HABCA,beem_ch,food & bev,nec - discretionary,,06-2025,2025,$9.60 
+DEBIT,2025-06-08,-9.6,1000030272813194D,Point Of Sale Withdrawal,TST-Silver Buckle Medicine HABCA,beem_ch,food & bev,nec - discretionary,,06-2025,2025,$9.60 
+DEBIT,2025-06-09,-104.11,1000030272813204D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,06-2025,2025,$104.11 
+DEBIT,2025-06-09,-12.69,1000030272813203D,Point Of Sale Withdrawal,TST-The Juice Truck- W VancouverBCCA,beem_ch,food & bev,nec - discretionary,,06-2025,2025,$12.69 
+DEBIT,2025-06-09,-14.21,,Spotify P377EE6071,Internet,cap_one_visa,entertainment,discretionary,,06-2025,2025,$14.21 
+DEBIT,2025-06-09,-4.47,,Apple iTunes,Internet,cap_one_visa,supplies/services,disc - fixed,iCloud storage,06-2025,2025,$4.47 
+DEBIT,2025-06-09,-8.2,2025-05-21~2025-06-10~1829135,COMPASS ACCOUNT BURNAB,,td_visa,auto/local trans,discretionary,,06-2025,2025,$8.20 
+DEBIT,2025-06-10,-34.66,2.40113E+22,Humble BundleHUMBLEBUNDLE.CA,,scotia_visa,business,discretionary,,06-2025,2025,$34.66 
+DEBIT,2025-06-11,-124.09,1000030272813206D,External Withdrawal,Auto Insurance Insurance Corporation of BC 033343579489,beem_ch,auto/local trans,nec - fixed,ICBC,06-2025,2025,$124.09 
+DEBIT,2025-06-11,-4.6,1000030272813205D,Point Of Sale Withdrawal,UNCLE FATIH'S PIZZA VANCOUVERBCCA,beem_ch,food & bev,nec - discretionary,,06-2025,2025,$4.60 
+DEBIT,2025-06-11,-5.59,2025-05-21~2025-06-11~1818177,PrimeVideo.c*NH4S44890,,td_visa,entertainment,discretionary,,06-2025,2025,$5.59 
+DEBIT,2025-06-13,-1300,1000030272813208D,eTransfer - Debit,Payee: JOHN H YUILL,beem_ch,transfer/pmt,,,06-2025,2025,"$1,300.00 "
+CREDIT,2025-06-13,2037.91,1000030272813207C,External Deposit,Rent/Leases VANTAGE WEST-NEW TRUST AR4070,beem_ch,rental inc,condo - fixed,,06-2025,2025,"($2,037.91)"
+DEBIT,2025-06-13,-32.51,,DoorDash,Dining,cap_one_visa,food & bev,nec - discretionary,Doordash,06-2025,2025,$32.51 
+CREDIT,2025-06-13,1300,2.51642E+16,E-TRANSFER ***kb5,,td_ch,transfer/pmt,,,06-2025,2025,"($1,300.00)"
+DEBIT,2025-06-14,-54.4,,DoorDash,Dining,cap_one_visa,food & bev,nec - discretionary,Doordash,06-2025,2025,$54.40 
+DEBIT,2025-06-14,-27.99,,Apple iTunes,Internet,cap_one_visa,business,bus - fixed,ChatGPT,06-2025,2025,$27.99 
+DEBIT,2025-06-14,-2.45,2025-05-21~2025-06-16~1245359,IMPARK CANVERRUSPBP,,td_visa,auto/local trans,discretionary,,06-2025,2025,$2.45 
+DEBIT,2025-06-15,-19.32,1000030272813211D,Point Of Sale Withdrawal,PURDY'S CHOCOLATES # 4 VANCOUVERBCCA,beem_ch,food & bev,nec - discretionary,,06-2025,2025,$19.32 
+DEBIT,2025-06-15,-13.63,1000030272813210D,Point Of Sale Withdrawal,CAFFE ARTIGIANO VANCOUVERBCCA,beem_ch,food & bev,nec - discretionary,,06-2025,2025,$13.63 
+DEBIT,2025-06-15,-59.51,1000030272813209D,Point Of Sale Withdrawal,THE HOME DEPOT #7259 VANCOUVERBCCA,beem_ch,supplies/services,nec - discretionary,,06-2025,2025,$59.51 
+DEBIT,2025-06-15,-12.31,2025-05-21~2025-06-16~1245369,Amazon Channels,,td_visa,entertainment,discretionary,,06-2025,2025,$12.31 
+DEBIT,2025-06-16,-13.41,1000030272813216D,Point Of Sale Withdrawal,LUMIERE CAFE NO. 1 LTD VANCOUVERBCCA,beem_ch,food & bev,nec - discretionary,,06-2025,2025,$13.41 
+DEBIT,2025-06-16,-22.39,1000030272813215D,Point Of Sale Withdrawal,LONDON DRUGS 04 VANCOUVERBCCA,beem_ch,supplies/services,nec - discretionary,,06-2025,2025,$22.39 
+DEBIT,2025-06-16,-27.63,1000030272813214D,Point Of Sale Withdrawal,LONDON DRUGS 04 VANCOUVERBCCA,beem_ch,supplies/services,nec - discretionary,,06-2025,2025,$27.63 
+DEBIT,2025-06-16,-146.14,1000030272813213D,External Withdrawal,Auto Insurance Insurance Corporation of BC 038755251665,beem_ch,auto/local trans,nec - fixed,ICBC,06-2025,2025,$146.14 
+DEBIT,2025-06-16,-17.45,1000030272813212D,Point Of Sale Withdrawal,YELLOW CAB COMPANY VANCOUVERBCCA,beem_ch,auto/local trans,discretionary,,06-2025,2025,$17.45 
+DEBIT,2025-06-16,-1.42,2025-05-21~2025-06-17~1800053,Kindle Svcs,,td_visa,entertainment,discretionary,,06-2025,2025,$1.42 
+DEBIT,2025-06-16,-1.15,2025-05-21~2025-06-18~1759282,CITY OF VAN PAYBYPHONE,,td_visa,auto/local trans,discretionary,,06-2025,2025,$1.15 
+DEBIT,2025-06-17,-83.56,1000030272813220D,Point Of Sale Withdrawal,PETRO-CANADA 39094 CHILLIWACKBCCA,beem_ch,recreation/educ,discretionary,,06-2025,2025,$83.56 
+DEBIT,2025-06-17,-15.91,1000030272813219D,Point Of Sale Withdrawal,CHOICES CAMBIE # 906 VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,,06-2025,2025,$15.91 
+DEBIT,2025-06-17,-20.18,1000030272813218D,Point Of Sale Withdrawal,Store VancouverBCCA,beem_ch,food & bev,nec - discretionary,,06-2025,2025,$20.18 
+DEBIT,2025-06-17,-15.23,1000030272813217D,Point Of Sale Withdrawal,CHOICES CAMBIE # 906 VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,,06-2025,2025,$15.23 
+DEBIT,2025-06-17,-17.52,2025-05-21~2025-06-19~1756378,SAVE ON FOODS #944,,td_visa,food & bev,nec - fixed,,06-2025,2025,$17.52 
+DEBIT,2025-06-18,-7.96,1000030272813222D,Point Of Sale Withdrawal,BOOSTER JUICE #387 ABBOTSFORDBCCA,beem_ch,food & bev,discretionary,,06-2025,2025,$7.96 
+DEBIT,2025-06-18,-10.68,1000030272813221D,Point Of Sale Withdrawal,BOOSTER JUICE #387 ABBOTSFORDBCCA,beem_ch,food & bev,discretionary,,06-2025,2025,$10.68 
+DEBIT,2025-06-18,-2.02,2025-05-21~2025-06-18~1759272,TESLA,,td_visa,travel/transport,nec - discretionary,Tesla - chg,06-2025,2025,$2.02 
+DEBIT,2025-06-18,-8.81,2025-05-21~2025-06-19~1756368,TESLA,,td_visa,travel/transport,nec - discretionary,Tesla - chg,06-2025,2025,$8.81 
+DEBIT,2025-06-19,-22.42,1000030272813227D,Point Of Sale Withdrawal,SUNNYSIDE CAMPGROUND S CULTUS LAKBCCA,beem_ch,recreation/educ,discretionary,,06-2025,2025,$22.42 
+DEBIT,2025-06-19,-25.35,1000030272813226D,Point Of Sale Withdrawal,SUNNYSIDE CAMPGROUND S CULTUS LAKBCCA,beem_ch,recreation/educ,discretionary,,06-2025,2025,$25.35 
+DEBIT,2025-06-19,-5.24,1000030272813225D,Point Of Sale Withdrawal,PETRO-CANADA 39094 CHILLIWACKBCCA,beem_ch,recreation/educ,discretionary,,06-2025,2025,$5.24 
+DEBIT,2025-06-19,-5.24,1000030272813224D,Point Of Sale Withdrawal,PETRO-CANADA 39094 CHILLIWACKBCCA,beem_ch,recreation/educ,discretionary,,06-2025,2025,$5.24 
+DEBIT,2025-06-19,-61.76,1000030272813223D,Point Of Sale Withdrawal,PETRO-CANADA 39094 CHILLIWACKBCCA,beem_ch,recreation/educ,discretionary,,06-2025,2025,$61.76 
+DEBIT,2025-06-19,-6.53,2025-05-21~2025-06-19~1756388,TESLA,,td_visa,travel/transport,nec - discretionary,Tesla - chg,06-2025,2025,$6.53 
+DEBIT,2025-06-19,-8.95,2025-06-20~2025-06-20~1759106,IMPARK CANVERRUSPBP,,td_visa,auto/local trans,discretionary,,06-2025,2025,$8.95 
+DEBIT,2025-06-20,-1.91,1000030272813229D,Point Of Sale Withdrawal,TIM HORTONS #3166 CHILLIWACKBCCA,beem_ch,food & bev,discretionary,,06-2025,2025,$1.91 
+DEBIT,2025-06-20,-71.06,1000030272813228D,Point Of Sale Withdrawal,LITTLE BEETLE CHILLIWACKBCCA,beem_ch,food & bev,nec - discretionary,,06-2025,2025,$71.06 
+CREDIT,2025-06-20,192.57,2.51711E+16,Electronic Arts PAY,,td_ch,income,,,06-2025,2025,($192.57)
+DEBIT,2025-06-20,-13.26,2025-06-20~2025-06-23~1204525,TESLA,,td_visa,travel/transport,nec - discretionary,Tesla - chg,06-2025,2025,$13.26 
+DEBIT,2025-06-21,-287.26,2025-06-20~2025-06-23~1204545,STUBHUB CANADA LTD,,td_visa,entertainment,discretionary,,06-2025,2025,$287.26 
+DEBIT,2025-06-21,-7.83,2025-06-20~2025-06-23~1204535,PrimeVideo.c*NO4671AZ0,,td_visa,entertainment,discretionary,,06-2025,2025,$7.83 
+DEBIT,2025-06-22,-65.73,1000030272813234D,Point Of Sale Withdrawal,LIBERTY WINE MERCHANTS VANCOUVERBCCA,beem_ch,food & bev,discretionary,,06-2025,2025,$65.73 
+DEBIT,2025-06-22,-131.07,1000030272813233D,Point Of Sale Withdrawal,TST-SULA Indian Restau VancouverBCCA,beem_ch,food & bev,nec - discretionary,,06-2025,2025,$131.07 
+DEBIT,2025-06-22,-4.13,1000030272813232D,Point Of Sale Withdrawal,FIRE PIZZA VANCOUVERBCCA,beem_ch,food & bev,nec - discretionary,,06-2025,2025,$4.13 
+DEBIT,2025-06-22,-9.24,1000030272813231D,Point Of Sale Withdrawal,THE MIGHTY OAK VANCOUVERBCCA,beem_ch,food & bev,nec - discretionary,,06-2025,2025,$9.24 
+DEBIT,2025-06-22,-115.02,1000030272813230D,Point Of Sale Withdrawal,CHOICES CAMBIE # 906 VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,,06-2025,2025,$115.02 
+DEBIT,2025-06-22,-3.35,2025-06-20~2025-06-23~1204555,Ad free for PrimeVideo,,td_visa,entertainment,disc - fixed,,06-2025,2025,$3.35 
+DEBIT,2025-06-23,-34.98,,DoorDash,Dining,cap_one_visa,food & bev,nec - discretionary,Doordash,06-2025,2025,$34.98 
+DEBIT,2025-06-24,-9.02,1000030272813235D,Point Of Sale Withdrawal,TREES ORGANIC COFFEE VANCOUVERBCCA,beem_ch,food & bev,nec - discretionary,,06-2025,2025,$9.02 
+DEBIT,2025-06-24,-180,2025-06-20~2025-06-25~1811433,SC PASSPORT VANCOUVER,,td_visa,travel/transport,discretionary,,06-2025,2025,$180.00 
+DEBIT,2025-06-24,-3.2,2025-06-20~2025-06-26~1817389,COMPASS ACCOUNT BURNAB,,td_visa,auto/local trans,discretionary,,06-2025,2025,$3.20 
+DEBIT,2025-06-25,-39.95,1000030272813237D,Point Of Sale Withdrawal,BREKA BAKERY & CAFE - VANCOUVERBCCA,beem_ch,food & bev,nec - discretionary,,06-2025,2025,$39.95 
+DEBIT,2025-06-25,-84.24,1000030272813236D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - discretionary,Whole Foods,06-2025,2025,$84.24 
+DEBIT,2025-06-25,-11.19,2025-06-20~2025-06-26~1817399,Amazon.ca Prime Member,,td_visa,entertainment,disc - fixed,,06-2025,2025,$11.19 
+DEBIT,2025-06-25,-5.5,2025-06-20~2025-06-26~1817379,IMPARK00011928U,,td_visa,auto/local trans,discretionary,,06-2025,2025,$5.50 
+DEBIT,2025-06-26,-30.61,,HOSTPAPA WEB HOSTING,Internet,cap_one_visa,business,bus - fixed,,06-2025,2025,$30.61 
+DEBIT,2025-06-27,-9.4,1000030272813238D,Point Of Sale Withdrawal,SQ *MILANO COFFEE ROAS VancouverBCCA,beem_ch,food & bev,nec - discretionary,,06-2025,2025,$9.40 
+DEBIT,2025-06-27,-4,,Impark,Gas/Automotive,cap_one_visa,auto/local trans,discretionary,,06-2025,2025,$4.00 
+DEBIT,2025-06-27,-7,,Impark,Gas/Automotive,cap_one_visa,auto/local trans,discretionary,,06-2025,2025,$7.00 
+DEBIT,2025-06-28,-10.49,,DoorDash,Dining,cap_one_visa,food & bev,nec - discretionary,Doordash,06-2025,2025,$10.49 
+DEBIT,2025-06-28,-50.66,,DoorDash,Dining,cap_one_visa,food & bev,nec - discretionary,Doordash,06-2025,2025,$50.66 
+DEBIT,2025-06-28,-25.74,,Apple iTunes,Internet,cap_one_visa,entertainment,discretionary,,06-2025,2025,$25.74 
+DEBIT,2025-06-30,-14.55,,YouTube,Internet,cap_one_visa,entertainment,disc - fixed,,06-2025,2025,$14.55 
+DEBIT,2025-06-30,-7.5,,EvoCarShare,Car Rental,cap_one_visa,auto/local trans,discretionary,,06-2025,2025,$7.50 
+DEBIT,2025-06-30,-9.47,,EvoCarShare,Car Rental,cap_one_visa,auto/local trans,discretionary,,06-2025,2025,$9.47 
+DEBIT,2025-06-30,-84.34,,DoorDash,Dining,cap_one_visa,food & bev,nec - discretionary,Doordash,06-2025,2025,$84.34 
+CREDIT,2025-06-30,1000,2.51812E+16,RR030 TFR-FR 6051374,,td_ch,transfer/pmt,,,06-2025,2025,"($1,000.00)"
+DEBIT,2025-06-30,-145.6,2.51812E+16,Telus Comm BPY,,td_ch,utilities,nec - fixed,,06-2025,2025,$145.60 
+DEBIT,2025-06-30,-0.83,2.51821E+16,OVERDRAFT INTEREST,,td_ch,int/bank chg/tax,nec - discretionary,,06-2025,2025,$0.83 
+DEBIT,2025-06-30,-3.95,2.51821E+16,MONTHLY ACCOUNT FEE,,td_ch,int/bank chg/tax,nec - fixed,,06-2025,2025,$3.95 
+DEBIT,2025-06-30,-613.83,2025-06-20~2025-07-02~1930479,FS *ISLAND LAKE RESORT GR,,td_visa,travel/transport,discretionary,,06-2025,2025,$613.83 
+DEBIT,2025-07-01,-17.33,1000030272813242D,Point Of Sale Withdrawal,SQ *RAIN OR SHINE HOME VancouverBCCA,beem_ch,food & bev,discretionary,,07-2025,2025,$17.33 
+DEBIT,2025-07-01,-64.19,1000030272813241D,Point Of Sale Withdrawal,CAFE ZEN ON YEW 2007 I VANCOUVERBCCA,beem_ch,food & bev,nec - discretionary,,07-2025,2025,$64.19 
+DEBIT,2025-07-01,-13.45,1000030272813240D,Point Of Sale Withdrawal,SHOPPERS DRUG MART #22 VANCOUVERBCCA,beem_ch,food & bev,nec - discretionary,,07-2025,2025,$13.45 
+DEBIT,2025-07-01,-14.01,,GitHub,Internet,cap_one_visa,business,bus - fixed,,07-2025,2025,$14.01 
+DEBIT,2025-07-02,-845.38,1000030272813243D,External Withdrawal,Mortgage Home Trust Company 0002983823,beem_ch,rental inc,condo - fixed,,07-2025,2025,$845.38 
+DEBIT,2025-07-02,-41.52,,Amazon Canada,Other Services,cap_one_visa,supplies/services,nec - discretionary,,07-2025,2025,$41.52 
+DEBIT,2025-07-02,-37.76,,DoorDash,Dining,cap_one_visa,food & bev,nec - discretionary,Doordash,07-2025,2025,$37.76 
+DEBIT,2025-07-02,-14.69,,TESLA,Internet,cap_one_visa,entertainment,discretionary,,07-2025,2025,$14.69 
+DEBIT,2025-07-02,-360.02,2.51832E+16,KAS 3604 Radius FEE,,td_ch,rental inc,condo - fixed,,07-2025,2025,$360.02 
+CHECK,2025-07-02,-2125,2.51841E+16,CHQ#00045-3143144732,,td_ch,rent,nec - fixed,,07-2025,2025,"$2,125.00 "
+DEBIT,2025-07-03,-3,1000030272813247D,Point Of Sale Withdrawal,SHINE AUTO WASH TERMIN VANCOUVERBCCA,beem_ch,auto/local trans,discretionary,Shine carwash,07-2025,2025,$3.00 
+DEBIT,2025-07-03,-4.2,1000030272813246D,Point Of Sale Withdrawal,SHINE AUTO WASH TERMIN VANCOUVERBCCA,beem_ch,auto/local trans,discretionary,Shine carwash,07-2025,2025,$4.20 
+DEBIT,2025-07-03,-26.25,1000030272813245D,Point Of Sale Withdrawal,SHINE AUTO WASH VANCOUVERBCCA,beem_ch,auto/local trans,discretionary,Shine carwash,07-2025,2025,$26.25 
+DEBIT,2025-07-03,-185.06,1000030272813244D,Point Of Sale Withdrawal,GRANVILLE ISLAND KEG # VANCOUVERBCCA,beem_ch,food & bev,nec - discretionary,,07-2025,2025,$185.06 
+DEBIT,2025-07-03,-2.35,,Impark,Gas/Automotive,cap_one_visa,auto/local trans,discretionary,,07-2025,2025,$2.35 
+DEBIT,2025-07-03,-27.43,2.40212E+22,PaddleLondon,,scotia_visa,business,discretionary,,07-2025,2025,$27.43 
+DEBIT,2025-07-03,-7.82,2.40113E+22,ANTHROPIC.COMCA,,scotia_visa,business,bus - fixed,,07-2025,2025,$7.82 
+CREDIT,2025-07-03,5.9,2.51842E+16,MOBILE DEPOSIT,balance from National Bank acct close,td_ch,transfer/pmt,,,07-2025,2025,($5.90)
+CREDIT,2025-07-03,1451,2025-06-20~2025-07-04~1812296,PAYMENT - THANK YOU,,td_visa,transfer/pmt,,,07-2025,2025,"($1,451.00)"
+DEBIT,2025-07-04,-52.89,1000030272813251D,Point Of Sale Withdrawal,BC LIQUOR #177 VANCOUVERBCCA,beem_ch,food & bev,discretionary,,07-2025,2025,$52.89 
+DEBIT,2025-07-04,-85.77,1000030272813250D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,07-2025,2025,$85.77 
+DEBIT,2025-07-04,-11.49,1000030272813249D,Point Of Sale Withdrawal,TST-The Juice Truck- W VancouverBCCA,beem_ch,food & bev,discretionary,,07-2025,2025,$11.49 
+DEBIT,2025-07-04,-16.76,1000030272813248D,Point Of Sale Withdrawal,SHOPPERS DRUG MART #22 VANCOUVERBCCA,beem_ch,food & bev,nec - discretionary,,07-2025,2025,$16.76 
+DEBIT,2025-07-04,-5.5,2025-06-20~2025-07-07~1249614,IMPARK00011928U,,td_visa,auto/local trans,discretionary,,07-2025,2025,$5.50 
+DEBIT,2025-07-04,-45.07,2025-06-20~2025-07-07~1249604,AMZN Mktp CA*N34Z53HU1,,td_visa,supplies/services,discretionary,,07-2025,2025,$45.07 
+DEBIT,2025-07-04,-34.2,2025-06-20~2025-07-07~1249594,AMZN Mktp CA*N350M65C1,,td_visa,supplies/services,discretionary,,07-2025,2025,$34.20 
+DEBIT,2025-07-05,-2.5,1000030272813255D,Point Of Sale Withdrawal,AIR-SERV A PS710709 MERRITTBCCA,beem_ch,food & bev,discretionary,,07-2025,2025,$2.50 
+DEBIT,2025-07-05,-24.42,1000030272813254D,Point Of Sale Withdrawal,SQ *THE PALM AbbotsfordBCCA,beem_ch,food & bev,discretionary,,07-2025,2025,$24.42 
+DEBIT,2025-07-05,-21.48,1000030272813253D,Point Of Sale Withdrawal,STARBUCKS COFFEE #0481 VANCOUVERBCCA,beem_ch,food & bev,discretionary,,07-2025,2025,$21.48 
+DEBIT,2025-07-05,-123.2,1000030272813252D,Point Of Sale Withdrawal,BREWERY CREEK COLD BEE VANCOUVERBCCA,beem_ch,food & bev,discretionary,,07-2025,2025,$123.20 
+DEBIT,2025-07-05,-3.13,,GOOGLE *Google One,Internet,cap_one_visa,utilities,nec - fixed,,07-2025,2025,$3.13 
+DEBIT,2025-07-05,-112.54,2025-06-20~2025-07-07~1249644,NINETEEN05,,td_visa,food & bev,nec - discretionary,,07-2025,2025,$112.54 
+DEBIT,2025-07-05,-7.96,2025-06-20~2025-07-07~1249624,TESLA,,td_visa,travel/transport,nec - discretionary,Tesla - chg,07-2025,2025,$7.96 
+DEBIT,2025-07-05,-551.95,2025-06-20~2025-07-08~1815253,PRESTIGE HARBOURFRONT RES,,td_visa,travel/transport,nec - discretionary,,07-2025,2025,$551.95 
+DEBIT,2025-07-06,-20.12,1000030272813258D,Point Of Sale Withdrawal,SUBWAY 13773 GOLDENBCCA,beem_ch,food & bev,nec - discretionary,,07-2025,2025,$20.12 
+DEBIT,2025-07-06,-4.42,1000030272813257D,Point Of Sale Withdrawal,NINETEEN05 SALMON ARMBCCA,beem_ch,food & bev,nec - discretionary,,07-2025,2025,$4.42 
+DEBIT,2025-07-06,-48.83,1000030272813256D,Point Of Sale Withdrawal,NINETEEN05 SALMON ARMBCCA,beem_ch,food & bev,nec - discretionary,,07-2025,2025,$48.83 
+DEBIT,2025-07-06,-192.53,2025-06-20~2025-07-07~1249684,UNIVERSAL FOOTWEAR,,td_visa,supplies/services,discretionary,,07-2025,2025,$192.53 
+DEBIT,2025-07-06,-16.52,2025-06-20~2025-07-07~1249634,TESLA,,td_visa,travel/transport,nec - discretionary,Tesla - chg,07-2025,2025,$16.52 
+DEBIT,2025-07-06,-92.94,2025-06-20~2025-07-08~1815273,FHSR - ANTLERS/BEARS PAW,,td_visa,food & bev,nec - discretionary,,07-2025,2025,$92.94 
+DEBIT,2025-07-06,-716.54,2025-06-20~2025-07-08~1815263,FAIRMONT HOT SPRINGS RESO,,td_visa,travel/transport,discretionary,,07-2025,2025,$716.54 
+DEBIT,2025-07-07,-44.38,1000030272813259D,Point Of Sale Withdrawal,FAIRMONT MOUNTAINSIDE FAIRMONT HBCCA,beem_ch,food & bev,nec - discretionary,,07-2025,2025,$44.38 
+DEBIT,2025-07-07,-55.85,,DoorDash,Dining,cap_one_visa,food & bev,nec - discretionary,Doordash,07-2025,2025,$55.85 
+CREDIT,2025-07-07,823.25,2.51882E+16,WPS-0707S49275,,td_ch,transfer/pmt,,,07-2025,2025,($823.25)
+DEBIT,2025-07-07,-8.46,2025-06-20~2025-07-07~1249674,TESLA,,td_visa,travel/transport,nec - discretionary,Tesla - chg,07-2025,2025,$8.46 
+DEBIT,2025-07-07,-0.64,2025-06-20~2025-07-07~1249664,TESLA,,td_visa,travel/transport,nec - discretionary,Tesla - chg,07-2025,2025,$0.64 
+DEBIT,2025-07-07,-8.1,2025-06-20~2025-07-07~1249654,TESLA,,td_visa,travel/transport,nec - discretionary,Tesla - chg,07-2025,2025,$8.10 
+DEBIT,2025-07-07,-90.12,2025-06-20~2025-07-09~1806606,FHS GOLF - DAPPERS,,td_visa,food & bev,nec - discretionary,,07-2025,2025,$90.12 
+DEBIT,2025-07-07,-109.98,2025-06-20~2025-07-09~1806596,FHSR - ANTLERS/BEARS PAW,,td_visa,food & bev,nec - discretionary,,07-2025,2025,$109.98 
+DEBIT,2025-07-08,-13.63,1000030272813261D,Point Of Sale Withdrawal,DAIRY QUEEN #27221 CANMOREABCA,beem_ch,food & bev,discretionary,,07-2025,2025,$13.63 
+DEBIT,2025-07-08,-15.02,1000030272813260D,Point Of Sale Withdrawal,FHSR - STEAMERS CAFE FAIRMONT-HBCCA,beem_ch,food & bev,nec - discretionary,,07-2025,2025,$15.02 
+DEBIT,2025-07-08,-14.21,,Spotify P38628E80A,Internet,cap_one_visa,entertainment,discretionary,,07-2025,2025,$14.21 
+DEBIT,2025-07-08,-4.47,,Apple iTunes,Internet,cap_one_visa,supplies/services,disc - fixed,iCloud storage,07-2025,2025,$4.47 
+DEBIT,2025-07-08,-9.35,2025-06-20~2025-07-09~1806586,TESLA,,td_visa,travel/transport,nec - discretionary,Tesla - chg,07-2025,2025,$9.35 
+DEBIT,2025-07-09,-17.01,1000030272813262D,Point Of Sale Withdrawal,SQ *COASTAL CONCESSION LANGLEYBCCA,beem_ch,food & bev,discretionary,,07-2025,2025,$17.01 
+DEBIT,2025-07-09,-20.53,2025-06-20~2025-07-09~1806616,TESLA,,td_visa,travel/transport,nec - discretionary,Tesla - chg,07-2025,2025,$20.53 
+DEBIT,2025-07-09,-26.8,2025-06-20~2025-07-10~1808104,UBER CANADA/UBERTRIP,Calgary,td_visa,travel/transport,discretionary,,07-2025,2025,$26.80 
+DEBIT,2025-07-10,-28.8,1000030272813264D,Point Of Sale Withdrawal,STAMPEDE CELLAR UNCORK CALGARYABCA,beem_ch,food & bev,nec - discretionary,,07-2025,2025,$28.80 
+DEBIT,2025-07-10,-47.78,1000030272813263D,Point Of Sale Withdrawal,STAMPEDE CELLAR UNCORK CALGARYABCA,beem_ch,food & bev,nec - discretionary,,07-2025,2025,$47.78 
+DEBIT,2025-07-10,-316.22,2.51912E+16,TD VISA J4U2A8,,td_ch,transfer/pmt,,,07-2025,2025,$316.22 
+CREDIT,2025-07-10,316.22,2025-06-20~2025-07-11~1825314,PAYMENT - THANK YOU,,td_visa,transfer/pmt,,,07-2025,2025,($316.22)
+DEBIT,2025-07-10,-5.36,2025-06-20~2025-07-11~1825304,UBER CANADA/UBERTRIP,Calgary,td_visa,travel/transport,discretionary,,07-2025,2025,$5.36 
+DEBIT,2025-07-11,-45,1000030272813269D,Point Of Sale Withdrawal,SQ *WILDHORSE SALOON CalgaryABCA,beem_ch,food & bev,discretionary,,07-2025,2025,$45.00 
+DEBIT,2025-07-11,-42.5,1000030272813268D,Point Of Sale Withdrawal,SQ *WILDHORSE SALOON CalgaryABCA,beem_ch,food & bev,discretionary,,07-2025,2025,$42.50 
+DEBIT,2025-07-11,-124.09,1000030272813267D,External Withdrawal,Auto Insurance Insurance Corporation of BC 035283673994,beem_ch,auto/local trans,nec - fixed,ICBC,07-2025,2025,$124.09 
+DEBIT,2025-07-11,-27.24,1000030272813266D,Point Of Sale Withdrawal,CALGARY STAMPEDE - PIZ CALGARYABCA,beem_ch,food & bev,nec - discretionary,,07-2025,2025,$27.24 
+DEBIT,2025-07-11,-24.61,1000030272813265D,Point Of Sale Withdrawal,STAMPEDE CELLAR UNCORK CALGARYABCA,beem_ch,food & bev,discretionary,,07-2025,2025,$24.61 
+DEBIT,2025-07-12,-211.65,2025-06-20~2025-07-15~1803500,WAL-MART SUPERCENTER#3650,,td_visa,supplies/services,nec - discretionary,,07-2025,2025,$211.65 
+DEBIT,2025-07-13,-17.4,2025-06-20~2025-07-14~1212311,TESLA,,td_visa,travel/transport,nec - discretionary,Tesla - chg,07-2025,2025,$17.40 
+DEBIT,2025-07-13,-29.48,2025-06-20~2025-07-14~1212301,TESLA,,td_visa,travel/transport,nec - discretionary,Tesla - chg,07-2025,2025,$29.48 
+DEBIT,2025-07-13,-208.8,2025-06-20~2025-07-16~1817413,FERNIE FOX HOTEL,,td_visa,travel/transport,discretionary,,07-2025,2025,$208.80 
+DEBIT,2025-07-14,-146.14,1000030272813270D,External Withdrawal,Auto Insurance Insurance Corporation of BC 039727694129,beem_ch,auto/local trans,nec - fixed,ICBC,07-2025,2025,$146.14 
+DEBIT,2025-07-14,-27.99,,Apple iTunes,Internet,cap_one_visa,business,bus - fixed,ChatGPT,07-2025,2025,$27.99 
+DEBIT,2025-07-14,-10.75,2025-06-20~2025-07-15~1803510,TESLA,,td_visa,travel/transport,nec - discretionary,Tesla - chg,07-2025,2025,$10.75 
+DEBIT,2025-07-14,-327.85,2025-06-20~2025-07-16~1817423,FS *ISLAND LAKE RESORT GR,,td_visa,travel/transport,discretionary,,07-2025,2025,$327.85 
+CREDIT,2025-07-15,1503.3,1000030272813272C,External Deposit,Rent/Leases VANTAGE WEST-NEW TRUST AR4070,beem_ch,rental inc,condo - fixed,,07-2025,2025,"($1,503.30)"
+DEBIT,2025-07-15,-26.19,1000030272813271D,Point Of Sale Withdrawal,Subway OSOYOOSONCA,beem_ch,food & bev,nec - discretionary,,07-2025,2025,$26.19 
+DEBIT,2025-07-15,-12.31,2025-06-20~2025-07-15~1803530,Amazon Channels,,td_visa,entertainment,discretionary,,07-2025,2025,$12.31 
+DEBIT,2025-07-15,-16.25,2025-06-20~2025-07-15~1803520,TESLA,,td_visa,travel/transport,nec - discretionary,Tesla - chg,07-2025,2025,$16.25 
+DEBIT,2025-07-15,-14.06,2025-06-20~2025-07-16~1817403,TESLA,,td_visa,travel/transport,nec - discretionary,Tesla - chg,07-2025,2025,$14.06 
+DEBIT,2025-07-15,-15.3,2025-06-20~2025-07-16~1817393,TESLA,,td_visa,travel/transport,nec - discretionary,Tesla - chg,07-2025,2025,$15.30 
+DEBIT,2025-07-16,-2.18,undefined,INTEREST CHARGES,,scotia_visa,int/bank chg/tax,discretionary,,07-2025,2025,$2.18 
+DEBIT,2025-07-16,-117.6,2.51972E+16,Koodo Mobile BPY,,td_ch,utilities,nec - fixed,,07-2025,2025,$117.60 
+DEBIT,2025-07-16,-16.79,2025-06-20~2025-07-17~1756627,Kindle Svcs,,td_visa,entertainment,discretionary,,07-2025,2025,$16.79 
+DEBIT,2025-07-16,-8.62,2025-06-20~2025-07-17~1756617,Kindle Svcs,,td_visa,entertainment,discretionary,,07-2025,2025,$8.62 
+DEBIT,2025-07-16,-1.04,2025-06-20~2025-07-17~1756607,Kindle Svcs,,td_visa,entertainment,discretionary,,07-2025,2025,$1.04 
+DEBIT,2025-07-17,-42,1000030272813277D,Point Of Sale Withdrawal,M & J TINHLA CARWASH L VANCOUVERBCCA,beem_ch,auto/local trans,discretionary,,07-2025,2025,$42.00 
+DEBIT,2025-07-17,-24.39,1000030272813276D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,07-2025,2025,$24.39 
+DEBIT,2025-07-17,-11.53,1000030272813275D,Point Of Sale Withdrawal,TST-The Juice Truck- W VancouverBCCA,beem_ch,food & bev,discretionary,,07-2025,2025,$11.53 
+DEBIT,2025-07-17,-333,1000030272813274D,eTransfer - Debit,Payee: Guy Wylie,beem_ch,entertainment,discretionary,,07-2025,2025,$333.00 
+DEBIT,2025-07-17,-100,1000030272813273D,eTransfer - Debit,Payee: CHELSEA ADRIA YUILL,beem_ch,supplies/services,nec - discretionary,,07-2025,2025,$100.00 
+DEBIT,2025-07-17,-9.4,2.02507E+14,INTEREST CHARGES,INTEREST CHARGES,cap_one_visa,int/bank chg/tax,discretionary,,07-2025,2025,$9.40 
+DEBIT,2025-07-17,-9.45,2025-06-20~2025-07-17~1756637,ZIPBY,,td_visa,auto/local trans,discretionary,,07-2025,2025,$9.45 
+DEBIT,2025-07-17,-20.45,2025-06-20~2025-07-18~1801368,ZIPBY,,td_visa,auto/local trans,discretionary,,07-2025,2025,$20.45 
+DEBIT,2025-07-17,-5.5,2025-06-20~2025-07-21~1212287,IMPARK00011928U,,td_visa,auto/local trans,discretionary,,07-2025,2025,$5.50 
+DEBIT,2025-07-18,-17.64,1000030272813279D,Point Of Sale Withdrawal,BOAT HOUSE - KITSILANO VANCOUVERBCCA,beem_ch,food & bev,nec - discretionary,,07-2025,2025,$17.64 
+DEBIT,2025-07-18,-124.83,1000030272813278D,Point Of Sale Withdrawal,KITSILANO NATURAL FOOD VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,,07-2025,2025,$124.83 
+DEBIT,2025-07-18,-4.65,2025-06-20~2025-07-21~1212307,CITY OF VAN PAYBYPHONE,,td_visa,auto/local trans,discretionary,,07-2025,2025,$4.65 
+DEBIT,2025-07-18,-223.99,2025-06-20~2025-07-21~1212297,SP FORERUNNERS,,td_visa,supplies/services,discretionary,,07-2025,2025,$223.99 
+DEBIT,2025-07-19,-5.5,1000030272813280D,Point Of Sale Withdrawal,SQ *KIYA SHOP VANCOUVE RICHMONDBCCA,beem_ch,food & bev,nec - discretionary,,07-2025,2025,$5.50 
+DEBIT,2025-07-19,-810.16,1000030272813281D,Bill Payment,"Capital One Mastercard, Confirmation 59406182",beem_ch,transfer/pmt,,,07-2025,2025,$810.16 
+DEBIT,2025-07-19,-31.48,2.02507E+14,DD/DOORDASHCACTUSCLUBC,DD/DOORDASHCACTUSCLUBC,cap_one_visa,food & bev,nec - discretionary,Doordash,07-2025,2025,$31.48 
+DEBIT,2025-07-20,-12.65,1000030272813283D,Point Of Sale Withdrawal,Store VancouverBCCA,beem_ch,food & bev,nec - discretionary,,07-2025,2025,$12.65 
+DEBIT,2025-07-20,-25.84,1000030272813282D,Point Of Sale Withdrawal,CHOICES CAMBIE # 906 VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,,07-2025,2025,$25.84 
+DEBIT,2025-07-21,-19.52,1000030272813286D,Point Of Sale Withdrawal,CAMBIE GASTOWN VANCOUVERBCCA,beem_ch,food & bev,discretionary,,07-2025,2025,$19.52 
+DEBIT,2025-07-21,-48.35,1000030272813285D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,07-2025,2025,$48.35 
+DEBIT,2025-07-21,-38.75,1000030272813284D,Point Of Sale Withdrawal,FRESH CUTS BARBER SHOP VANCOUVERBCCA,beem_ch,supplies/services,nec - discretionary,,07-2025,2025,$38.75 
+CREDIT,2025-07-21,810.16,2.02507E+14,PAYMENT,PAYMENT,cap_one_visa,transfer/pmt,,,07-2025,2025,($810.16)
+DEBIT,2025-07-21,-5.5,2025-07-22~2025-07-23~1757531,IMPARK00011928U,,td_visa,auto/local trans,,,07-2025,2025,$5.50 
+DEBIT,2025-07-22,-89.55,1000030272813291D,Point Of Sale Withdrawal,MEC MOUNTAIN EQUIPMENT VANCOUVERBCCA,beem_ch,supplies/services,discretionary,,07-2025,2025,$89.55 
+DEBIT,2025-07-22,-3.35,1000030272813290D,Point Of Sale Withdrawal,TLNK/0486500735 BURNABYBCCA,beem_ch,auto/local trans,discretionary,,07-2025,2025,$3.35 
+DEBIT,2025-07-22,-121.18,1000030272813289D,Point Of Sale Withdrawal,MARCELLO RISTORANTE & VANCOUVERBCCA,beem_ch,food & bev,nec - discretionary,,07-2025,2025,$121.18 
+DEBIT,2025-07-22,-20.15,1000030272813288D,Point Of Sale Withdrawal,SQ *BOMBER BREWING VancouverBCCA,beem_ch,food & bev,discretionary,,07-2025,2025,$20.15 
+DEBIT,2025-07-22,-18.87,1000030272813287D,Point Of Sale Withdrawal,OFF THE RAIL BREWING C VANCOUVERBCCA,beem_ch,food & bev,discretionary,,07-2025,2025,$18.87 
+DEBIT,2025-07-22,-3.35,2025-07-22~2025-07-22~1808595,Ad free for PrimeVideo,,td_visa,entertainment,disc - fixed,,07-2025,2025,$3.35 
+DEBIT,2025-07-22,-10.46,2025-07-22~2025-07-23~1757551,UBER CANADA/UBERTRIP,,td_visa,auto/local trans,,,07-2025,2025,$10.46 
+DEBIT,2025-07-22,-3,2025-07-22~2025-07-23~1757541,UBER CANADA/UBERTRIP,,td_visa,auto/local trans,,,07-2025,2025,$3.00 
+DEBIT,2025-07-23,-31.5,1000030272813292D,Point Of Sale Withdrawal,SHINE AUTO WASH VANCOUVERBCCA,beem_ch,auto/local trans,discretionary,Shine carwash,07-2025,2025,$31.50 
+DEBIT,2025-07-23,-106.35,2025-07-22~2025-07-24~1825583,MEC MOUNTAIN EQUIPMENT,,td_visa,supplies/services,,,07-2025,2025,$106.35 
+DEBIT,2025-07-23,-36.53,2025-07-22~2025-07-24~1825573,AMZN Mktp CA*ZK2CU2GD3,,td_visa,supplies/services,,,07-2025,2025,$36.53 
+DEBIT,2025-07-24,-3,2025-07-22~2025-07-25~1841472,UBER CANADA/UBERTRIP,,td_visa,auto/local trans,,,07-2025,2025,$3.00 
+DEBIT,2025-07-24,-8.28,2025-07-22~2025-07-25~1841462,UBER CANADA/UBERTRIP,,td_visa,auto/local trans,,,07-2025,2025,$8.28 
+DEBIT,2025-07-24,-33.54,2025-07-22~2025-07-25~1841452,MEC MOUNTAIN EQUIPMENT,,td_visa,supplies/services,,,07-2025,2025,$33.54 
+DEBIT,2025-07-24,-15.6,2025-07-22~2025-07-25~1841432,Wikimedia,,td_visa,misc,,,07-2025,2025,$15.60 
+DEBIT,2025-07-24,-52.6,2025-07-22~2025-07-28~1254305,BCAA-INSURANCE,,td_visa,rental inc,,,07-2025,2025,$52.60 
+DEBIT,2025-07-25,-37.76,2.02507E+14,DD/DOORDASHTHEPERIPERI,DD/DOORDASHTHEPERIPERI,cap_one_visa,food & bev,nec - discretionary,Doordash,07-2025,2025,$37.76 
+DEBIT,2025-07-25,-25.31,2025-07-22~2025-07-25~1841442,UBER* TRIP,,td_visa,auto/local trans,,,07-2025,2025,$25.31 
+DEBIT,2025-07-25,-59.77,2025-07-22~2025-07-28~1254375,LARRYS COOKIES AND ICE C,,td_visa,food & bev,,,07-2025,2025,$59.77 
+DEBIT,2025-07-25,-6.32,2025-07-22~2025-07-28~1254315,UBER CANADA/UBERTRIP,,td_visa,auto/local trans,,,07-2025,2025,$6.32 
+DEBIT,2025-07-25,-11.19,2025-07-22~2025-07-28~1254295,Amazon.ca Prime Member,,td_visa,entertainment,disc - fixed,,07-2025,2025,$11.19 
+DEBIT,2025-07-25,-91.86,2025-07-22~2025-07-28~1254285,7021 VAN VINO VOLO,,td_visa,food & bev,,,07-2025,2025,$91.86 
+DEBIT,2025-07-25,-103.48,2025-07-22~2025-07-28~1254275,UBER *TRIP,,td_visa,travel/transport,,,07-2025,2025,$103.48 
+DEBIT,2025-07-26,-3.17,2025-07-22~2025-07-28~1254345,METRO,,td_visa,travel/transport,,,07-2025,2025,$3.17 
+DEBIT,2025-07-26,-8.75,2025-07-22~2025-07-28~1254325,CAPBIKE*2 RIDES,,td_visa,travel/transport,,,07-2025,2025,$8.75 
+DEBIT,2025-07-27,-30.61,7.40834E+22,HOSTPAPABURLINGTON ON,,scotia_visa,business,bus - fixed,,07-2025,2025,$30.61 
+DEBIT,2025-07-27,-54.7,2025-07-22~2025-07-28~1254365,UBER *TRIP,,td_visa,travel/transport,,,07-2025,2025,$54.70 
+DEBIT,2025-07-27,-32.01,2025-07-22~2025-07-28~1254355,TST* DOLCEZZA - HIIRSHHOR,,td_visa,food & bev,,,07-2025,2025,$32.01 
+DEBIT,2025-07-27,-20.15,2025-07-22~2025-07-28~1254335,Cairo Wine Liquor,,td_visa,food & bev,,,07-2025,2025,$20.15 
+DEBIT,2025-07-28,-10.49,2.02507E+14,DOORDASHDASHPASS,DOORDASHDASHPASS,cap_one_visa,food & bev,nec - discretionary,Doordash,07-2025,2025,$10.49 
+DEBIT,2025-07-28,-24.63,2.02507E+14,APPLE.COM/BILL,APPLE.COM/BILL,cap_one_visa,entertainment,disc - fixed,Crave,07-2025,2025,$24.63 
+DEBIT,2025-07-28,-4.8,2025-07-22~2025-07-29~1824549,SQ *PRADO CAFE FIR STREET,,td_visa,food & bev,,,07-2025,2025,$4.80 
+DEBIT,2025-07-28,-52.88,2025-07-22~2025-07-29~1824529,SQ *PRADO CAFE FIR STREET,,td_visa,food & bev,,,07-2025,2025,$52.88 
+DEBIT,2025-07-28,-89.91,2025-07-22~2025-07-29~1824509,UBER *TRIP,,td_visa,travel/transport,,,07-2025,2025,$89.91 
+DEBIT,2025-07-29,-18.32,2025-07-22~2025-07-29~1824539,UBER *TRIP,,td_visa,travel/transport,,,07-2025,2025,$18.32 
+DEBIT,2025-07-29,-146.38,2025-07-22~2025-07-29~1824519,TST-Nook Restaurant -,,td_visa,food & bev,,Nook,07-2025,2025,$146.38 
+DEBIT,2025-07-29,-10.17,2025-07-22~2025-07-30~1803428,UBER CANADA/UBERTRIP,,td_visa,auto/local trans,,,07-2025,2025,$10.17 
+DEBIT,2025-07-29,-2,2025-07-22~2025-07-30~1803418,UBER CANADA/UBERTRIP,,td_visa,auto/local trans,,,07-2025,2025,$2.00 
+DEBIT,2025-07-30,-14.55,2.02507E+14,GOOGLE *YouTubePremium,GOOGLE *YouTubePremium,cap_one_visa,entertainment,disc - fixed,,07-2025,2025,$14.55 
+CREDIT,2025-07-30,132.06,7.4529E+22,TD TrustTORONTO,,scotia_visa,transfer/pmt,,,07-2025,2025,($132.06)
+DEBIT,2025-07-30,-50.47,2.52112E+16,BC HYDRO W5W7A4,,td_ch,utilities,nec - fixed,,07-2025,2025,$50.47 
+DEBIT,2025-07-30,-104.36,2.52112E+16,CAPTL ONE MC W5W7A6,,td_ch,transfer/pmt,,,07-2025,2025,$104.36 
+DEBIT,2025-07-30,-132.06,2.52112E+16,SCOTIA VISA W5W7H3,,td_ch,transfer/pmt,,,07-2025,2025,$132.06 
+DEBIT,2025-07-30,-145.6,2.52112E+16,Telus Comm BPY,,td_ch,utilities,nec - fixed,,07-2025,2025,$145.60 
+DEBIT,2025-07-30,-431.58,2025-07-22~2025-08-01~1821046,PUBLISHED ON MAIN,,td_visa,food & bev,,,07-2025,2025,$431.58 
+CREDIT,2025-07-31,104.36,2.02507E+14,PAYMENT,PAYMENT,cap_one_visa,transfer/pmt,,,07-2025,2025,($104.36)
+DEBIT,2025-07-31,-44.44,2.02507E+14,DD/DOORDASHCACTUSCLUBC,DD/DOORDASHCACTUSCLUBC,cap_one_visa,food & bev,nec - discretionary,Doordash,07-2025,2025,$44.44 
+CREDIT,2025-07-31,3000,2.52121E+16,II230 TFR-FR 603978A,,td_ch,transfer/pmt,,,07-2025,2025,"($3,000.00)"
+DEBIT,2025-07-31,-3.95,2.52131E+16,MONTHLY ACCOUNT FEE,,td_ch,int/bank chg/tax,nec - fixed,,07-2025,2025,$3.95 
+DEBIT,2025-07-31,-1.78,2025-07-22~2025-08-05~1656324,CITY OF VAN PAYBYPHONE,,td_visa,auto/local trans,,,07-2025,2025,$1.78 
+DEBIT,2025-07-31,-1.65,2025-07-22~2025-08-05~1656314,CITY OF VAN PAYBYPHONE,,td_visa,auto/local trans,,,07-2025,2025,$1.65 
+DEBIT,2025-08-01,-845.38,1000030272813294D,External Withdrawal,Mortgage Home Trust Company 0003036653,beem_ch,rental inc,condo - fixed,,08-2025,2025,$845.38 
+DEBIT,2025-08-01,-76.86,1000030272813293D,Point Of Sale Withdrawal,TST-The Ellis VancouverBCCA,beem_ch,food & bev,nec - discretionary,,08-2025,2025,$76.86 
+DEBIT,2025-08-01,-14.16,2.02508E+14,"GITHUB, INC.","GITHUB, INC.",cap_one_visa,business,,,08-2025,2025,$14.16 
+CREDIT,2025-08-01,4000,2.52132E+16,JO165 TFR-FR 603978A,,td_ch,transfer/pmt,,,08-2025,2025,"($4,000.00)"
+DEBIT,2025-08-01,-3800,2.52132E+16,JT490 TFR-TO C/C,,td_ch,transfer/pmt,,,08-2025,2025,"$3,800.00 "
+DEBIT,2025-08-01,-360.02,2.52132E+16,KAS 3604 Radius FEE,,td_ch,rental inc,condo - fixed,,08-2025,2025,$360.02 
+CHECK,2025-08-01,-2125,2.52141E+16,CHQ#00046-1141459140,,td_ch,rent,,,08-2025,2025,"$2,125.00 "
+CREDIT,2025-08-01,3800,2025-07-22~2025-08-05~2221523,PAYMENT - THANK YOU,,td_visa,transfer/pmt,,,08-2025,2025,"($3,800.00)"
+DEBIT,2025-08-02,-31.14,1000030272813295D,Point Of Sale Withdrawal,BC LIQUOR #177 VANCOUVERBCCA,beem_ch,food & bev,,,08-2025,2025,$31.14 
+DEBIT,2025-08-02,-58.96,2.02508E+14,Amazon Web Services,Amazon Web Services,cap_one_visa,business,,,08-2025,2025,$58.96 
+DEBIT,2025-08-02,-15.67,2.02508E+14,TESLA,TESLA,cap_one_visa,entertainment,discretionary,,08-2025,2025,$15.67 
+DEBIT,2025-08-03,-11.53,1000030272813296D,Point Of Sale Withdrawal,TST-The Juice Truck- W VancouverBCCA,beem_ch,food & bev,,,08-2025,2025,$11.53 
+DEBIT,2025-08-04,-17.4,1000030272813298D,Point Of Sale Withdrawal,SHOPPERS DRUG MART #22 VANCOUVERBCCA,beem_ch,food & bev,,,08-2025,2025,$17.40 
+DEBIT,2025-08-04,-60.84,1000030272813297D,Point Of Sale Withdrawal,TST-Las Margaritas VancouverBCCA,beem_ch,food & bev,,,08-2025,2025,$60.84 
+DEBIT,2025-08-04,-72.21,2.02508E+14,DD/DOORDASHIGNITEPIZZE,DD/DOORDASHIGNITEPIZZE,cap_one_visa,food & bev,nec - discretionary,Doordash,08-2025,2025,$72.21 
+DEBIT,2025-08-04,-39.93,2.02508E+12,DD/DOORDASHIGNITEPIZZE,DD/DOORDASHIGNITEPIZZE,cap_one_visa,food & bev,nec - discretionary,Doordash,08-2025,2025,$39.93 
+DEBIT,2025-08-04,-3.25,2025-07-22~2025-08-05~1656334,ZIPBY,,td_visa,auto/local trans,,,08-2025,2025,$3.25 
+DEBIT,2025-08-04,-0.93,2025-07-22~2025-08-06~1826325,CITY OF VAN PAYBYPHONE,,td_visa,auto/local trans,,,08-2025,2025,$0.93 
+DEBIT,2025-08-04,-1.65,2025-07-22~2025-08-06~1826315,CITY OF VAN PAYBYPHONE,,td_visa,auto/local trans,,,08-2025,2025,$1.65 
+DEBIT,2025-08-04,-8.15,2025-07-22~2025-08-06~1826305,CITY OF VAN PAYBYPHONE,,td_visa,auto/local trans,,,08-2025,2025,$8.15 
+DEBIT,2025-08-05,-36.71,1000030272813301D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,08-2025,2025,$36.71 
+DEBIT,2025-08-05,-144.15,1000030272813300D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,08-2025,2025,$144.15 
+DEBIT,2025-08-05,-36.54,1000030272813299D,Point Of Sale Withdrawal,ANGRY OTTER @ CAMBIE VANCOUVERBCCA,beem_ch,food & bev,,,08-2025,2025,$36.54 
+DEBIT,2025-08-05,-3.13,2.02508E+14,GOOGLE *Google One,GOOGLE *Google One,cap_one_visa,utilities,,,08-2025,2025,$3.13 
+CREDIT,2025-08-05,543.76,2025-07-22~2025-08-06~1826335,PAYMENT - THANK YOU,,td_visa,transfer/pmt,,,08-2025,2025,($543.76)
+DEBIT,2025-08-05,-5.5,2025-07-22~2025-08-07~1813187,IMPARK00011928U,,td_visa,auto/local trans,,,08-2025,2025,$5.50 
+CREDIT,2025-08-06,1000,1000030272813306C,Transfer Deposit,Transfer from 100003077328,beem_ch,transfer/pmt,,,08-2025,2025,"($1,000.00)"
+CREDIT,2025-08-06,5.93,1000030272813304C,Overdraft Protection Deposit,,beem_ch,int/bank chg/tax,,,08-2025,2025,($5.93)
+DEBIT,2025-08-06,-60.71,1000030272813302D,Point Of Sale Withdrawal,CHOICES CAMBIE # 906 VANCOUVERBCCA,beem_ch,food & bev,,,08-2025,2025,$60.71 
+DEBIT,2025-08-06,-65.2,2.02508E+14,DD/DOORDASHCACTUSCLUBC,DD/DOORDASHCACTUSCLUBC,cap_one_visa,food & bev,nec - discretionary,Doordash,08-2025,2025,$65.20 
+DEBIT,2025-08-06,-20,2.52182E+16,SEND E-TFR ***R7x,,td_ch,transfer/pmt,,,08-2025,2025,$20.00 
+DEBIT,2025-08-06,-86.19,2025-07-22~2025-08-07~1813197,SP ONEILL CANADA,,td_visa,supplies/services,,,08-2025,2025,$86.19 
+DEBIT,2025-08-06,-250,2025-07-22~2025-08-08~1815353,BCF - ONLINE SALES & BOOK,,td_visa,unknown,,,08-2025,2025,$250.00 
+DEBIT,2025-08-07,-182.39,1000030272813308D,Point Of Sale Withdrawal,MEC MOUNTAIN EQUIPMENT VANCOUVERBCCA,beem_ch,supplies/services,,,08-2025,2025,$182.39 
+DEBIT,2025-08-07,-10.87,1000030272813307D,Point Of Sale Withdrawal,THE FEDERAL STORE VANCOUVERBCCA,beem_ch,food & bev,,,08-2025,2025,$10.87 
+DEBIT,2025-08-07,-31.64,2.02508E+14,DD/DOORDASHTHEPERIPERI,DD/DOORDASHTHEPERIPERI,cap_one_visa,food & bev,nec - discretionary,Doordash,08-2025,2025,$31.64 
+DEBIT,2025-08-07,-14.34,2025-07-22~2025-08-08~1815343,AMZN Mktp CA*DV7IN8J53,,td_visa,supplies/services,,,08-2025,2025,$14.34 
+DEBIT,2025-08-08,-40.54,2.02508E+14,DD/DOORDASHTHEGREEKBRO,DD/DOORDASHTHEGREEKBRO,cap_one_visa,food & bev,nec - discretionary,Doordash,08-2025,2025,$40.54 
+DEBIT,2025-08-08,-14.21,2.02508E+14,Spotify P3954AC36E,Spotify P3954AC36E,cap_one_visa,entertainment,,,08-2025,2025,$14.21 
+DEBIT,2025-08-08,-4.47,2.02508E+14,APPLE.COM/BILL,APPLE.COM/BILL,cap_one_visa,supplies/services,disc - fixed,iCloud storage,08-2025,2025,$4.47 
+DEBIT,2025-08-08,-36.96,2025-07-22~2025-08-11~1303143,AMZN Mktp CA*6T5TE5GG3,,td_visa,supplies/services,,,08-2025,2025,$36.96 
+DEBIT,2025-08-08,-67.14,2025-07-22~2025-08-11~1303133,AMZN Mktp CA*HN9R45J93,,td_visa,supplies/services,,,08-2025,2025,$67.14 
+DEBIT,2025-08-09,-10.62,1000030272813310D,Point Of Sale Withdrawal,ANH AND CHI RESTAURANT VANCOUVERBCCA,beem_ch,food & bev,,,08-2025,2025,$10.62 
+DEBIT,2025-08-09,-365.52,1000030272813309D,Point Of Sale Withdrawal,THE WATSON VANCOUVERBCCA,beem_ch,food & bev,,,08-2025,2025,$365.52 
+DEBIT,2025-08-09,-36.98,2.02508E+14,DD/DOORDASHCHURCHSTEXA,DD/DOORDASHCHURCHSTEXA,cap_one_visa,food & bev,nec - discretionary,Doordash,08-2025,2025,$36.98 
+DEBIT,2025-08-09,-27.29,2025-07-22~2025-08-11~1303153,AMZN Mktp CA*9B9RQ0U83,,td_visa,supplies/services,,,08-2025,2025,$27.29 
+DEBIT,2025-08-10,-2.48,2025-07-22~2025-08-12~1758163,CITY OF VAN PAYBYPHONE,,td_visa,auto/local trans,,,08-2025,2025,$2.48 
+DEBIT,2025-08-11,-124.09,1000030272813311D,External Withdrawal,Auto Insurance Insurance Corporation of BC 039450178720,beem_ch,auto/local trans,,ICBC,08-2025,2025,$124.09 
+DEBIT,2025-08-11,-80.5,2.02508E+14,DD/DOORDASHIGNITEPIZZE,DD/DOORDASHIGNITEPIZZE,cap_one_visa,food & bev,nec - discretionary,Doordash,08-2025,2025,$80.50 
+DEBIT,2025-08-11,-23.5,2.52212E+16,NON-TD ATM W/D,,td_ch,int/bank chg/tax,,,08-2025,2025,$23.50 
+DEBIT,2025-08-12,-63.92,2.02508E+14,DD/DOORDASHTHEGREEKBRO,DD/DOORDASHTHEGREEKBRO,cap_one_visa,food & bev,nec - discretionary,Doordash,08-2025,2025,$63.92 
+DEBIT,2025-08-12,-515.12,2025-07-22~2025-08-12~1758173,SQ *TAP & BARREL BRIDGES,,td_visa,food & bev,,,08-2025,2025,$515.12 
+DEBIT,2025-08-12,-3.15,2025-07-22~2025-08-14~1759305,CITY OF VAN PAYBYPHONE,,td_visa,auto/local trans,,,08-2025,2025,$3.15 
+DEBIT,2025-08-12,-3.15,2025-07-22~2025-08-14~1759295,CITY OF VAN PAYBYPHONE,,td_visa,auto/local trans,,,08-2025,2025,$3.15 
+DEBIT,2025-08-13,-88.74,1000030272813312D,Point Of Sale Withdrawal,TST-The Ellis VancouverBCCA,beem_ch,food & bev,,,08-2025,2025,$88.74 
+DEBIT,2025-08-14,-72.35,1000030272813315D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,08-2025,2025,$72.35 
+CREDIT,2025-08-14,1000,1000030272813314C,Transfer Deposit,Transfer from 100003077328,beem_ch,transfer/pmt,,,08-2025,2025,"($1,000.00)"
+DEBIT,2025-08-14,-146.14,1000030272813313D,External Withdrawal,Auto Insurance Insurance Corporation of BC 037506004736,beem_ch,auto/local trans,,ICBC,08-2025,2025,$146.14 
+DEBIT,2025-08-14,-27.99,2.02508E+14,APPLE.COM/BILL,APPLE.COM/BILL,cap_one_visa,business,bus - fixed,ChatGPT,08-2025,2025,$27.99 
+CREDIT,2025-08-15,2037.91,1000030272813316C,External Deposit,Rent/Leases VANTAGE WEST-NEW TRUST AR4070,beem_ch,rental inc,,,08-2025,2025,"($2,037.91)"
+DEBIT,2025-08-15,-63.25,2.02508E+14,DD/DOORDASHTHEPERIPERI,DD/DOORDASHTHEPERIPERI,cap_one_visa,food & bev,nec - discretionary,Doordash,08-2025,2025,$63.25 
+DEBIT,2025-08-15,-0.68,undefined,INTEREST CHARGES,,scotia_visa,int/bank chg/tax,,,08-2025,2025,$0.68 
+DEBIT,2025-08-15,-12.31,2025-07-22~2025-08-15~1815090,Amazon Channels,,td_visa,entertainment,,,08-2025,2025,$12.31 
+DEBIT,2025-08-16,-0.17,2.02508E+14,INTEREST CHARGES,INTEREST CHARGES,cap_one_visa,int/bank chg/tax,,,08-2025,2025,$0.17 
+DEBIT,2025-08-16,-54.29,2.02508E+14,DD/DOORDASHJOEYRESTAUR,DD/DOORDASHJOEYRESTAUR,cap_one_visa,food & bev,nec - discretionary,Doordash,08-2025,2025,$54.29 
+DEBIT,2025-08-16,-15.87,2.40113E+22,ANTHROPIC.COMCA,,scotia_visa,business,,,08-2025,2025,$15.87 
+DEBIT,2025-08-16,-5,2025-07-22~2025-08-18~1227505,BCF - ONLINE SALES & BOOK,,td_visa,unknown,,,08-2025,2025,$5.00 
+DEBIT,2025-08-17,-9.39,1000030272813319D,Point Of Sale Withdrawal,DAIRY QUEEN #26987 VANCOUVERBCCA,beem_ch,food & bev,,,08-2025,2025,$9.39 
+DEBIT,2025-08-17,-34.99,1000030272813318D,Point Of Sale Withdrawal,DAIRY QUEEN #26987 VANCOUVERBCCA,beem_ch,food & bev,,,08-2025,2025,$34.99 
+DEBIT,2025-08-17,-106.3,1000030272813317D,Point Of Sale Withdrawal,CHOICES CAMBIE # 906 VANCOUVERBCCA,beem_ch,food & bev,,,08-2025,2025,$106.30 
+DEBIT,2025-08-17,-540.04,2025-07-22~2025-08-18~1227515,EXPEDIA 73210368412883,,td_visa,travel/transport,,,08-2025,2025,$540.04 
+DEBIT,2025-08-18,-102.39,2.02508E+14,DD/DOORDASHSULAINDIANR,DD/DOORDASHSULAINDIANR,cap_one_visa,food & bev,nec - discretionary,Doordash,08-2025,2025,$102.39 
+DEBIT,2025-08-18,-75.44,2.02508E+12,DD/DOORDASHIGNITEPIZZE,DD/DOORDASHIGNITEPIZZE,cap_one_visa,food & bev,nec - discretionary,Doordash,08-2025,2025,$75.44 
+DEBIT,2025-08-18,-180.32,2.52302E+16,Koodo Mobile BPY,,td_ch,utilities,,,08-2025,2025,$180.32 
+DEBIT,2025-08-20,-39.19,1000030272813321D,Point Of Sale Withdrawal,LIBERTY WINE MERCHANTS VANCOUVERBCCA,beem_ch,food & bev,,,08-2025,2025,$39.19 
+DEBIT,2025-08-20,-119.79,1000030272813320D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,08-2025,2025,$119.79 
+DEBIT,2025-08-20,-5.5,2025-08-20~2025-08-21~1812066,IMPARK00011928U,,td_visa,auto/local trans,,,08-2025,2025,$5.50 
+DEBIT,2025-08-21,-38.18,1000030272813323D,Point Of Sale Withdrawal,LONDON DRUGS 04 VANCOUVERBCCA,beem_ch,supplies/services,,,08-2025,2025,$38.18 
+DEBIT,2025-08-21,-154.26,1000030272813322D,Point Of Sale Withdrawal,TST-Nook Restaurant - VancouverBCCA,beem_ch,food & bev,nec - discretionary,Nook,08-2025,2025,$154.26 
+DEBIT,2025-08-21,-5.59,2025-08-20~2025-08-21~1812076,PrimeVideo.c*GF9MW9C33,,td_visa,entertainment,,,08-2025,2025,$5.59 
+DEBIT,2025-08-22,-20.84,1000030272813324D,Point Of Sale Withdrawal,SQ *KAISERECK DELICATE VancouverBCCA,beem_ch,food & bev,,,08-2025,2025,$20.84 
+DEBIT,2025-08-22,-3.35,2025-08-20~2025-08-22~1815456,Ad free for PrimeVideo,,td_visa,entertainment,disc - fixed,,08-2025,2025,$3.35 
+DEBIT,2025-08-22,-11.2,2025-08-20~2025-08-25~1254064,TIP BUSKER ON BUSKCO,,td_visa,entertainment,,,08-2025,2025,$11.20 
+DEBIT,2025-08-23,-7.76,1000030272813326D,Point Of Sale Withdrawal,DAIRY QUEEN #26985 VANCOUVERBCCA,beem_ch,food & bev,,,08-2025,2025,$7.76 
+DEBIT,2025-08-23,-16.04,1000030272813325D,Point Of Sale Withdrawal,DAIRY QUEEN #26985 VANCOUVERBCCA,beem_ch,food & bev,,,08-2025,2025,$16.04 
+DEBIT,2025-08-24,-18.1,1000030272813328D,Point Of Sale Withdrawal,ANGRY OTTER @ CAMBIE VANCOUVERBCCA,beem_ch,food & bev,,,08-2025,2025,$18.10 
+DEBIT,2025-08-24,-147.04,1000030272813327D,Point Of Sale Withdrawal,CHOICES CAMBIE # 906 VANCOUVERBCCA,beem_ch,food & bev,,,08-2025,2025,$147.04 
+DEBIT,2025-08-25,-24.49,1000030272813329D,Point Of Sale Withdrawal,THE MIGHTY OAK VANCOUVERBCCA,beem_ch,food & bev,,,08-2025,2025,$24.49 
+DEBIT,2025-08-25,-63.09,2.02508E+12,DD/DOORDASHMEETONMAIN,DD/DOORDASHMEETONMAIN,cap_one_visa,food & bev,nec - discretionary,Doordash,08-2025,2025,$63.09 
+DEBIT,2025-08-25,-20,2.52372E+16,SEND E-TFR ***Ga7,,td_ch,transfer/pmt,,,08-2025,2025,$20.00 
+DEBIT,2025-08-25,-55,2.52372E+16,SEND E-TFR ***XPe,,td_ch,transfer/pmt,,,08-2025,2025,$55.00 
+DEBIT,2025-08-25,-11.19,2025-08-20~2025-08-26~1809538,Amazon.ca Prime Member,,td_visa,entertainment,disc - fixed,,08-2025,2025,$11.19 
+DEBIT,2025-08-25,-2.15,2025-08-20~2025-08-27~1821446,CITY OF VAN PAYBYPHONE,,td_visa,auto/local trans,,,08-2025,2025,$2.15 
+DEBIT,2025-08-25,-2.15,2025-08-20~2025-08-27~1821436,CITY OF VAN PAYBYPHONE,,td_visa,auto/local trans,,,08-2025,2025,$2.15 
+DEBIT,2025-08-26,-10.4,1000030272813331D,Point Of Sale Withdrawal,EASYPARK LOT 9 VANCOUVERBCCA,beem_ch,food & bev,,,08-2025,2025,$10.40 
+DEBIT,2025-08-26,-11.21,1000030272813330D,Point Of Sale Withdrawal,TACO TIME - 214102 VANCOUVERBCCA,beem_ch,food & bev,,,08-2025,2025,$11.21 
+DEBIT,2025-08-26,-26.03,2.02508E+14,DD/DOORDASHBLAZEGOURME,DD/DOORDASHBLAZEGOURME,cap_one_visa,food & bev,nec - discretionary,Doordash,08-2025,2025,$26.03 
+DEBIT,2025-08-26,-290,2.52381E+16,COINBASE R 290.00_V,,td_ch,investment,,,08-2025,2025,$290.00 
+DEBIT,2025-08-26,-5,2025-08-20~2025-08-27~1821426,BCF - ONLINE SALES & BOOK,,td_visa,unknown,,,08-2025,2025,$5.00 
+DEBIT,2025-08-26,-8.65,2025-08-20~2025-08-27~1821416,TESLA,,td_visa,auto/local trans,nec - discretionary,Tesla - chg,08-2025,2025,$8.65 
+DEBIT,2025-08-27,-10.98,1000030272813335D,Point Of Sale Withdrawal,"SQ *SWEET THEA BAKERY, DeltaBCCA",beem_ch,food & bev,,,08-2025,2025,$10.98 
+DEBIT,2025-08-27,-8,1000030272813334D,Point Of Sale Withdrawal,FALSE CREEK FERRIES VANCOUVERBCCA,beem_ch,food & bev,,,08-2025,2025,$8.00 
+DEBIT,2025-08-27,-8,1000030272813333D,Point Of Sale Withdrawal,FALSE CREEK FERRIES VANCOUVERBCCA,beem_ch,food & bev,,,08-2025,2025,$8.00 
+DEBIT,2025-08-27,-211.23,1000030272813332D,Point Of Sale Withdrawal,TST-Autostrada - Vanco VancouverBCCA,beem_ch,food & bev,,,08-2025,2025,$211.23 
+DEBIT,2025-08-27,-30.61,7.40834E+22,HOSTPAPABURLINGTON ON,,scotia_visa,business,,,08-2025,2025,$30.61 
+DEBIT,2025-08-27,-418.37,2025-08-20~2025-08-29~1810065,THE COURTNEY ROOM,,td_visa,food & bev,,,08-2025,2025,$418.37 
+DEBIT,2025-08-28,-26.88,1000030272813338D,Point Of Sale Withdrawal,COWICHAN VALLEY RUNNIN MILL BAYBCCA,beem_ch,auto/local trans,,,08-2025,2025,$26.88 
+DEBIT,2025-08-28,-10.76,1000030272813337D,Point Of Sale Withdrawal,SQ *KAVA & CO Mill BayBCCA,beem_ch,food & bev,,,08-2025,2025,$10.76 
+DEBIT,2025-08-28,-37.85,1000030272813336D,Point Of Sale Withdrawal,BC LIQUOR #173 MILL BAYBCCA,beem_ch,food & bev,,,08-2025,2025,$37.85 
+DEBIT,2025-08-28,-10.49,2.02508E+14,DOORDASHDASHPASS,DOORDASHDASHPASS,cap_one_visa,food & bev,nec - discretionary,Doordash,08-2025,2025,$10.49 
+DEBIT,2025-08-28,-24.63,2.02508E+14,APPLE.COM/BILL,APPLE.COM/BILL,cap_one_visa,entertainment,disc - fixed,Crave,08-2025,2025,$24.63 
+DEBIT,2025-08-28,-2239.38,7.45379E+22,Apple Bill800-676-2775 ON,,scotia_visa,business,discretionary,,08-2025,2025,"$2,239.38 "
+DEBIT,2025-08-28,-81.35,2025-08-20~2025-09-02~1638385,FAIRMONT EMPRESS,,td_visa,int/bank chg/tax,,,08-2025,2025,$81.35 
+DEBIT,2025-08-29,-145.6,2.52412E+16,Telus Comm BPY,,td_ch,utilities,,,08-2025,2025,$145.60 
+DEBIT,2025-08-29,-3.95,2.52421E+16,MONTHLY ACCOUNT FEE,,td_ch,int/bank chg/tax,,,08-2025,2025,$3.95 
+DEBIT,2025-08-29,-2,2.52421E+16,OTHER BANK FEES,,td_ch,int/bank chg/tax,,,08-2025,2025,$2.00 
+DEBIT,2025-08-30,-14.55,2.02508E+14,GOOGLE *YouTubePremium,GOOGLE *YouTubePremium,cap_one_visa,entertainment,disc - fixed,,08-2025,2025,$14.55 
+DEBIT,2025-08-30,-4.69,2025-08-20~2025-09-02~1638395,AMPUP EV CHARGING,,td_visa,travel/transport,,,08-2025,2025,$4.69 
+DEBIT,2025-08-31,-4.41,1000030272813339D,Point Of Sale Withdrawal,TST-Billy Gruff Creame CoombsBCCA,beem_ch,food & bev,,,08-2025,2025,$4.41 
+DEBIT,2025-08-31,-3008.47,2025-08-20~2025-09-02~1638425,TIGHNAMARA RESORTS,,td_visa,travel/transport,,,08-2025,2025,"$3,008.47 "
+CREDIT,2025-09-01,1000,1000030272813343C,Transfer Deposit,Transfer from 100003077328,beem_ch,transfer/pmt,,,09-2025,2025,"($1,000.00)"
+DEBIT,2025-09-01,-117.6,1000030272813342D,Bill Payment,"Koodo Mobile, Confirmation 59998568",beem_ch,utilities,,,09-2025,2025,$117.60 
+DEBIT,2025-09-01,-200,1000030272813341D,Bill Payment,"Capital One Mastercard, Confirmation 59998550",beem_ch,transfer/pmt,,,09-2025,2025,$200.00 
+DEBIT,2025-09-01,-46.23,1000030272813340D,Bill Payment,"BC Hydro, Confirmation 59998549",beem_ch,utilities,,,09-2025,2025,$46.23 
+DEBIT,2025-09-01,-14.12,2.02509E+14,"GITHUB, INC.","GITHUB, INC.",cap_one_visa,business,,,09-2025,2025,$14.12 
+DEBIT,2025-09-01,-1.81,2025-08-20~2025-09-02~1638415,TESLA,,td_visa,auto/local trans,nec - discretionary,Tesla - chg,09-2025,2025,$1.81 
+DEBIT,2025-09-01,-16.26,2025-08-20~2025-09-02~1638405,TESLA,,td_visa,entertainment,nec - discretionary,Tesla - chg,09-2025,2025,$16.26 
+DEBIT,2025-09-02,-845.38,1000030272813348D,External Withdrawal,Mortgage Home Trust Company 0003090278,beem_ch,rental inc,,,09-2025,2025,$845.38 
+DEBIT,2025-09-02,-12.6,1000030272813347D,Point Of Sale Withdrawal,SHINE AUTO WASH VANCOUVERBCCA,beem_ch,auto/local trans,discretionary,Shine carwash,09-2025,2025,$12.60 
+DEBIT,2025-09-02,-13.05,1000030272813346D,Point Of Sale Withdrawal,THE HOME DEPOT #7259 VANCOUVERBCCA,beem_ch,supplies/services,,,09-2025,2025,$13.05 
+DEBIT,2025-09-02,-89.1,1000030272813345D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,09-2025,2025,$89.10 
+DEBIT,2025-09-02,-67.3,1000030272813344D,Point Of Sale Withdrawal,STANLEY PARK BREW HOUS VANCOUVERBCCA,beem_ch,food & bev,,,09-2025,2025,$67.30 
+CREDIT,2025-09-02,200,2.02509E+14,PAYMENT,PAYMENT,cap_one_visa,transfer/pmt,,,09-2025,2025,($200.00)
+DEBIT,2025-09-02,-59.43,2.02509E+14,Amazon Web Services,Amazon Web Services,cap_one_visa,business,,,09-2025,2025,$59.43 
+DEBIT,2025-09-02,-15.67,2.02509E+14,TESLA,TESLA,cap_one_visa,entertainment,discretionary,,09-2025,2025,$15.67 
+CREDIT,2025-09-02,3000,2.52421E+16,UI452 TFR-FR 603978A,,td_ch,transfer/pmt,,,09-2025,2025,"($3,000.00)"
+DEBIT,2025-09-02,-400,2.52442E+16,RQ091 TFR-TO C/C,,td_ch,transfer/pmt,,,09-2025,2025,$400.00 
+CREDIT,2025-09-02,2000,2.52442E+16,RQ220 TFR-FR 6051374,,td_ch,transfer/pmt,,,09-2025,2025,"($2,000.00)"
+DEBIT,2025-09-02,-360.02,2.52452E+16,KAS 3604 Radius FEE,,td_ch,rental inc,,,09-2025,2025,$360.02 
+CHECK,2025-09-02,-2125,2.52461E+16,CHQ#00000-0144541196,,td_ch,rent,,,09-2025,2025,"$2,125.00 "
+CREDIT,2025-09-02,400,2025-08-20~2025-09-03~1823064,PAYMENT - THANK YOU,,td_visa,transfer/pmt,,,09-2025,2025,($400.00)
+DEBIT,2025-09-02,-5.13,2025-08-20~2025-09-03~1823044,ZIPBY,,td_visa,auto/local trans,,,09-2025,2025,$5.13 
+DEBIT,2025-09-02,-5.5,2025-08-20~2025-09-04~1817114,IMPARK00011928U,,td_visa,auto/local trans,,,09-2025,2025,$5.50 
+DEBIT,2025-09-03,-9.44,1000030272813350D,Point Of Sale Withdrawal,CHURCH'S CHICKEN VANCOUVERBCCA,beem_ch,food & bev,,,09-2025,2025,$9.44 
+DEBIT,2025-09-03,-93.45,1000030272813349D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,09-2025,2025,$93.45 
+DEBIT,2025-09-03,-46.89,2025-08-20~2025-09-03~1823054,AMZN Mktp CA*NG3391DG3,,td_visa,supplies/services,,,09-2025,2025,$46.89 
+DEBIT,2025-09-03,-5.5,2025-08-20~2025-09-04~1817124,IMPARK00011928U,,td_visa,auto/local trans,,,09-2025,2025,$5.50 
+DEBIT,2025-09-04,-43.91,1000030272813352D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,09-2025,2025,$43.91 
+CREDIT,2025-09-04,8.99,1000030272813351C,Point Of Sale Deposit,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,09-2025,2025,($8.99)
+CREDIT,2025-09-04,4000,2.52471E+16,IW491 TFR-FR 603978A,,td_ch,transfer/pmt,,,09-2025,2025,"($4,000.00)"
+DEBIT,2025-09-04,-3000,2.52471E+16,TD VISA R9J8A7,,td_ch,transfer/pmt,,,09-2025,2025,"$3,000.00 "
+CREDIT,2025-09-04,3000,2025-08-20~2025-09-05~1827350,PAYMENT - THANK YOU,,td_visa,transfer/pmt,,,09-2025,2025,"($3,000.00)"
+DEBIT,2025-09-05,-3.13,2.02509E+14,GOOGLE *Google One,GOOGLE *Google One,cap_one_visa,utilities,,,09-2025,2025,$3.13 
+DEBIT,2025-09-05,-39.75,2.40113E+22,ANTHROPIC.COMCA,,scotia_visa,business,,,09-2025,2025,$39.75 
+CREDIT,2025-09-05,1800,7.4529E+22,TD TrustTORONTO,,scotia_visa,transfer/pmt,,,09-2025,2025,"($1,800.00)"
+DEBIT,2025-09-05,-1800,2.52481E+16,SCOTIA VISA Q9K8K5,,td_ch,transfer/pmt,,,09-2025,2025,"$1,800.00 "
+DEBIT,2025-09-06,-106.21,1000030272813353D,Point Of Sale Withdrawal,ANGRY OTTER @ CAMBIE VANCOUVERBCCA,beem_ch,food & bev,,,09-2025,2025,$106.21 
+DEBIT,2025-09-08,-14.21,2.02509E+14,Spotify P3A53061B8,Spotify P3A53061B8,cap_one_visa,entertainment,,,09-2025,2025,$14.21 
+DEBIT,2025-09-08,-4.47,2.02509E+14,APPLE.COM/BILL,APPLE.COM/BILL,cap_one_visa,supplies/services,disc - fixed,iCloud storage,09-2025,2025,$4.47 
+DEBIT,2025-09-08,-103.95,2.02509E+12,MOBI BY ROGERS,MOBI BY ROGERS,cap_one_visa,auto/local trans,,,09-2025,2025,$103.95 
+DEBIT,2025-09-08,-7.99,2.02509E+12,EvoCarShare,EvoCarShare,cap_one_visa,auto/local trans,,,09-2025,2025,$7.99 
+DEBIT,2025-09-09,-27.99,1000030272813358D,Point Of Sale Withdrawal,CANADIAN TIRE #389 VANCOUVERBCCA,beem_ch,supplies/services,,,09-2025,2025,$27.99 
+DEBIT,2025-09-09,-14.97,1000030272813357D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,09-2025,2025,$14.97 
+DEBIT,2025-09-09,-11.49,1000030272813356D,Point Of Sale Withdrawal,TST-The Juice Truck- W VancouverBCCA,beem_ch,food & bev,,,09-2025,2025,$11.49 
+DEBIT,2025-09-09,-11.37,1000030272813355D,Point Of Sale Withdrawal,LONDON DRUGS 04 VANCOUVERBCCA,beem_ch,supplies/services,,,09-2025,2025,$11.37 
+DEBIT,2025-09-09,-70.5,1000030272813354D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,09-2025,2025,$70.50 
+DEBIT,2025-09-10,-29.19,1000030272813359D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,09-2025,2025,$29.19 
+DEBIT,2025-09-11,-23.49,1000030272813362D,Point Of Sale Withdrawal,THE HOME DEPOT #7259 VANCOUVERBCCA,beem_ch,supplies/services,,,09-2025,2025,$23.49 
+DEBIT,2025-09-11,-124.09,1000030272813361D,External Withdrawal,Auto Insurance Insurance Corporation of BC 033204347738,beem_ch,auto/local trans,,ICBC,09-2025,2025,$124.09 
+DEBIT,2025-09-11,-76,1000030272813360D,Point Of Sale Withdrawal,VANCOUVERFRINGE VANCOUVERBCCA,beem_ch,entertainment,,,09-2025,2025,$76.00 
+DEBIT,2025-09-12,-27.4,1000030272813366D,Point Of Sale Withdrawal,THE HOME DEPOT #7259 VANCOUVERBCCA,beem_ch,supplies/services,,,09-2025,2025,$27.40 
+CREDIT,2025-09-12,7.27,1000030272813365C,Point Of Sale Deposit,THE HOME DEPOT #7259 VANCOUVERBCCA,beem_ch,supplies/services,,,09-2025,2025,($7.27)
+DEBIT,2025-09-12,-165.09,1000030272813364D,Point Of Sale Withdrawal,LS The Vancouver Fish VancouverBCCA,beem_ch,food & bev,,,09-2025,2025,$165.09 
+DEBIT,2025-09-12,-10,1000030272813363D,Point Of Sale Withdrawal,SQ *VANCOUVER FRINGE T VancouverBCCA,beem_ch,entertainment,,,09-2025,2025,$10.00 
+DEBIT,2025-09-12,-1000,2.52552E+16,SEND E-TFR ***ytC,,td_ch,gifts/donations,,,09-2025,2025,"$1,000.00 "
+CREDIT,2025-09-12,388,2025-08-20~2025-09-15~1930235,PAYMENT - THANK YOU,,td_visa,transfer/pmt,,,09-2025,2025,($388.00)
+DEBIT,2025-09-13,-2,1000030272813372D,ATM Foreign Transaction Fee,,beem_ch,int/bank chg/tax,,,09-2025,2025,$2.00 
+DEBIT,2025-09-13,-34.2,1000030272813371D,Point Of Sale Withdrawal,HASTINGS RACECOURSE VANCOUVERBCCA,beem_ch,food & bev,,,09-2025,2025,$34.20 
+DEBIT,2025-09-13,-205.99,1000030272813370D,ATM Withdrawal,HASTINGS RACECOURSEVANCOUVERBCCA,beem_ch,recreation/educ,,,09-2025,2025,$205.99 
+DEBIT,2025-09-13,-13.16,1000030272813369D,Point Of Sale Withdrawal,SQ *ZAMEEN ART HOUSE VancouverBCCA,beem_ch,food & bev,,,09-2025,2025,$13.16 
+DEBIT,2025-09-13,-23.94,1000030272813368D,Point Of Sale Withdrawal,SQ *GOOD DOGS VancouverBCCA,beem_ch,food & bev,,,09-2025,2025,$23.94 
+DEBIT,2025-09-13,-50.79,1000030272813367D,Point Of Sale Withdrawal,TST-Granville Island B VancouverBCCA,beem_ch,food & bev,,,09-2025,2025,$50.79 
+DEBIT,2025-09-13,-14.41,2.02509E+14,EvoCarShare,EvoCarShare,cap_one_visa,auto/local trans,,,09-2025,2025,$14.41 
+DEBIT,2025-09-13,-69.23,7.40387E+22,Rebel186-662-0711 ON,,scotia_visa,business,,,09-2025,2025,$69.23 
+DEBIT,2025-09-15,-18.9,1000030272813376D,Point Of Sale Withdrawal,SHINE AUTO WASH VANCOUVERBCCA,beem_ch,auto/local trans,discretionary,Shine carwash,09-2025,2025,$18.90 
+DEBIT,2025-09-15,-115.81,1000030272813375D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,09-2025,2025,$115.81 
+DEBIT,2025-09-15,-146.14,1000030272813374D,External Withdrawal,Auto Insurance Insurance Corporation of BC 036950732640,beem_ch,auto/local trans,,ICBC,09-2025,2025,$146.14 
+CREDIT,2025-09-15,2037.91,1000030272813373C,External Deposit,Rent/Leases VANTAGE WEST-NEW TRUST AR4070,beem_ch,rental inc,,,09-2025,2025,"($2,037.91)"
+DEBIT,2025-09-15,-6.02,2.02509E+14,EvoCarShare,EvoCarShare,cap_one_visa,auto/local trans,,,09-2025,2025,$6.02 
+DEBIT,2025-09-15,-27.99,2.02509E+12,APPLE.COM/BILL,APPLE.COM/BILL,cap_one_visa,business,bus - fixed,ChatGPT,09-2025,2025,$27.99 
+DEBIT,2025-09-15,-12.31,2025-08-20~2025-09-15~1248225,Amazon Channels,,td_visa,entertainment,,,09-2025,2025,$12.31 
+CREDIT,2025-09-15,1446,2025-08-20~2025-09-16~1817163,PAYMENT - THANK YOU,,td_visa,transfer/pmt,,,09-2025,2025,"($1,446.00)"
+DEBIT,2025-09-15,-5.5,2025-08-20~2025-09-17~1758020,IMPARK00011928U,,td_visa,auto/local trans,,,09-2025,2025,$5.50 
+DEBIT,2025-09-16,-37.76,2.02509E+14,DD/DOORDASHTHEPERIPERI,DD/DOORDASHTHEPERIPERI,cap_one_visa,food & bev,nec - discretionary,Doordash,09-2025,2025,$37.76 
+DEBIT,2025-09-17,-33.09,1000030272813377D,Point Of Sale Withdrawal,THE HOME DEPOT #7259 VANCOUVERBCCA,beem_ch,supplies/services,,,09-2025,2025,$33.09 
+DEBIT,2025-09-17,-15.38,2.02509E+14,INTEREST CHARGES,INTEREST CHARGES,cap_one_visa,int/bank chg/tax,,,09-2025,2025,$15.38 
+DEBIT,2025-09-18,-150.1,1000030272813378D,Point Of Sale Withdrawal,TST-Nook Restaurant - VancouverBCCA,beem_ch,food & bev,nec - discretionary,Nook,09-2025,2025,$150.10 
+DEBIT,2025-09-18,-35.53,2.02509E+14,DD/DOORDASHMEETONMAIN,DD/DOORDASHMEETONMAIN,cap_one_visa,food & bev,nec - discretionary,Doordash,09-2025,2025,$35.53 
+DEBIT,2025-09-18,-5.59,2025-08-20~2025-09-18~1758232,PrimeVideo.c*KT89N2NH3,,td_visa,entertainment,,,09-2025,2025,$5.59 
+DEBIT,2025-09-19,-23.09,1000030272813380D,Point Of Sale Withdrawal,LIBERTY WINE MERCHANTS VANCOUVERBCCA,beem_ch,food & bev,,,09-2025,2025,$23.09 
+DEBIT,2025-09-19,-37.41,1000030272813379D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,09-2025,2025,$37.41 
+DEBIT,2025-09-19,-5.5,2025-09-20~2025-09-22~1218403,IMPARK00011928U,,td_visa,auto/local trans,,,09-2025,2025,$5.50 
+DEBIT,2025-09-20,-175.53,1000030272813381D,Point Of Sale Withdrawal,CHOICES WEST 16TH #460 VANCOUVERBCCA,beem_ch,food & bev,,,09-2025,2025,$175.53 
+DEBIT,2025-09-20,-36.65,2.02509E+14,DD/DOORDASHCACTUSCLUBC,DD/DOORDASHCACTUSCLUBC,cap_one_visa,food & bev,nec - discretionary,Doordash,09-2025,2025,$36.65 
+DEBIT,2025-09-20,-32.54,7.40387E+22,Rebel186-662-0711 ON,,scotia_visa,business,,,09-2025,2025,$32.54 
+DEBIT,2025-09-20,-1.85,2025-09-20~2025-09-22~1218423,ZIPBY,,td_visa,auto/local trans,,,09-2025,2025,$1.85 
+DEBIT,2025-09-20,-1.85,2025-09-20~2025-09-22~1218413,ZIPBY,,td_visa,auto/local trans,,,09-2025,2025,$1.85 
+DEBIT,2025-09-21,-500,1000030272813382D,Bill Payment,"Capital One Mastercard, Confirmation 60266261",beem_ch,transfer/pmt,,,09-2025,2025,$500.00 
+DEBIT,2025-09-22,-14.54,1000030272813384D,Point Of Sale Withdrawal,THE HOME DEPOT #7259 VANCOUVERBCCA,beem_ch,supplies/services,,,09-2025,2025,$14.54 
+DEBIT,2025-09-22,-44.15,1000030272813383D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,09-2025,2025,$44.15 
+CREDIT,2025-09-22,500,2.02509E+14,PAYMENT,PAYMENT,cap_one_visa,transfer/pmt,,,09-2025,2025,($500.00)
+DEBIT,2025-09-22,-73.32,2.02509E+12,DD/DOORDASHIGNITEPIZZE,DD/DOORDASHIGNITEPIZZE,cap_one_visa,food & bev,nec - discretionary,Doordash,09-2025,2025,$73.32 
+DEBIT,2025-09-22,-3.35,2025-09-20~2025-09-22~1218433,Ad free for PrimeVideo,,td_visa,entertainment,disc - fixed,,09-2025,2025,$3.35 
+DEBIT,2025-09-23,-127.52,1000030272813385D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,09-2025,2025,$127.52 
+DEBIT,2025-09-23,-5.5,2025-09-20~2025-09-25~1802319,IMPARK00011928U,,td_visa,auto/local trans,,,09-2025,2025,$5.50 
+DEBIT,2025-09-24,-23.09,1000030272813387D,Point Of Sale Withdrawal,LIBERTY WINE MERCHANTS VANCOUVERBCCA,beem_ch,food & bev,,,09-2025,2025,$23.09 
+DEBIT,2025-09-24,-68.78,1000030272813386D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,09-2025,2025,$68.78 
+DEBIT,2025-09-24,-27.51,2.02509E+14,DD/DOORDASHTHEPERIPERI,DD/DOORDASHTHEPERIPERI,cap_one_visa,food & bev,nec - discretionary,Doordash,09-2025,2025,$27.51 
+DEBIT,2025-09-24,-5.5,2025-09-20~2025-09-25~1802329,IMPARK00011928U,,td_visa,auto/local trans,,,09-2025,2025,$5.50 
+DEBIT,2025-09-25,-12.45,1000030272813388D,Point Of Sale Withdrawal,Store VancouverBCCA,beem_ch,food & bev,,,09-2025,2025,$12.45 
+DEBIT,2025-09-25,-151.91,2025-09-20~2025-09-25~1802349,VANCOUVER IS AWESOME S,seawall 10k registration,td_visa,recreation/educ,,,09-2025,2025,$151.91 
+DEBIT,2025-09-25,-75.95,2025-09-20~2025-09-25~1802339,VANCOUVER IS AWESOME S,seawall 10k registration,td_visa,recreation/educ,,,09-2025,2025,$75.95 
+DEBIT,2025-09-25,-3.4,2025-09-20~2025-09-26~1805488,STAPLES STORE #223,will print,td_visa,supplies/services,,,09-2025,2025,$3.40 
+DEBIT,2025-09-25,-5.75,2025-09-20~2025-09-26~1805478,STAPLES STORE #223,will print,td_visa,supplies/services,,,09-2025,2025,$5.75 
+DEBIT,2025-09-25,-25,2025-09-20~2025-09-26~1805458,FLO SERVICES,,td_visa,auto/local trans,nec - fixed,Flo - chg,09-2025,2025,$25.00 
+DEBIT,2025-09-25,-11.19,2025-09-20~2025-09-26~1805448,Amazon.ca Prime Member,,td_visa,entertainment,disc - fixed,,09-2025,2025,$11.19 
+DEBIT,2025-09-26,-16.8,1000030272813394D,Point Of Sale Withdrawal,SHINE AUTO WASH VANCOUVERBCCA,beem_ch,auto/local trans,discretionary,Shine carwash,09-2025,2025,$16.80 
+DEBIT,2025-09-26,-11.19,1000030272813393D,Point Of Sale Withdrawal,SQ *BLUE PARROT COFFEE VANCOUVERBCCA,beem_ch,food & bev,,,09-2025,2025,$11.19 
+DEBIT,2025-09-26,-39.53,1000030272813392D,Point Of Sale Withdrawal,SQ *BENTON BROTHERS FI VanouverBCCA,beem_ch,food & bev,,,09-2025,2025,$39.53 
+DEBIT,2025-09-26,-31.5,1000030272813391D,Point Of Sale Withdrawal,LONGLINER SEAFOODS LTD VANCOUVERBCCA,beem_ch,food & bev,,,09-2025,2025,$31.50 
+DEBIT,2025-09-26,-60.25,1000030272813390D,Point Of Sale Withdrawal,MAIN STREET BREWING CO VANCOUVERBCCA,beem_ch,food & bev,,,09-2025,2025,$60.25 
+DEBIT,2025-09-26,-2.5,1000030272813389D,Point Of Sale Withdrawal,AIR-SERV A PS609419 VANCOUVERBCCA,beem_ch,food & bev,,,09-2025,2025,$2.50 
+DEBIT,2025-09-26,-30.61,7.40834E+22,HOSTPAPABURLINGTON ON,,scotia_visa,business,,,09-2025,2025,$30.61 
+DEBIT,2025-09-26,-54.88,2025-09-20~2025-09-26~1805468,WILLFUL,will sign,td_visa,supplies/services,,,09-2025,2025,$54.88 
+DEBIT,2025-09-26,-2120.08,2025-09-20~2025-09-29~1242106,EXPEDIA 73254304747235,,td_visa,travel/transport,,,09-2025,2025,"$2,120.08 "
+DEBIT,2025-09-27,-131.5,1000030272813395D,Point Of Sale Withdrawal,KELOWNA BEER INSTITUTE KELOWNABCCA,beem_ch,food & bev,,,09-2025,2025,$131.50 
+DEBIT,2025-09-27,-3.35,2.02509E+14,IMPARK00010670H,IMPARK00010670H,cap_one_visa,auto/local trans,,,09-2025,2025,$3.35 
+DEBIT,2025-09-27,-39.26,2.02509E+14,DD/DOORDASHJUKEFRIEDCH,DD/DOORDASHJUKEFRIEDCH,cap_one_visa,food & bev,nec - discretionary,Doordash,09-2025,2025,$39.26 
+DEBIT,2025-09-27,-9.67,2025-09-20~2025-09-29~1242126,TESLA,,td_visa,travel/transport,nec - discretionary,Tesla - chg,09-2025,2025,$9.67 
+DEBIT,2025-09-27,-8.6,2025-09-20~2025-09-29~1242116,TESLA,,td_visa,travel/transport,nec - discretionary,Tesla - chg,09-2025,2025,$8.60 
+DEBIT,2025-09-28,-14.65,1000030272813396D,Point Of Sale Withdrawal,Jo-West Enterprises LT West KelowBCCA,beem_ch,food & bev,,,09-2025,2025,$14.65 
+DEBIT,2025-09-28,-8.79,2025-09-20~2025-09-29~1242136,TESLA,,td_visa,travel/transport,nec - discretionary,Tesla - chg,09-2025,2025,$8.79 
+DEBIT,2025-09-29,-110.88,1000030272813399D,Point Of Sale Withdrawal,ANH AND CHI RESTAURANT VANCOUVERBCCA,beem_ch,food & bev,,,09-2025,2025,$110.88 
+DEBIT,2025-09-29,-55.67,1000030272813398D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,09-2025,2025,$55.67 
+DEBIT,2025-09-29,-11.49,1000030272813397D,Point Of Sale Withdrawal,TST-The Juice Truck- W VancouverBCCA,beem_ch,food & bev,,,09-2025,2025,$11.49 
+DEBIT,2025-09-29,-10.49,2.02509E+12,DOORDASHDASHPASS,DOORDASHDASHPASS,cap_one_visa,food & bev,nec - discretionary,Doordash,09-2025,2025,$10.49 
+DEBIT,2025-09-29,-24.63,2.02509E+12,APPLE.COM/BILL,APPLE.COM/BILL,cap_one_visa,entertainment,disc - fixed,Crave,09-2025,2025,$24.63 
+DEBIT,2025-09-29,-145.6,2.52722E+16,Telus Comm BPY,,td_ch,utilities,,,09-2025,2025,$145.60 
+DEBIT,2025-09-29,-3.95,2.52731E+16,MONTHLY ACCOUNT FEE,,td_ch,int/bank chg/tax,,,09-2025,2025,$3.95 
+DEBIT,2025-09-29,-12.36,2025-09-20~2025-09-29~1242156,TESLA,,td_visa,travel/transport,nec - discretionary,Tesla - chg,09-2025,2025,$12.36 
+DEBIT,2025-09-29,-9.69,2025-09-20~2025-09-29~1242146,TESLA,,td_visa,travel/transport,nec - discretionary,Tesla - chg,09-2025,2025,$9.69 
+DEBIT,2025-09-29,-1.15,2025-09-20~2025-10-01~1851047,CITY OF VAN PAYBYPHONE,,td_visa,auto/local trans,,,09-2025,2025,$1.15 
+DEBIT,2025-09-29,-2.15,2025-09-20~2025-10-01~1851037,CITY OF VAN PAYBYPHONE,,td_visa,auto/local trans,,,09-2025,2025,$2.15 
+DEBIT,2025-09-29,-5.5,2025-09-20~2025-10-01~1851027,IMPARK00011928U,,td_visa,auto/local trans,,,09-2025,2025,$5.50 
+DEBIT,2025-09-30,-14.55,2.02509E+14,GOOGLE *YouTubePremium,GOOGLE *YouTubePremium,cap_one_visa,entertainment,disc - fixed,,09-2025,2025,$14.55 
+DEBIT,2025-09-30,-73.32,2.02509E+14,DD/DOORDASHIGNITEPIZZE,DD/DOORDASHIGNITEPIZZE,cap_one_visa,food & bev,nec - discretionary,Doordash,09-2025,2025,$73.32 
+DEBIT,2025-09-30,-2.45,2025-09-20~2025-10-01~1851017,IMPARK CANVERRUSPBP,,td_visa,auto/local trans,,,09-2025,2025,$2.45 
+CREDIT,2025-10-01,540.2,1000030272813404C,Overdraft Protection Deposit,,beem_ch,transfer/pmt,,,10-2025,2025,($540.20)
+DEBIT,2025-10-01,-974.19,1000030272813402D,External Withdrawal,Mortgage Home Trust Company 0003142337,beem_ch,rental inc,,,10-2025,2025,$974.19 
+DEBIT,2025-10-01,-17.99,1000030272813401D,Point Of Sale Withdrawal,LONDON DRUGS 04 VANCOUVERBCCA,beem_ch,supplies/services,,,10-2025,2025,$17.99 
+DEBIT,2025-10-01,-20.8,1000030272813400D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,10-2025,2025,$20.80 
+DEBIT,2025-10-01,-14.29,2.0251E+14,"GITHUB, INC.","GITHUB, INC.",cap_one_visa,business,,,10-2025,2025,$14.29 
+CREDIT,2025-10-01,189.72,2.52731E+16,WPS-0930S87934,,td_ch,transfer/pmt,,,10-2025,2025,($189.72)
+DEBIT,2025-10-01,-360.02,2.52742E+16,KAS 3604 Radius FEE,,td_ch,rental inc,,,10-2025,2025,$360.02 
+CHECK,2025-10-01,-2125,2.52751E+16,CHQ#00048-0147396518,,td_ch,rent,,,10-2025,2025,"$2,125.00 "
+DEBIT,2025-10-01,-5.5,2025-09-20~2025-10-03~1755542,IMPARK00011928U,,td_visa,auto/local trans,,,10-2025,2025,$5.50 
+CREDIT,2025-10-02,27.12,1000030272813416C,Overdraft Protection Deposit,,beem_ch,transfer/pmt,,,10-2025,2025,($27.12)
+DEBIT,2025-10-02,-27.12,1000030272813414D,Point Of Sale Withdrawal,TRATTORIA MERCATTO TORONTOONCA,beem_ch,auto/local trans,,,10-2025,2025,$27.12 
+CREDIT,2025-10-02,24.7,1000030272813412C,Overdraft Protection Deposit,,beem_ch,transfer/pmt,,,10-2025,2025,($24.70)
+DEBIT,2025-10-02,-24.7,1000030272813410D,Point Of Sale Withdrawal,UPE EXPRESS PEARSON TV MISSISSAUGONCA,beem_ch,auto/local trans,,,10-2025,2025,$24.70 
+CREDIT,2025-10-02,29.07,1000030272813408C,Overdraft Protection Deposit,,beem_ch,transfer/pmt,,,10-2025,2025,($29.07)
+DEBIT,2025-10-02,-29.07,1000030272813406D,Point Of Sale Withdrawal,STARBUCKS PIER C RICHMONDBCCA,beem_ch,food & bev,,,10-2025,2025,$29.07 
+DEBIT,2025-10-02,-58.91,2.0251E+14,DD/DOORDASHCACTUSCLUBC,DD/DOORDASHCACTUSCLUBC,cap_one_visa,food & bev,nec - discretionary,Doordash,10-2025,2025,$58.91 
+DEBIT,2025-10-02,-15.67,2.0251E+14,TESLA,TESLA,cap_one_visa,entertainment,discretionary,,10-2025,2025,$15.67 
+DEBIT,2025-10-02,-34.06,7.45379E+22,Amazon Web Serviceswww.amazon.c,,scotia_visa,business,,,10-2025,2025,$34.06 
+CREDIT,2025-10-02,2094.2,2.52752E+16,EMS FR: 9469-6051374,,td_ch,transfer/pmt,,,10-2025,2025,"($2,094.20)"
+DEBIT,2025-10-02,-5,2.52752E+16,NSF PAID FEE,,td_ch,int/bank chg/tax,,,10-2025,2025,$5.00 
+DEBIT,2025-10-02,-1289.8,2025-09-20~2025-10-02~1813518,EXPEDIA 73259977375425,,td_visa,travel/transport,,,10-2025,2025,"$1,289.80 "
+DEBIT,2025-10-02,-4.51,2025-09-20~2025-10-03~1755562,UBER CANADA/UBERTRIP,,td_visa,auto/local trans,,,10-2025,2025,$4.51 
+DEBIT,2025-10-02,-22.56,2025-09-20~2025-10-03~1755552,UBER CANADA/UBERTRIP,,td_visa,auto/local trans,,,10-2025,2025,$22.56 
+CREDIT,2025-10-03,183.06,1000030272813440C,Overdraft Protection Deposit,,beem_ch,transfer/pmt,,,10-2025,2025,($183.06)
+DEBIT,2025-10-03,-183.06,1000030272813438D,Point Of Sale Withdrawal,DOPAMINA RESTAURANT TORONTOONCA,beem_ch,food & bev,,,10-2025,2025,$183.06 
+CREDIT,2025-10-03,35.26,1000030272813436C,Overdraft Protection Deposit,,beem_ch,transfer/pmt,,,10-2025,2025,($35.26)
+DEBIT,2025-10-03,-35.26,1000030272813434D,Point Of Sale Withdrawal,THE QUEEN & BEAVER PUB TORONTOONCA,beem_ch,food & bev,,,10-2025,2025,$35.26 
+CREDIT,2025-10-03,40,1000030272813432C,Overdraft Protection Deposit,,beem_ch,transfer/pmt,,,10-2025,2025,($40.00)
+DEBIT,2025-10-03,-40,1000030272813430D,Point Of Sale Withdrawal,Art Gallery of Ontario TorontoONCA,beem_ch,recreation/educ,,,10-2025,2025,$40.00 
+CREDIT,2025-10-03,43.37,1000030272813428C,Overdraft Protection Deposit,,beem_ch,transfer/pmt,,,10-2025,2025,($43.37)
+DEBIT,2025-10-03,-43.37,1000030272813426D,Point Of Sale Withdrawal,DUKE OF YORK TORONTOONCA,beem_ch,food & bev,,,10-2025,2025,$43.37 
+CREDIT,2025-10-03,38.5,1000030272813424C,Overdraft Protection Deposit,,beem_ch,transfer/pmt,,,10-2025,2025,($38.50)
+DEBIT,2025-10-03,-38.5,1000030272813422D,Point Of Sale Withdrawal,ROYAL ONTARIO MUSEUM TORONTOONCA,beem_ch,auto/local trans,,,10-2025,2025,$38.50 
+CREDIT,2025-10-03,12.5,1000030272813420C,Overdraft Protection Deposit,,beem_ch,transfer/pmt,,,10-2025,2025,($12.50)
+DEBIT,2025-10-03,-12.5,1000030272813418D,Point Of Sale Withdrawal,SQ *GOLDSTRUCK COFFEE TorontoONCA,beem_ch,recreation/educ,,,10-2025,2025,$12.50 
+DEBIT,2025-10-03,-32.31,2.0251E+14,DD/DOORDASHCACTUSCLUBC,DD/DOORDASHCACTUSCLUBC,cap_one_visa,food & bev,nec - discretionary,Doordash,10-2025,2025,$32.31 
+DEBIT,2025-10-03,-3.3,2025-09-20~2025-10-06~1205396,PRESTO FARE/Q6DZBZC6SV,,td_visa,travel/transport,,,10-2025,2025,$3.30 
+CREDIT,2025-10-04,16.54,1000030272813460C,Overdraft Protection Deposit,,beem_ch,transfer/pmt,,,10-2025,2025,($16.54)
+DEBIT,2025-10-04,-16.54,1000030272813458D,Point Of Sale Withdrawal,THE QUEEN & BEAVER PUB TORONTOONCA,beem_ch,food & bev,,,10-2025,2025,$16.54 
+CREDIT,2025-10-04,32.54,1000030272813456C,Overdraft Protection Deposit,,beem_ch,transfer/pmt,,,10-2025,2025,($32.54)
+DEBIT,2025-10-04,-32.54,1000030272813454D,Point Of Sale Withdrawal,FAIRMONT ROYAL YORK HO TORONTOONCA,beem_ch,food & bev,,,10-2025,2025,$32.54 
+CREDIT,2025-10-04,25.45,1000030272813452C,Overdraft Protection Deposit,,beem_ch,transfer/pmt,,,10-2025,2025,($25.45)
+DEBIT,2025-10-04,-25.45,1000030272813450D,Point Of Sale Withdrawal,STACK'D TORONTOONCA,beem_ch,food & bev,,,10-2025,2025,$25.45 
+CREDIT,2025-10-04,11.85,1000030272813448C,Overdraft Protection Deposit,,beem_ch,transfer/pmt,,,10-2025,2025,($11.85)
+DEBIT,2025-10-04,-11.85,1000030272813446D,Point Of Sale Withdrawal,GOOD EARTH COFFEEHOUSE TORONTOONCA,beem_ch,food & bev,,,10-2025,2025,$11.85 
+CREDIT,2025-10-04,9.75,1000030272813444C,Overdraft Protection Deposit,,beem_ch,transfer/pmt,,,10-2025,2025,($9.75)
+DEBIT,2025-10-04,-9.75,1000030272813442D,Point Of Sale Withdrawal,BLACK WOLF COFFEE TORONTOONCA,beem_ch,food & bev,,,10-2025,2025,$9.75 
+DEBIT,2025-10-04,-640.03,2025-09-20~2025-10-06~1205406,DAPHNE,,td_visa,food & bev,,,10-2025,2025,$640.03 
+DEBIT,2025-10-04,-6,2025-09-20~2025-10-06~1205386,VIATORTRIPADVISOR UK,,td_visa,recreation/educ,,,10-2025,2025,$6.00 
+CREDIT,2025-10-05,16.15,1000030272813468C,Overdraft Protection Deposit,,beem_ch,transfer/pmt,,,10-2025,2025,($16.15)
+DEBIT,2025-10-05,-16.15,1000030272813466D,Point Of Sale Withdrawal,IMPACT KITCHEN SHERWOO TORONTOONCA,beem_ch,food & bev,,,10-2025,2025,$16.15 
+CREDIT,2025-10-05,23.93,1000030272813464C,Overdraft Protection Deposit,,beem_ch,transfer/pmt,,,10-2025,2025,($23.93)
+DEBIT,2025-10-05,-23.93,1000030272813462D,Point Of Sale Withdrawal,IMPACT KITCHEN TORONTOONCA,beem_ch,food & bev,,,10-2025,2025,$23.93 
+DEBIT,2025-10-06,-3.13,2.0251E+12,GOOGLE *Google One,GOOGLE *Google One,cap_one_visa,utilities,,,10-2025,2025,$3.13 
+CREDIT,2025-10-06,2500,2.5279E+16,LB103 TFR-FR 6051374,,td_ch,transfer/pmt,,,10-2025,2025,"($2,500.00)"
+CREDIT,2025-10-07,100.1,1000030272813472C,Overdraft Protection Deposit,,beem_ch,transfer/pmt,,,10-2025,2025,($100.10)
+DEBIT,2025-10-07,-100.1,1000030272813470D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,nec - fixed,Whole Foods,10-2025,2025,$100.10 
+DEBIT,2025-10-07,-5.5,2025-09-20~2025-10-09~1809395,IMPARK00011928U,,td_visa,auto/local trans,,,10-2025,2025,$5.50 
+CREDIT,2025-10-08,3000,1000030272813474C,Transfer Deposit,Transfer from 100003077328,beem_ch,transfer/pmt,,,10-2025,2025,-3000
+DEBIT,2025-10-08,-60.69,2.0251E+14,DD/DOORDASHMEETONMAIN,DD/DOORDASHMEETONMAIN,cap_one_visa,food & bev,,,10-2025,2025,60.69
+DEBIT,2025-10-08,-14.21,2.0251E+14,Spotify P3B4988643,Spotify P3B4988643,cap_one_visa,entertainment,,,10-2025,2025,14.21
+DEBIT,2025-10-08,-4.47,2.0251E+14,APPLE.COM/BILL,APPLE.COM/BILL,cap_one_visa,business,,,10-2025,2025,4.47
+CREDIT,2025-10-08,300,7.4529E+22,TD TrustTORONTO,,scotia_visa,transfer/pmt,,,10-2025,2025,-300
+CREDIT,2025-10-08,700,2.52812E+16,HO405 TFR-FR 6051374,,td_ch,transfer/pmt,,,10-2025,2025,-700
+DEBIT,2025-10-08,-300,2.52812E+16,SCOTIA VISA Q4X2H3,,td_ch,transfer/pmt,,,10-2025,2025,300
+DEBIT,2025-10-08,-250,2.52812E+16,CAPTL ONE MC Q4X2K5,,td_ch,transfer/pmt,,,10-2025,2025,250
+CREDIT,2025-10-09,250,2.0251E+14,PAYMENT,PAYMENT,cap_one_visa,transfer/pmt,,,10-2025,2025,-250
+DEBIT,2025-10-09,-27.99,2.0251E+14,APPLE.COM/BILL,APPLE.COM/BILL,cap_one_visa,entertainment,,,10-2025,2025,27.99
+DEBIT,2025-10-10,-11.97,2025-09-20~2025-10-14~1610141,AMZN Mktp CA*NF7E91HC1,,td_visa,supplies/services,,,10-2025,2025,11.97
+DEBIT,2025-10-11,-123.94,1000030272813475D,Point Of Sale Withdrawal,CHOICES CAMBIE # 906 VANCOUVERBCCA,beem_ch,food & bev,,,10-2025,2025,123.94
+DEBIT,2025-10-11,-93.55,2025-09-20~2025-10-14~1610151,AMZN Mktp CA*NM33T0FH0,,td_visa,supplies/services,,,10-2025,2025,93.55
+DEBIT,2025-10-13,-60.45,1000030272813477D,Point Of Sale Withdrawal,MARK'S STORE #251 VANCOUVERBCCA,beem_ch,supplies/services,,,10-2025,2025,60.45
+DEBIT,2025-10-13,-33.58,1000030272813476D,Point Of Sale Withdrawal,MARK'S STORE #251 VANCOUVERBCCA,beem_ch,supplies/services,,,10-2025,2025,33.58
+DEBIT,2025-10-13,-31.18,2.0251E+14,HELLOFRESH,HELLOFRESH,cap_one_visa,food & bev,,,10-2025,2025,31.18
+DEBIT,2025-10-13,-41.31,2.0251E+14,DD/DOORDASHIGNITEPIZZE,DD/DOORDASHIGNITEPIZZE,cap_one_visa,food & bev,,,10-2025,2025,41.31
+DEBIT,2025-10-14,-11.37,1000030272813484D,Point Of Sale Withdrawal,LONDON DRUGS 04 VANCOUVERBCCA,beem_ch,supplies/services,,,10-2025,2025,11.37
+DEBIT,2025-10-14,-8.36,1000030272813483D,Point Of Sale Withdrawal,THE HOME DEPOT #7259 VANCOUVERBCCA,beem_ch,supplies/services,,,10-2025,2025,8.36
+DEBIT,2025-10-14,-81.24,1000030272813482D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,,,10-2025,2025,81.24
+DEBIT,2025-10-14,-11.53,1000030272813481D,Point Of Sale Withdrawal,TST-The Juice Truck- W VancouverBCCA,beem_ch,food & bev,,,10-2025,2025,11.53
+DEBIT,2025-10-14,-146.14,1000030272813480D,External Withdrawal,Auto Insurance Insurance Corporation of BC 030321177777,beem_ch,auto/local trans,,,10-2025,2025,146.14
+DEBIT,2025-10-14,-124.09,1000030272813479D,External Withdrawal,Auto Insurance Insurance Corporation of BC 030321177776,beem_ch,auto/local trans,,,10-2025,2025,124.09
+DEBIT,2025-10-14,-58.15,1000030272813478D,Point Of Sale Withdrawal,BURRARD LIQUOR STORE VANCOUVERBCCA,beem_ch,food & bev,,,10-2025,2025,58.15
+DEBIT,2025-10-14,-8.49,2.0251E+14,EvoCarShare,EvoCarShare,cap_one_visa,auto/local trans,,,10-2025,2025,8.49
+DEBIT,2025-10-14,-10.49,7.40834E+22,WealthicaMONTREAL QC,,scotia_visa,business,,,10-2025,2025,10.49
+DEBIT,2025-10-14,-20,2025-09-20~2025-10-16~1759408,CHARGEPOINT CANADA,,td_visa,auto/local trans,,,10-2025,2025,20
+DEBIT,2025-10-14,-5.5,2025-09-20~2025-10-16~1759398,IMPARK00011928U,,td_visa,auto/local trans,,,10-2025,2025,5.5
+CREDIT,2025-10-15,1199.01,1000030272813485C,External Deposit,Rent/Leases VANTAGE WEST-NEW TRUST AR4070,beem_ch,rental inc,,,10-2025,2025,-1199.01
+DEBIT,2025-10-15,-12.31,2025-09-20~2025-10-15~1805260,Amazon Channels,,td_visa,entertainment,,,10-2025,2025,12.31
+DEBIT,2025-10-15,-257.7,2025-09-20~2025-10-17~1808422,AIRBNB * HMBFKEZBMJ,,td_visa,travel/transport,,,10-2025,2025,257.7
+DEBIT,2025-10-16,-22.75,undefined,INTEREST CHARGES,,scotia_visa,int/bank chg/tax,,,10-2025,2025,22.75
+DEBIT,2025-10-16,-117.6,2.52892E+16,Koodo Mobile BPY,,td_ch,utilities,,,10-2025,2025,117.6
+DEBIT,2025-10-16,-15.67,2025-09-20~2025-10-17~1808412,Amazon.ca*NM2ZG6372,,td_visa,supplies/services,,,10-2025,2025,15.67
+DEBIT,2025-10-17,-44.16,1000030272813486D,Point Of Sale Withdrawal,MUM'S THE WORD - COMME VANCOUVERBCCA,beem_ch,food & bev,,,10-2025,2025,44.16
+DEBIT,2025-10-17,-17.51,2.0251E+14,INTEREST CHARGES,INTEREST CHARGES,cap_one_visa,int/bank chg/tax,,,10-2025,2025,17.51
+DEBIT,2025-10-17,-7.83,2.0251E+14,APPLE.COM/BILL,APPLE.COM/BILL,cap_one_visa,business,,,10-2025,2025,7.83
+DEBIT,2025-10-18,-36.89,1000030272813487D,Point Of Sale Withdrawal,JAK'S KITSILANO VANCOUVERBCCA,beem_ch,food & bev,,,10-2025,2025,36.89
+DEBIT,2025-10-18,-5.59,2025-09-20~2025-10-20~1207085,PrimeVideo.c*NU46A1TU0,,td_visa,entertainment,,,10-2025,2025,5.59
+DEBIT,2025-10-19,-137.28,1000030272813488D,Point Of Sale Withdrawal,AU COMPTOIR VANCOUVERBCCA,beem_ch,food & bev,,,10-2025,2025,137.28
+DEBIT,2025-10-20,-130.06,1000030272813489D,Point Of Sale Withdrawal,TST-Nook Restaurant - VancouverBCCA,beem_ch,food & bev,,,10-2025,2025,130.06
+DEBIT,2025-10-20,-15.98,2.0251E+14,HELLOFRESH,HELLOFRESH,cap_one_visa,food & bev,,,10-2025,2025,15.98
+DEBIT,2025-10-20,-81.14,2.0251E+14,HELLOFRESH,HELLOFRESH,cap_one_visa,food & bev,,,10-2025,2025,81.14
+DEBIT,2025-10-20,-162.4,2.0251E+14,MICROSOFT*MICROSOFT 36,MICROSOFT*MICROSOFT 36,cap_one_visa,business,,,10-2025,2025,162.4
+DEBIT,2025-10-20,-6.09,2.0251E+12,EV CHARGING,EV CHARGING,cap_one_visa,auto/local trans,,,10-2025,2025,6.09
+DEBIT,2025-10-20,-22.06,2025-09-20~2025-10-20~1951335,INTEREST CHARGE -PURCHASE,,td_visa,int/bank chg/tax,,,10-2025,2025,22.06
+DEBIT,2025-10-20,-8.77,2025-09-20~2025-10-20~1207095,ZIPBY,,td_visa,auto/local trans,,,10-2025,2025,8.77
+DEBIT,2025-10-21,-34.33,1000030272813492D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,,,10-2025,2025,34.33
+DEBIT,2025-10-21,-31.14,1000030272813491D,Point Of Sale Withdrawal,LIBERTY WINE MERCHANTS VANCOUVERBCCA,beem_ch,food & bev,,,10-2025,2025,31.14
+DEBIT,2025-10-21,-85.26,1000030272813490D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,,,10-2025,2025,85.26
+CREDIT,2025-10-21,4900,2025-10-21~2025-10-22~1754151,PAYMENT - THANK YOU,,td_visa,transfer/pmt,,,10-2025,2025,-4900
+CREDIT,2025-10-21,5.5,2025-10-21~2025-10-22~1754131,WHOLE FOODS MARKET,,td_visa,food & bev,,,10-2025,2025,-5.5
+DEBIT,2025-10-21,-5.5,2025-10-21~2025-10-22~1754121,IMPARK00011928U,,td_visa,auto/local trans,,,10-2025,2025,5.5
+DEBIT,2025-10-21,-5.5,2025-10-21~2025-10-23~1755530,IMPARK00011928U,,td_visa,auto/local trans,,,10-2025,2025,5.5
+DEBIT,2025-10-22,-19.03,1000030272813493D,Point Of Sale Withdrawal,CANADIAN TIRE #389 VANCOUVERBCCA,beem_ch,supplies/services,,,10-2025,2025,19.03
+DEBIT,2025-10-22,-3.35,2025-10-21~2025-10-22~1754141,Ad free for PrimeVideo,,td_visa,entertainment,,,10-2025,2025,3.35
+CREDIT,2025-10-23,2000,2.52962E+16,IW313 TFR-FR 6051374,,td_ch,transfer/pmt,,,10-2025,2025,-2000
+DEBIT,2025-10-24,-179.18,2.0251E+14,APPLE.COM/BILL,APPLE.COM/BILL,cap_one_visa,recreation/educ,,,10-2025,2025,179.18
+DEBIT,2025-10-25,-40.29,2.40113E+22,ANTHROPIC.COMCA,,scotia_visa,business,,,10-2025,2025,40.29
+DEBIT,2025-10-25,-11.19,2025-10-21~2025-10-27~1212475,Amazon.ca Prime Member,,td_visa,entertainment,,,10-2025,2025,11.19
+DEBIT,2025-10-26,-10.92,1000030272813496D,Point Of Sale Withdrawal,SQ *JJ BEAN COFFEE ROA VancouverBCCA,beem_ch,food & bev,,,10-2025,2025,10.92
+DEBIT,2025-10-26,-34.01,1000030272813495D,Point Of Sale Withdrawal,ANGRY OTTER @ CAMBIE VANCOUVERBCCA,beem_ch,food & bev,,,10-2025,2025,34.01
+DEBIT,2025-10-26,-115.8,1000030272813494D,Point Of Sale Withdrawal,CHOICES CAMBIE # 906 VANCOUVERBCCA,beem_ch,food & bev,,,10-2025,2025,115.8
+DEBIT,2025-10-27,-81.14,2.0251E+14,HELLOFRESH,HELLOFRESH,cap_one_visa,food & bev,,,10-2025,2025,81.14
+DEBIT,2025-10-27,-73.32,2.0251E+12,DD/DOORDASHIGNITEPIZZE,DD/DOORDASHIGNITEPIZZE,cap_one_visa,food & bev,,,10-2025,2025,73.32
+DEBIT,2025-10-27,-30.61,7.40834E+22,HOSTPAPABURLINGTON ON,,scotia_visa,business,,,10-2025,2025,30.61
+DEBIT,2025-10-27,-206.98,2025-10-21~2025-10-27~1212485,EDDIE BAUER-ECOMM,,td_visa,supplies/services,,,10-2025,2025,206.98
+DEBIT,2025-10-28,-51.15,1000030272813499D,Point Of Sale Withdrawal,LONDON DRUGS 04 VANCOUVERBCCA,beem_ch,supplies/services,,,10-2025,2025,51.15
+DEBIT,2025-10-28,-41.73,1000030272813498D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,,,10-2025,2025,41.73
+DEBIT,2025-10-28,-16.16,1000030272813497D,Point Of Sale Withdrawal,CHOICES CAMBIE # 906 VANCOUVERBCCA,beem_ch,food & bev,,,10-2025,2025,16.16
+DEBIT,2025-10-28,-10.49,2.0251E+14,DOORDASHDASHPASS,DOORDASHDASHPASS,cap_one_visa,food & bev,,,10-2025,2025,10.49
+DEBIT,2025-10-28,-5.5,2025-10-21~2025-10-30~1801189,IMPARK00011928U,,td_visa,auto/local trans,,,10-2025,2025,5.5
+DEBIT,2025-10-29,-11.07,1000030272813500D,Point Of Sale Withdrawal,Store VancouverBCCA,beem_ch,food & bev,,,10-2025,2025,11.07
+CREDIT,2025-10-29,528.48,7.4529E+22,TD TrustTORONTO,,scotia_visa,transfer/pmt,,,10-2025,2025,-528.48
+DEBIT,2025-10-29,-314,2.53022E+16,HT001 TFR-TO C/C,,td_ch,transfer/pmt,,,10-2025,2025,314
+DEBIT,2025-10-29,-50.67,2.53022E+16,BC HYDRO Z5X6A9,,td_ch,utilities,,,10-2025,2025,50.67
+DEBIT,2025-10-29,-750,2.53022E+16,CAPTL ONE MC Z5X6H2,,td_ch,transfer/pmt,,,10-2025,2025,750
+DEBIT,2025-10-29,-528.48,2.53022E+16,SCOTIA VISA Z5X6H3,,td_ch,transfer/pmt,,,10-2025,2025,528.48
+DEBIT,2025-10-29,-145.6,2.53022E+16,Telus Comm BPY,,td_ch,utilities,,,10-2025,2025,145.6
+CREDIT,2025-10-29,314,2025-10-21~2025-10-30~1801199,PAYMENT - THANK YOU,,td_visa,transfer/pmt,,,10-2025,2025,-314
+DEBIT,2025-10-30,-10.57,1000030272813501D,Point Of Sale Withdrawal,THE FEDERAL STORE VANCOUVERBCCA,beem_ch,food & bev,,,10-2025,2025,10.57
+CREDIT,2025-10-30,750,2.0251E+14,PAYMENT,PAYMENT,cap_one_visa,transfer/pmt,,,10-2025,2025,-750
+DEBIT,2025-10-30,-14.55,2.0251E+14,GOOGLE *YouTubePremium,GOOGLE *YouTubePremium,cap_one_visa,entertainment,,,10-2025,2025,14.55
+DEBIT,2025-10-31,-29.99,1000030272813504D,Point Of Sale Withdrawal,GRANVILLE STREET LIQUO VANCOUVERBCCA,beem_ch,food & bev,,,10-2025,2025,29.99
+DEBIT,2025-10-31,-36.03,1000030272813503D,Point Of Sale Withdrawal,SHOPPERS DRUG MART 202 VANCOUVERBCCA,beem_ch,food & bev,,,10-2025,2025,36.03
+DEBIT,2025-10-31,-54.86,1000030272813502D,Point Of Sale Withdrawal,SQ *SUPERFLUX BEER COM VancouverBCCA,beem_ch,food & bev,,,10-2025,2025,54.86
+DEBIT,2025-10-31,-6.52,2.0251E+14,EvoCarShare,EvoCarShare,cap_one_visa,auto/local trans,,,10-2025,2025,6.52
+DEBIT,2025-10-31,-1.23,2.53051E+16,OVERDRAFT INTEREST,,td_ch,int/bank chg/tax,,,10-2025,2025,1.23
+DEBIT,2025-10-31,-3.95,2.53051E+16,MONTHLY ACCOUNT FEE,,td_ch,int/bank chg/tax,,,10-2025,2025,3.95
+DEBIT,2025-11-01,-31.26,1000030272813506D,Point Of Sale Withdrawal,TREES ORGANIC COFFEE VANCOUVERBCCA,beem_ch,food & bev,,,11-2025,2025,31.26
+DEBIT,2025-11-01,-134.4,1000030272813505D,Point Of Sale Withdrawal,BANANA REPUBLIC CA 673 VANCOUVERBCCA,beem_ch,supplies/services,,,11-2025,2025,134.4
+DEBIT,2025-11-01,-14.37,2.02511E+14,"GITHUB, INC.","GITHUB, INC.",cap_one_visa,business,,,11-2025,2025,14.37
+DEBIT,2025-11-01,-32.3,7.45379E+22,Amazon Web Serviceswww.amazon.c,,scotia_visa,business,,,11-2025,2025,32.3
+DEBIT,2025-11-02,-17.61,1000030272813507D,Point Of Sale Withdrawal,BC LIQUOR #177 VANCOUVERBCCA,beem_ch,food & bev,,,11-2025,2025,17.61
+DEBIT,2025-11-03,-974.19,1000030272813510D,External Withdrawal,Mortgage Home Trust Company 0003196939,beem_ch,rental inc,,,11-2025,2025,974.19
+DEBIT,2025-11-03,-40.32,1000030272813509D,Point Of Sale Withdrawal,CHOPPED BARBERSHOP VANCOUVERBCCA,beem_ch,food & bev,,,11-2025,2025,40.32
+DEBIT,2025-11-03,-105.24,1000030272813508D,Point Of Sale Withdrawal,TST-Las Margaritas VancouverBCCA,beem_ch,food & bev,,,11-2025,2025,105.24
+DEBIT,2025-11-03,-8.98,2.02511E+14,EvoCarShare,EvoCarShare,cap_one_visa,auto/local trans,,,11-2025,2025,8.98
+DEBIT,2025-11-03,-15.67,2.02511E+12,TESLA,TESLA,cap_one_visa,entertainment,,,11-2025,2025,15.67
+DEBIT,2025-11-03,-360.02,2.53072E+16,KAS 3604 Radius FEE,,td_ch,rental inc,,,11-2025,2025,360.02
+CHECK,2025-11-03,-2125,2.53081E+16,CHQ#00049-3144890675,,td_ch,rent,,,11-2025,2025,2125
+DEBIT,2025-11-03,-1030.77,2025-10-21~2025-11-04~1804502,AIRBNB * HMBFKEZBMJ,,td_visa,travel/transport,,,11-2025,2025,1030.77
+DEBIT,2025-11-03,-1.15,2025-10-21~2025-11-05~1759572,CITY OF VAN PAYBYPHONE,,td_visa,auto/local trans,,,11-2025,2025,1.15
+DEBIT,2025-11-03,-246.4,2025-10-21~2025-11-05~1759552,#327 SPORT CHEK,,td_visa,supplies/services,,,11-2025,2025,246.4
+CREDIT,2025-11-04,3000,2.53082E+16,WO223 TFR-FR 6051374,,td_ch,transfer/pmt,,,11-2025,2025,-3000
+DEBIT,2025-11-04,-69.95,2025-10-21~2025-11-05~1759562,WWW.BLOOMEX.CA,,td_visa,gifts/donations,,,11-2025,2025,69.95
+DEBIT,2025-11-05,-41.6,1000030272813513D,Point Of Sale Withdrawal,SQ *LA GROTTA DEL FORM VancouverBCCA,beem_ch,food & bev,,,11-2025,2025,41.6
+DEBIT,2025-11-05,-5.46,1000030272813512D,Point Of Sale Withdrawal,SQ *JJ BEAN COFFEE ROA VancouverBCCA,beem_ch,food & bev,,,11-2025,2025,5.46
+DEBIT,2025-11-05,-29.73,1000030272813511D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,,,11-2025,2025,29.73
+DEBIT,2025-11-05,-3.13,2.02511E+14,GOOGLE *Google One,GOOGLE *Google One,cap_one_visa,utilities,,,11-2025,2025,3.13
+DEBIT,2025-11-05,-5.5,2025-10-21~2025-11-06~1753600,IMPARK00011928U,,td_visa,auto/local trans,,,11-2025,2025,5.5
+DEBIT,2025-11-06,-16.79,1000030272813515D,Point Of Sale Withdrawal,834_YVR_Red_Cedar RichmondBCCA,beem_ch,travel/transport,,,11-2025,2025,16.79
+DEBIT,2025-11-06,-16.8,1000030272813514D,Point Of Sale Withdrawal,SHINE AUTO WASH VANCOUVERBCCA,beem_ch,auto/local trans,,,11-2025,2025,16.8
+DEBIT,2025-11-06,-3.79,2.02511E+14,MOBI BY ROGERS,MOBI BY ROGERS,cap_one_visa,auto/local trans,,,11-2025,2025,3.79
+DEBIT,2025-11-06,-29.8,2025-10-21~2025-11-07~1807372,UBER CANADA/UBERTRIP,,td_visa,travel/transport,,,11-2025,2025,29.8
+DEBIT,2025-11-06,-333.88,2025-10-21~2025-11-07~1807362,BCAA-INSURANCE,,td_visa,travel/transport,,,11-2025,2025,333.88
+DEBIT,2025-11-06,-13.6,2025-10-21~2025-11-07~1807352,Kindle Svcs,,td_visa,entertainment,,,11-2025,2025,13.6
+DEBIT,2025-11-06,-108.96,2025-10-21~2025-11-10~1221034,YVR INTL LIFT BAR & GRILL,,td_visa,food & bev,,,11-2025,2025,108.96
+DEBIT,2025-11-07,-4.47,2.02511E+14,APPLE.COM/BILL,APPLE.COM/BILL,cap_one_visa,business,,,11-2025,2025,4.47
+DEBIT,2025-11-07,-91.61,2025-10-21~2025-11-10~1221074,ODEON RESTAURATI,,td_visa,food & bev,,,11-2025,2025,91.61
+DEBIT,2025-11-07,-43.47,2025-10-21~2025-11-10~1221064,CMN E-BILLETS 2343752,,td_visa,travel/transport,,,11-2025,2025,43.47
+DEBIT,2025-11-07,-5.96,2025-10-21~2025-11-10~1221054,UBER CANADA/UBERTRIP,,td_visa,auto/local trans,,,11-2025,2025,5.96
+DEBIT,2025-11-07,-50.15,2025-10-21~2025-11-10~1221044,SNCF VOYAGEURS,,td_visa,travel/transport,,,11-2025,2025,50.15
+DEBIT,2025-11-08,-14.21,2.02511E+14,Spotify P3C36A3D1C,Spotify P3C36A3D1C,cap_one_visa,entertainment,,,11-2025,2025,14.21
+DEBIT,2025-11-08,-345.28,2025-10-21~2025-11-10~1221174,LE DOME,,td_visa,food & bev,,,11-2025,2025,345.28
+DEBIT,2025-11-08,-75.25,2025-10-21~2025-11-10~1221134,LOUVRETICKET INT2726905,,td_visa,recreation/educ,,,11-2025,2025,75.25
+DEBIT,2025-11-08,-18.39,2025-10-21~2025-11-10~1221124,LA FREGATE 4777102,,td_visa,food & bev,,,11-2025,2025,18.39
+DEBIT,2025-11-08,-15.05,2025-10-21~2025-11-10~1221114,SQ *BONJOUR JACOB SAINT G,,td_visa,food & bev,,,11-2025,2025,15.05
+DEBIT,2025-11-08,-214.02,2025-10-21~2025-11-10~1221104,SNCF-VOYAGEURS,,td_visa,travel/transport,,,11-2025,2025,214.02
+DEBIT,2025-11-08,-331.06,2025-10-21~2025-11-10~1221094,TXANGO TOURS,,td_visa,recreation/educ,,,11-2025,2025,331.06
+DEBIT,2025-11-08,-143.8,2025-10-21~2025-11-10~1221084,LE FUMOIR,,td_visa,food & bev,,,11-2025,2025,143.8
+DEBIT,2025-11-09,-377.88,2025-10-21~2025-11-10~1221204,LE COLVERT 4153179,,td_visa,food & bev,,,11-2025,2025,377.88
+DEBIT,2025-11-09,-152.99,2025-10-21~2025-11-10~1221194,LA SUITE ODEON,,td_visa,travel/transport,,,11-2025,2025,152.99
+DEBIT,2025-11-09,-7.52,2025-10-21~2025-11-10~1221184,MAISON MULOT,,td_visa,food & bev,,,11-2025,2025,7.52
+DEBIT,2025-11-09,-48.49,2025-10-21~2025-11-10~1221164,APPLE STORE R566,,td_visa,supplies/services,,,11-2025,2025,48.49
+DEBIT,2025-11-09,-4.18,2025-10-21~2025-11-10~1221154,SERVICE NAVIGO 4042878,,td_visa,travel/transport,,,11-2025,2025,4.18
+DEBIT,2025-11-09,-4.18,2025-10-21~2025-11-10~1221144,SERVICE NAVIGO 4042878,,td_visa,travel/transport,,,11-2025,2025,4.18
+DEBIT,2025-11-10,-108.01,2025-10-21~2025-11-12~1840107,THE CAFE BOZART,,td_visa,food & bev,,,11-2025,2025,108.01
+DEBIT,2025-11-10,-76.92,2025-10-21~2025-11-12~1840097,BRASS LA BOURSE,,td_visa,food & bev,,,11-2025,2025,76.92
+DEBIT,2025-11-10,-60.2,2025-10-21~2025-11-12~1840087,COLLECTION PINAU,,td_visa,recreation/educ,,,11-2025,2025,60.2
+DEBIT,2025-11-10,-7.52,2025-10-21~2025-11-12~1840077,MAISON MULOT,,td_visa,food & bev,,,11-2025,2025,7.52
+DEBIT,2025-11-11,-16.51,2025-10-21~2025-11-12~1840157,AU PETIT SUISSE,,td_visa,food & bev,,,11-2025,2025,16.51
+DEBIT,2025-11-11,-21.69,2025-10-21~2025-11-12~1840147,PANTHEON 2322383,,td_visa,food & bev,,,11-2025,2025,21.69
+DEBIT,2025-11-11,-120.11,2025-10-21~2025-11-12~1840137,L ATELIER DU CH 4404295,,td_visa,food & bev,,,11-2025,2025,120.11
+DEBIT,2025-11-11,-9.01,2025-10-21~2025-11-12~1840127,BOULANGERIE SEC 4078359,,td_visa,food & bev,,,11-2025,2025,9.01
+DEBIT,2025-11-11,-110.09,2025-10-21~2025-11-12~1840117,Sunday*Loulou,,td_visa,food & bev,,,11-2025,2025,110.09
+DEBIT,2025-11-12,-124.09,1000030272813516D,External Withdrawal,Auto Insurance Insurance Corporation of BC 034310548982,beem_ch,auto/local trans,,,11-2025,2025,124.09
+DEBIT,2025-11-12,-10.83,2025-10-21~2025-11-13~1802551,GG TRANSALPINO 4058448,,td_visa,food & bev,,,11-2025,2025,10.83
+DEBIT,2025-11-12,-129.96,2025-10-21~2025-11-13~1802541,WWW.MIDATICKET.IT - Duom,,td_visa,recreation/educ,,,11-2025,2025,129.96
+DEBIT,2025-11-12,-154.12,2025-10-21~2025-11-13~1802531,HOTEL DE L'ODEON,,td_visa,travel/transport,,,11-2025,2025,154.12
+DEBIT,2025-11-12,-30.25,2025-10-21~2025-11-13~1802521,UBER,,td_visa,auto/local trans,,,11-2025,2025,30.25
+DEBIT,2025-11-12,-3.33,2025-10-21~2025-11-13~1802511,UBER *TRIP,,td_visa,travel/transport,,,11-2025,2025,3.33
+DEBIT,2025-11-13,-27.99,2.02511E+14,APPLE.COM/BILL,APPLE.COM/BILL,cap_one_visa,entertainment,,,11-2025,2025,27.99
+DEBIT,2025-11-13,-344.94,2.53171E+16,FX ATM W/D _V,,td_ch,food & bev,,,11-2025,2025,344.94
+DEBIT,2025-11-13,-5,2.53181E+16,FX ATM W/D FEE,,td_ch,food & bev,,,11-2025,2025,5
+DEBIT,2025-11-13,-7.16,2025-10-21~2025-11-14~1755117,BAR TABACCHI RIVIERA,,td_visa,food & bev,,,11-2025,2025,7.16
+DEBIT,2025-11-14,-146.14,1000030272813518D,External Withdrawal,Auto Insurance Insurance Corporation of BC 031288468051,beem_ch,auto/local trans,,,11-2025,2025,146.14
+CREDIT,2025-11-14,2037.91,1000030272813517C,External Deposit,Rent/Leases VANTAGE WEST-NEW TRUST AR4070,beem_ch,rental inc,,,11-2025,2025,-2037.91
+DEBIT,2025-11-14,-10.49,7.40834E+22,WealthicaMONTREAL QC,,scotia_visa,business,,,11-2025,2025,10.49
+DEBIT,2025-11-14,-20.1,2025-10-21~2025-11-17~1233580,BOAT SERVICE S.A.S. DI D,,td_visa,auto/local trans,,,11-2025,2025,20.1
+DEBIT,2025-11-15,-20.1,2025-10-21~2025-11-17~1233630,Zettle_*MAGMA SRL,,td_visa,food & bev,,,11-2025,2025,20.1
+DEBIT,2025-11-15,-217.44,2025-10-21~2025-11-17~1233620,ITALIARAIL.COM,,td_visa,travel/transport,,,11-2025,2025,217.44
+DEBIT,2025-11-15,-16.75,2025-10-21~2025-11-17~1233610,DOMNIA PAY,,td_visa,food & bev,,,11-2025,2025,16.75
+DEBIT,2025-11-15,-86.68,2025-10-21~2025-11-17~1233600,ZETTLE_*MAGMA SRL,,td_visa,food & bev,,,11-2025,2025,86.68
+DEBIT,2025-11-15,-2025.36,2025-10-21~2025-11-17~1233590,EXPEDIA 73302217690026,,td_visa,travel/transport,,,11-2025,2025,2025.36
+CREDIT,2025-11-16,16.64,undefined,ANNUAL CASH BACK,,scotia_visa,int/bank chg/tax,,,11-2025,2025,-16.64
+DEBIT,2025-11-16,-2.15,undefined-1,INTEREST CHARGES,,scotia_visa,int/bank chg/tax,,,11-2025,2025,2.15
+DEBIT,2025-11-16,-477.38,2025-10-21~2025-11-17~1233670,LA MONGOLFIERA SNC,,td_visa,food & bev,,,11-2025,2025,477.38
+DEBIT,2025-11-16,-90.46,2025-10-21~2025-11-17~1233660,WWW.MIDATICKET.IT - Duom,,td_visa,recreation/educ,,,11-2025,2025,90.46
+DEBIT,2025-11-16,-62.39,2025-10-21~2025-11-17~1233650,CARREFOUR 0071,,td_visa,food & bev,,,11-2025,2025,62.39
+DEBIT,2025-11-16,-116.42,2025-10-21~2025-11-17~1233640,CAFFETTERIA,,td_visa,food & bev,,,11-2025,2025,116.42
+DEBIT,2025-11-17,-16.92,2.02511E+14,INTEREST CHARGES,INTEREST CHARGES,cap_one_visa,int/bank chg/tax,,,11-2025,2025,16.92
+DEBIT,2025-11-17,-76.81,2.02511E+14,WWW.MIDATICKET.IT - Bi,WWW.MIDATICKET.IT - Bi,cap_one_visa,food & bev,,,11-2025,2025,76.81
+DEBIT,2025-11-17,-3319.2,2.02511E+12,EXPEDIA 72068286022956,EXPEDIA 72068286022956,cap_one_visa,travel/transport,,,11-2025,2025,3319.2
+DEBIT,2025-11-17,-117.6,2.53212E+16,Koodo Mobile BPY,,td_ch,utilities,,,11-2025,2025,117.6
+CREDIT,2025-11-17,2000,2025-10-21~2025-11-18~1806621,PAYMENT - THANK YOU,,td_visa,transfer/pmt,,,11-2025,2025,-2000
+DEBIT,2025-11-17,-16.75,2025-10-21~2025-11-18~1806611,LUCAS BAR,,td_visa,food & bev,,,11-2025,2025,16.75
+DEBIT,2025-11-17,-32.99,2025-10-21~2025-11-18~1806601,GIUSEPPE MININO D.I,,td_visa,food & bev,,,11-2025,2025,32.99
+DEBIT,2025-11-17,-12.73,2025-10-21~2025-11-18~1806591,Giacomo Caffe,,td_visa,food & bev,,,11-2025,2025,12.73
+CREDIT,2025-11-19,1289.8,2025-11-20~2025-11-20~1752014,EXPEDIA 73259977375425,,td_visa,travel/transport,,,11-2025,2025,-1289.8
+CREDIT,2025-11-19,2025.36,2025-11-20~2025-11-20~1752024,EXPEDIA 73302217690026,,td_visa,travel/transport,,,11-2025,2025,-2025.36
+DEBIT,2025-11-19,-241.63,2025-11-20~2025-11-20~1752034,Giacomo Rosticceria,,td_visa,food & bev,,,11-2025,2025,241.63
+DEBIT,2025-11-19,-8.03,2025-11-20~2025-11-20~1752044,PAN,,td_visa,food & bev,,,11-2025,2025,8.03
+DEBIT,2025-11-19,-2.17,2025-11-20~2025-11-20~1752054,BAR TABACCHI,,td_visa,food & bev,,,11-2025,2025,2.17
+DEBIT,2025-11-21,-53.26,2.02511E+14,WWW.FONDAZIONEPRADA.OR,WWW.FONDAZIONEPRADA.OR,cap_one_visa,entertainment,,,11-2025,2025,53.26
+DEBIT,2025-11-21,-61.59,2.02511E+14,Microsoft*EA Play 12 M,Microsoft*EA Play 12 M,cap_one_visa,business,,,11-2025,2025,61.59
+DEBIT,2025-11-21,-16.68,2025-11-20~2025-11-24~1233273,DOMNIA PAY,,td_visa,food & bev,,,11-2025,2025,16.68
+DEBIT,2025-11-21,-188.48,2025-11-20~2025-11-24~1233283,SEBASTIAN,,td_visa,food & bev,,,11-2025,2025,188.48
+DEBIT,2025-11-21,-113.09,2025-11-20~2025-11-24~1233293,TRENITALIA - LEFRECCE,,td_visa,travel/transport,,,11-2025,2025,113.09
+DEBIT,2025-11-22,-3.67,2025-11-20~2025-11-25~1801618,CLESS TICKET ATM MILANO,,td_visa,travel/transport,,,11-2025,2025,3.67
+DEBIT,2025-11-22,-16.69,2025-11-20~2025-11-24~1233303,DOMNIA PAY,,td_visa,food & bev,,,11-2025,2025,16.69
+DEBIT,2025-11-23,-580.87,2025-11-20~2025-11-24~1233313,Terme Milano s.r.l.,,td_visa,recreation/educ,,,11-2025,2025,580.87
+DEBIT,2025-11-24,-3.66,2.02511E+14,WWW.ATM.IT APP MAAS,WWW.ATM.IT APP MAAS,cap_one_visa,food & bev,,,11-2025,2025,3.66
+DEBIT,2025-11-24,-32.54,7.40387E+22,Rebel186-662-0711 ON,,scotia_visa,business,,,11-2025,2025,32.54
+CREDIT,2025-11-24,3000,2.5328E+16,E-TRANSFER ***Mqx,,td_ch,transfer/pmt,,,11-2025,2025,-3000
+DEBIT,2025-11-24,-2500,2.53281E+16,SEND E-TFR ***Uzd,Newton,td_ch,investment,,,11-2025,2025,2500
+DEBIT,2025-11-24,-6.67,2025-11-20~2025-11-25~1801608,ROSSOPOMODORO STAZIONE,,td_visa,food & bev,,,11-2025,2025,6.67
+CREDIT,2025-11-24,800,2025-11-20~2025-11-25~1801628,PAYMENT - THANK YOU,,td_visa,transfer/pmt,,,11-2025,2025,-800
+DEBIT,2025-11-25,-16.7,2025-11-20~2025-11-26~1805313,SUCCEDE SOLO A BOLOGNA AP,,td_visa,food & bev,,,11-2025,2025,16.7
+DEBIT,2025-11-25,-242.13,2025-11-20~2025-11-26~1805323,RISTORANTE CIACCO,,td_visa,food & bev,,,11-2025,2025,242.13
+DEBIT,2025-11-25,-2.84,2025-11-20~2025-11-26~1805333,BELLAVISTA CAFE SRL,,td_visa,food & bev,,,11-2025,2025,2.84
+DEBIT,2025-11-26,-30.61,7.40834E+22,HOSTPAPABURLINGTON ON,,scotia_visa,business,,,11-2025,2025,30.61
+DEBIT,2025-11-26,-12.59,7.40387E+22,Rebel186-662-0711 ON,,scotia_visa,business,,,11-2025,2025,12.59
+DEBIT,2025-11-26,-21.75,2025-11-20~2025-11-27~1802011,STRAVAGANZE SAS DI POL,,td_visa,food & bev,,,11-2025,2025,21.75
+DEBIT,2025-11-26,-16.74,2025-11-20~2025-11-27~1802021,Saad Mohammed Doodhwal,,td_visa,food & bev,,,11-2025,2025,16.74
+DEBIT,2025-11-26,-22.77,2025-11-20~2025-11-27~1802031,IL PRINCIPE IN CENTRO,,td_visa,food & bev,,,11-2025,2025,22.77
+DEBIT,2025-11-26,-118.04,2025-11-20~2025-11-27~1802041,OSTERIA DEL PODESTA' ..,,td_visa,food & bev,,,11-2025,2025,118.04
+DEBIT,2025-11-26,-2.51,2025-11-20~2025-11-27~1802051,CAFFE' TERZI BOLOGNA,,td_visa,food & bev,,,11-2025,2025,2.51
+DEBIT,2025-11-26,-10.05,2025-11-20~2025-11-27~1802061,SUPERMERCATO COOP MERCAT,,td_visa,food & bev,,,11-2025,2025,10.05
+DEBIT,2025-11-27,-1000,1000030272813519D,eTransfer - Debit,Payee: JOHN H YUILL,beem_ch,transfer/pmt,,,11-2025,2025,1000
+CREDIT,2025-11-27,1000,2.53311E+16,E-TRANSFER ***Bvv,,td_ch,transfer/pmt,,,11-2025,2025,-1000
+DEBIT,2025-11-27,-133.85,2025-11-20~2025-11-28~1828405,TRENITALIA - LEFRECCE,,td_visa,travel/transport,,,11-2025,2025,133.85
+CREDIT,2025-11-27,2000,2025-11-20~2025-11-28~1828415,PAYMENT - THANK YOU,,td_visa,transfer/pmt,,,11-2025,2025,-2000
+DEBIT,2025-11-28,-10.49,2.02511E+14,DOORDASHDASHPASS,DOORDASHDASHPASS,cap_one_visa,food & bev,,,11-2025,2025,10.49
+DEBIT,2025-11-28,-24.63,2.02511E+12,APPLE.COM/BILL,APPLE.COM/BILL,cap_one_visa,entertainment,,,11-2025,2025,24.63
+DEBIT,2025-11-28,-3.95,2.53331E+16,MONTHLY ACCOUNT FEE,,td_ch,int/bank chg/tax,,,11-2025,2025,3.95
+DEBIT,2025-11-28,-451.79,2025-11-20~2025-12-01~1346082,Hotel Corona d Oro 2,,td_visa,travel/transport,,,11-2025,2025,451.79
+DEBIT,2025-11-29,-133.6,2025-11-20~2025-12-02~1825116,WWW.COOPCULTURE.IT,,td_visa,recreation/educ,,,11-2025,2025,133.6
+DEBIT,2025-11-29,-5.01,2025-11-20~2025-12-01~1346092,CAFFE' MARIO DI DI SA..,,td_visa,food & bev,,,11-2025,2025,5.01
+DEBIT,2025-11-30,-150.3,2025-11-20~2025-12-01~1346102,TRATTORIA DA CHEF ENRICO,,td_visa,food & bev,,,11-2025,2025,150.3
+DEBIT,2025-11-30,-801.6,2025-11-20~2025-12-01~1346112,CHIANTI TAXI,,td_visa,travel/transport,,,11-2025,2025,801.6
+DEBIT,2025-12-01,-974.19,1000030272813520D,External Withdrawal,Mortgage Home Trust Company 0003248027,beem_ch,rental inc,,,12-2025,2025,974.19
+DEBIT,2025-12-01,-81.14,2.02512E+14,HELLOFRESH,HELLOFRESH,cap_one_visa,food & bev,,,12-2025,2025,81.14
+DEBIT,2025-12-01,-14.41,2.02512E+14,"GITHUB, INC.","GITHUB, INC.",cap_one_visa,business,,,12-2025,2025,14.41
+DEBIT,2025-12-01,-14.55,2.02512E+12,GOOGLE *YouTubePremium,GOOGLE *YouTubePremium,cap_one_visa,entertainment,,,12-2025,2025,14.55
+DEBIT,2025-12-01,-145.6,2.53352E+16,Telus Comm BPY,,td_ch,utilities,,,12-2025,2025,145.6
+DEBIT,2025-12-01,-360.02,2.53352E+16,KAS 3604 Radius FEE,,td_ch,rental inc,,,12-2025,2025,360.02
+DEBIT,2025-12-01,-50.1,2025-11-20~2025-12-02~1825126,WWW.DUOMO.FIRENZE.IT,,td_visa,recreation/educ,,,12-2025,2025,50.1
+DEBIT,2025-12-01,-175.35,2025-11-20~2025-12-02~1825136,TRATTORIA SAN PIERINO,,td_visa,food & bev,,,12-2025,2025,175.35
+DEBIT,2025-12-01,-33.31,2025-11-20~2025-12-02~1825146,PK LAB S.R.L.,,td_visa,gifts/donations,,,12-2025,2025,33.31
+DEBIT,2025-12-02,-15.67,2.02512E+14,TESLA,TESLA,cap_one_visa,entertainment,,,12-2025,2025,15.67
+DEBIT,2025-12-02,-31.57,7.45379E+22,Amazon Web Serviceswww.amazon.c,,scotia_visa,business,,,12-2025,2025,31.57
+DEBIT,2025-12-02,-19.94,7.40387E+22,Rebel186-662-0711 ON,,scotia_visa,business,,,12-2025,2025,19.94
+DEBIT,2025-12-02,-76.34,2025-11-20~2025-12-03~1831436,Firenze Duty Free,,td_visa,travel/transport,,,12-2025,2025,76.34
+DEBIT,2025-12-02,-43.34,2025-11-20~2025-12-03~1831446,BUY PARIS DUTY 4701427,,td_visa,gifts/donations,,,12-2025,2025,43.34
+CHECK,2025-12-03,-2125,2.53381E+16,CHQ#00053-0146933761,,td_ch,rent,,,12-2025,2025,2125
+DEBIT,2025-12-04,-65.09,1000030272813521D,Point Of Sale Withdrawal,BARNEY'S ON GRANVILLE VANCOUVERBCCA,beem_ch,food & bev,,,12-2025,2025,65.09
+DEBIT,2025-12-04,-31.32,2.02512E+14,DD/DOORDASHTHEPERIPERI,DD/DOORDASHTHEPERIPERI,cap_one_visa,food & bev,,,12-2025,2025,31.32
+DEBIT,2025-12-04,-9.98,2.02512E+14,EvoCarShare,EvoCarShare,cap_one_visa,auto/local trans,,,12-2025,2025,9.98
+DEBIT,2025-12-04,-30,2025-11-20~2025-12-05~1812269,FLO SERVICES,,td_visa,auto/local trans,,,12-2025,2025,30
+DEBIT,2025-12-05,-91.24,1000030272813524D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,,,12-2025,2025,91.24
+DEBIT,2025-12-05,-11.53,1000030272813523D,Point Of Sale Withdrawal,TST-The Juice Truck- W VancouverBCCA,beem_ch,food & bev,,,12-2025,2025,11.53
+DEBIT,2025-12-05,-77.41,1000030272813522D,Point Of Sale Withdrawal,CHOICES CAMBIE # 906 VANCOUVERBCCA,beem_ch,food & bev,,,12-2025,2025,77.41
+DEBIT,2025-12-05,-3.13,2.02512E+14,GOOGLE *Google One,GOOGLE *Google One,cap_one_visa,utilities,,,12-2025,2025,3.13
+DEBIT,2025-12-05,-5.5,2025-11-20~2025-12-08~1245397,IMPARK00011928U,,td_visa,auto/local trans,,,12-2025,2025,5.5
+DEBIT,2025-12-05,-56.64,2025-11-20~2025-12-08~1245387,AMZN Mktp CA*BI7H50M91,,td_visa,supplies/services,,,12-2025,2025,56.64
+DEBIT,2025-12-06,-3.15,2025-11-20~2025-12-08~1245407,ZIPBY,,td_visa,auto/local trans,,,12-2025,2025,3.15
+DEBIT,2025-12-07,-41.34,1000030272813527D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,,,12-2025,2025,41.34
+DEBIT,2025-12-07,-53.47,1000030272813526D,Point Of Sale Withdrawal,BC LIQUOR #177 VANCOUVERBCCA,beem_ch,food & bev,,,12-2025,2025,53.47
+DEBIT,2025-12-07,-92.67,1000030272813525D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,,,12-2025,2025,92.67
+DEBIT,2025-12-07,-75.41,2025-11-20~2025-12-08~1245427,AMZN Mktp CA*BI3D70830,,td_visa,supplies/services,,,12-2025,2025,75.41
+DEBIT,2025-12-07,-5.5,2025-11-20~2025-12-08~1245417,IMPARK00011928U,,td_visa,auto/local trans,,,12-2025,2025,5.5
+DEBIT,2025-12-08,-42.92,1000030272813528D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,,,12-2025,2025,42.92
+DEBIT,2025-12-08,-49.96,2.02512E+14,HELLOFRESH,HELLOFRESH,cap_one_visa,food & bev,,,12-2025,2025,49.96
+DEBIT,2025-12-08,-162.75,2.02512E+14,BCAA-MEMBERSHIP,BCAA-MEMBERSHIP,cap_one_visa,travel/transport,,,12-2025,2025,162.75
+DEBIT,2025-12-08,-14.21,2.02512E+14,Spotify P3D335410A,Spotify P3D335410A,cap_one_visa,entertainment,,,12-2025,2025,14.21
+DEBIT,2025-12-08,-4.47,2.02512E+12,APPLE.COM/BILL,APPLE.COM/BILL,cap_one_visa,utilities,,,12-2025,2025,4.47
+CREDIT,2025-12-08,500,2025-11-20~2025-12-09~1758293,PAYMENT - THANK YOU,,td_visa,transfer/pmt,,,12-2025,2025,-500
+DEBIT,2025-12-08,-5.5,2025-11-20~2025-12-09~1758283,IMPARK00011928U,,td_visa,auto/local trans,,,12-2025,2025,5.5
+DEBIT,2025-12-09,-68,1000030272813529D,Point Of Sale Withdrawal,SAVE ON FOODS #937 VANCOUVERBCCA,beem_ch,food & bev,,,12-2025,2025,68
+DEBIT,2025-12-09,-241.36,2025-11-20~2025-12-10~1805119,TESLA,,td_visa,auto/local trans,,,12-2025,2025,241.36
+DEBIT,2025-12-11,-124.09,1000030272813530D,External Withdrawal,Auto Insurance Insurance Corporation of BC 038616540631,beem_ch,auto/local trans,,,12-2025,2025,124.09
+DEBIT,2025-12-11,-181.65,2025-11-20~2025-12-12~1818407,EDDIE BAUER-ECOMM,,td_visa,supplies/services,,,12-2025,2025,181.65
+CREDIT,2025-12-12,2000,2025-11-20~2025-12-15~1918445,PAYMENT - THANK YOU,,td_visa,transfer/pmt,,,12-2025,2025,-2000
+DEBIT,2025-12-12,-134.4,2025-11-20~2025-12-15~1229282,LELABO CAD ONLINE,,td_visa,gifts/donations,,,12-2025,2025,134.4
+DEBIT,2025-12-13,-138.06,1000030272813532D,Point Of Sale Withdrawal,CHAMBAR RESTAURANT VANCOUVERBCCA,beem_ch,food & bev,,,12-2025,2025,138.06
+DEBIT,2025-12-13,-54.25,1000030272813531D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,,,12-2025,2025,54.25
+DEBIT,2025-12-13,-27.99,2.02512E+14,APPLE.COM/BILL,APPLE.COM/BILL,cap_one_visa,entertainment,,,12-2025,2025,27.99
+DEBIT,2025-12-14,-10.49,7.40834E+22,WealthicaMONTREAL QC,,scotia_visa,investment,,,12-2025,2025,10.49
+DEBIT,2025-12-14,-19.27,2025-11-20~2025-12-15~1229292,Kindle Svcs,,td_visa,entertainment,,,12-2025,2025,19.27
+DEBIT,2025-12-15,-146.14,1000030272813535D,External Withdrawal,Auto Insurance Insurance Corporation of BC 033760962787,beem_ch,auto/local trans,,,12-2025,2025,146.14
+CREDIT,2025-12-15,2037.91,1000030272813534C,External Deposit,Rent/Leases VANTAGE WEST-NEW TRUST AR4070,beem_ch,rental inc,,,12-2025,2025,-2037.91
+DEBIT,2025-12-15,-102.61,1000030272813533D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,,,12-2025,2025,102.61
+DEBIT,2025-12-16,-88.55,1000030272813536D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,,,12-2025,2025,88.55
+DEBIT,2025-12-16,-0.83,undefined,INTEREST CHARGES,,scotia_visa,int/bank chg/tax,,,12-2025,2025,0.83
+DEBIT,2025-12-16,-581.28,2.53502E+16,Koodo Mobile BPY,,td_ch,utilities,,,12-2025,2025,581.28
+DEBIT,2025-12-17,-8.5,1000030272813537D,Point Of Sale Withdrawal,FALSE CREEK FERRIES VANCOUVERBCCA,beem_ch,auto/local trans,,,12-2025,2025,8.5
+DEBIT,2025-12-17,-87.25,2.02512E+14,INTEREST CHARGES,INTEREST CHARGES,cap_one_visa,int/bank chg/tax,,,12-2025,2025,87.25
+DEBIT,2025-12-17,-250,2.53511E+16,HL311 TFR-TO C/C,,td_ch,transfer/pmt,,,12-2025,2025,250
+CREDIT,2025-12-17,250,2025-11-20~2025-12-18~1802294,PAYMENT - THANK YOU,,td_visa,transfer/pmt,,,12-2025,2025,-250
+CREDIT,2025-12-17,500,2025-11-20~2025-12-18~1802284,PAYMENT - THANK YOU,,td_visa,transfer/pmt,,,12-2025,2025,-500
+DEBIT,2025-12-18,-2000,1000030272813540D,Bill Payment,"Capital One Mastercard, Confirmation 61470001",beem_ch,transfer/pmt,,,12-2025,2025,2000
+DEBIT,2025-12-18,-44.11,1000030272813538D,Bill Payment,"BC Hydro, Confirmation 61469957",beem_ch,utilities,,,12-2025,2025,44.11
+DEBIT,2025-12-18,-49.35,2025-11-20~2025-12-19~1759505,DOME PLANETARIUM SHOW,,td_visa,entertainment,,,12-2025,2025,49.35
+CREDIT,2025-12-19,2500,1000030272813539C,Transfer Deposit,Transfer from 100003077328,beem_ch,transfer/pmt,,,12-2025,2025,-2500
+CREDIT,2025-12-19,2000,2.02512E+14,PAYMENT,PAYMENT,cap_one_visa,transfer/pmt,,,12-2025,2025,-2000
+CREDIT,2025-12-19,165.87,7.4529E+22,TD TrustTORONTO,,scotia_visa,transfer/pmt,,,12-2025,2025,-165.87
+CREDIT,2025-12-19,2500,2.53531E+16,IB453 TFR-FR 6051374,,td_ch,transfer/pmt,,,12-2025,2025,-2500
+DEBIT,2025-12-20,-180.04,1000030272813543D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,,,12-2025,2025,180.04
+DEBIT,2025-12-20,-17.84,2025-12-20~2025-12-22~1305489,Kindle Svcs,,td_visa,entertainment,,,12-2025,2025,17.84
+DEBIT,2025-12-21,-93.63,2025-12-20~2025-12-22~1305499,WWW.BLOOMEX.CA,,td_visa,gifts/donations,,,12-2025,2025,93.63
+DEBIT,2025-12-22,-14.69,1000030272813546D,Point Of Sale Withdrawal,LONDON DRUGS 04 VANCOUVERBCCA,beem_ch,supplies/services,,,12-2025,2025,14.69
+DEBIT,2025-12-22,-13.33,1000030272813545D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,,,12-2025,2025,13.33
+DEBIT,2025-12-22,-16.03,1000030272813544D,Point Of Sale Withdrawal,SQ *PURDYS CHOCOLATIER VancouverBCCA,beem_ch,food & bev,,,12-2025,2025,16.03
+CREDIT,2025-12-22,2000,2.02512E+14,PAYMENT,PAYMENT,cap_one_visa,transfer/pmt,,,12-2025,2025,-2000
+DEBIT,2025-12-22,-88.93,2.02512E+12,HELLOFRESH,HELLOFRESH,cap_one_visa,food & bev,,,12-2025,2025,88.93
+DEBIT,2025-12-22,-100,2.53562E+16,TD ATM W/D 003126,,td_ch,transfer/pmt,,,12-2025,2025,100
+DEBIT,2025-12-22,-403.56,2025-12-20~2025-12-24~1755578,VIJS RESTAURANT,,td_visa,food & bev,,,12-2025,2025,403.56
+DEBIT,2025-12-24,-30.23,1000030272813552D,Point Of Sale Withdrawal,SAVE ON FOODS #937 VANCOUVERBCCA,beem_ch,food & bev,,,12-2025,2025,30.23
+DEBIT,2025-12-24,-11.55,1000030272813551D,Point Of Sale Withdrawal,SQ *PURDYS CHOCOLATIER VancouverBCCA,beem_ch,food & bev,,,12-2025,2025,11.55
+DEBIT,2025-12-24,-31.5,1000030272813550D,Point Of Sale Withdrawal,SQ *PURDYS CHOCOLATIER VancouverBCCA,beem_ch,food & bev,,,12-2025,2025,31.5
+DEBIT,2025-12-24,-14.69,1000030272813549D,Point Of Sale Withdrawal,LONDON DRUGS 04 VANCOUVERBCCA,beem_ch,supplies/services,,,12-2025,2025,14.69
+DEBIT,2025-12-24,-144.99,1000030272813548D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,,,12-2025,2025,144.99
+DEBIT,2025-12-24,-159.23,1000030272813547D,Point Of Sale Withdrawal,CHOICES CAMBIE # 906 VANCOUVERBCCA,beem_ch,food & bev,,,12-2025,2025,159.23
+DEBIT,2025-12-24,-500,2.53581E+16,TD ATM W/D 001965,,td_ch,transfer/pmt,,,12-2025,2025,500
+DEBIT,2025-12-24,-5.5,2025-12-20~2025-12-29~1326173,IMPARK00011928U,,td_visa,auto/local trans,,,12-2025,2025,5.5
+DEBIT,2025-12-26,-47.19,7.40387E+22,Rebel186-662-0711 ON,,scotia_visa,business,,,12-2025,2025,47.19
+DEBIT,2025-12-26,-4347.18,2025-12-20~2025-12-29~1214236,EXPEDIA 73335783593224,,td_visa_t,transfer/pmt,,,12-2025,2025,4347.18
+DEBIT,2025-12-27,-24.63,2.02512E+14,APPLE.COM/BILL,APPLE.COM/BILL,cap_one_visa,entertainment,,,12-2025,2025,24.63
+DEBIT,2025-12-27,-30.61,7.40834E+22,HOSTPAPABURLINGTON ON,,scotia_visa,business,,,12-2025,2025,30.61
+DEBIT,2025-12-28,-18.25,1000030272813555D,Point Of Sale Withdrawal,BURRARD LIQUOR STORE VANCOUVERBCCA,beem_ch,food & bev,,,12-2025,2025,18.25
+DEBIT,2025-12-28,-26,1000030272813554D,Point Of Sale Withdrawal,SQ *VELO STAR INC VancouverBCCA,beem_ch,food & bev,,,12-2025,2025,26
+DEBIT,2025-12-28,-6.92,1000030272813553D,Point Of Sale Withdrawal,SUBWAY 37253 VANCOUVERBCCA,beem_ch,food & bev,,,12-2025,2025,6.92
+DEBIT,2025-12-28,-32.54,7.40387E+22,Rebel186-662-0711 ON,,scotia_visa,business,,,12-2025,2025,32.54
+DEBIT,2025-12-29,-217.8,1000030272813557D,Point Of Sale Withdrawal,LONDON DRUGS 04 VANCOUVERBCCA,beem_ch,supplies/services,,,12-2025,2025,217.8
+DEBIT,2025-12-29,-37.79,1000030272813556D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,,,12-2025,2025,37.79
+DEBIT,2025-12-29,-10.49,2.02512E+12,DOORDASHDASHPASS,DOORDASHDASHPASS,cap_one_visa,food & bev,,,12-2025,2025,10.49
+CREDIT,2025-12-29,700,2.53631E+16,RJ454 TFR-FR 6051374,,td_ch,transfer/pmt,,,12-2025,2025,-700
+DEBIT,2025-12-29,-145.6,2.53632E+16,Telus Comm BPY,,td_ch,utilities,,,12-2025,2025,145.6
+CREDIT,2025-12-29,1000,2025-12-20~2025-12-30~1759079,PAYMENT - THANK YOU,,td_visa,transfer/pmt,,,12-2025,2025,-1000
+DEBIT,2025-12-30,-14.55,2.02512E+14,GOOGLE *YouTubePremium,GOOGLE *YouTubePremium,cap_one_visa,entertainment,,,12-2025,2025,14.55
+DEBIT,2025-12-30,-31.5,7.4529E+22,PROV OFVICTORIA BC,,scotia_visa,business,,,12-2025,2025,31.5
+DEBIT,2025-12-30,-5.5,2025-12-20~2025-12-31~1800242,IMPARK00011928U,,td_visa,auto/local trans,,,12-2025,2025,5.5
+DEBIT,2025-12-31,-0.13,1000030272813560D,OD Excess Bal Interest Charge,,beem_ch,int/bank chg/tax,,,12-2025,2025,0.13
+DEBIT,2025-12-31,-84.86,1000030272813559D,Point Of Sale Withdrawal,BC LIQUOR #177 VANCOUVERBCCA,beem_ch,food & bev,,,12-2025,2025,84.86
+DEBIT,2025-12-31,-202.14,1000030272813558D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,,,12-2025,2025,202.14
+DEBIT,2025-12-31,-3.95,2.60011E+16,MONTHLY ACCOUNT FEE,,td_ch,int/bank chg/tax,,,12-2025,2025,3.95
+DEBIT,2025-12-31,-5.5,2025-12-20~2026-01-02~1114405,IMPARK00011928U,,td_visa,auto/local trans,,,12-2025,2025,5.5
+DEBIT,2025-12-31,-5566.4,2025-12-20~2025-12-31~1800252,WWW.GADVENTURES.COM,,td_visa,travel/transport,,,12-2025,2025,5566.4
+DEBIT,2026-01-01,-31.89,7.45379E+22,Amazon Web Serviceswww.amazon.c,,scotia_visa,business,,,01-2026,2026,31.89
+DEBIT,2026-01-01,-3.65,2025-12-20~2026-01-05~1218297,CITY OF VAN PAYBYPHONE,,td_visa,auto/local trans,,,01-2026,2026,3.65
+DEBIT,2026-01-01,-148.05,2025-12-20~2026-01-02~1110569,DOME PLANETARIUM SHOW,,td_visa_t,entertainment,,,01-2026,2026,148.05
+DEBIT,2026-01-02,-18.56,1000030272813563D,Point Of Sale Withdrawal,BC LIQUOR #177 VANCOUVERBCCA,beem_ch,food & bev,,,01-2026,2026,18.56
+DEBIT,2026-01-02,-30.11,1000030272813562D,Point Of Sale Withdrawal,THE HOME DEPOT #7259 VANCOUVERBCCA,beem_ch,supplies/services,,,01-2026,2026,30.11
+DEBIT,2026-01-02,-974.19,1000030272813561D,External Withdrawal,Mortgage Home Trust Company 0003300213,beem_ch,rental inc,,,01-2026,2026,974.19
+DEBIT,2026-01-02,-15.67,2.02601E+14,TESLA,TESLA,cap_one_visa,entertainment,,,01-2026,2026,15.67
+DEBIT,2026-01-02,-100,2.02601E+12,CANADAHELPS *DONATION,CANADAHELPS *DONATION,cap_one_visa,gifts/donations,,,01-2026,2026,100
+DEBIT,2026-01-02,-100,2.02601E+12,CANADAHELPS *DONATION,CANADAHELPS *DONATION,cap_one_visa,gifts/donations,,,01-2026,2026,100
+DEBIT,2026-01-02,-100,2.02601E+12,CANADAHELPS *DONATION,CANADAHELPS *DONATION,cap_one_visa,gifts/donations,,,01-2026,2026,100
+DEBIT,2026-01-02,-500,2.02601E+12,CANADAHELPS *DONATION,CANADAHELPS *DONATION,cap_one_visa,gifts/donations,,,01-2026,2026,500
+DEBIT,2026-01-02,-381,2.02601E+12,CANADAHELPS *DONATION,CANADAHELPS *DONATION,cap_one_visa,gifts/donations,,,01-2026,2026,381
+DEBIT,2026-01-02,-14.05,2.02601E+12,"GITHUB, INC.","GITHUB, INC.",cap_one_visa,business,,,01-2026,2026,14.05
+DEBIT,2026-01-02,-360.02,2.60022E+16,KAS 3604 Radius FEE,,td_ch,rental inc,,,01-2026,2026,360.02
+CHECK,2026-01-02,-2125,2.60031E+16,CHQ#00052-0145365856,,td_ch,rent,,,01-2026,2026,2125
+CREDIT,2026-01-03,1000,1000030272813564C,Transfer Deposit,Transfer from 100003077328,beem_ch,transfer/pmt,,,01-2026,2026,-1000
+DEBIT,2026-01-05,-64.96,1000030272813565D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,,,01-2026,2026,64.96
+DEBIT,2026-01-05,-88.93,2.02601E+14,HELLOFRESH,HELLOFRESH,cap_one_visa,food & bev,,,01-2026,2026,88.93
+DEBIT,2026-01-05,-3.13,2.02601E+14,GOOGLE *Google One,GOOGLE *Google One,cap_one_visa,utilities,,,01-2026,2026,3.13
+DEBIT,2026-01-06,-40.44,1000030272813566D,Point Of Sale Withdrawal,WHOLE FOODS MARKET VANCOUVERBCCA,beem_ch,food & bev,,,01-2026,2026,40.44
