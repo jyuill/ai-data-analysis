@@ -2,7 +2,7 @@
 
 Playground for experimenting with different approaches for leveraging AI to explore and analyze data, for the purposes of efficiency and streamlining the process, especially tedious elements.
 
-## Experiment #1: Codex App / Chat
+## Experiment #1: Codex App / Chat for Expenses
 
 - Started by providing prompts directly into desktop Codex app to analyze expenses.csv (subset of data from my personal expense tracking).
 - Updates / refinements using the chat window in VS Code.
