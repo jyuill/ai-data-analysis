@@ -16,6 +16,14 @@ For a clean, report-style HTML export that hides code cells:
 uv run jupyter nbconvert --to html --no-input expenses_analysis.ipynb
 ```
 
+### Streamlit App
+
+Run the interactive explorer:
+
+```bash
+uv run streamlit run app.py
+```
+
 ### Verdict
 
 - worked ok
