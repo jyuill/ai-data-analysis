@@ -153,6 +153,13 @@ def main() -> None:
     currency_axes(ax, axis="y")
     ax.set_xlabel("")
     ax.set_ylabel("")
+    legend = ax.get_legend()
+    if legend:
+        legend.set_title("")
+        legend.set_bbox_to_anchor((0, 1))
+        legend._loc = 2
+        for text in legend.get_texts():
+            text.set_fontsize(7)
     st.pyplot(fig, clear_figure=True, use_container_width=True)
 
     # Additional charts
@@ -230,28 +237,40 @@ def main() -> None:
     corr_summary: list[str] = []
     if corr_data.shape[1] >= 2:
         corr = corr_data.corr()
+        corr_plot = corr.fillna(0).copy()
+        diag_mask = np.eye(corr_plot.shape[0], dtype=bool)
+        corr_plot.values[diag_mask] = np.nan
+        cmap = sns.color_palette("vlag", as_cmap=True)
+        cmap.set_bad("black")
         fig, ax = plt.subplots(figsize=(6.2, 3.6))
         sns.heatmap(
-            corr,
+            corr_plot,
             ax=ax,
-            cmap="vlag",
+            cmap=cmap,
             vmin=-1,
             vmax=1,
             center=0,
             square=True,
             linewidths=0.5,
             linecolor="#f0f0f0",
+            mask=diag_mask,
             cbar_kws={"label": "Correlation", "shrink": 0.75},
         )
         ax.set_title("Monthly Spend Correlation by Category")
         ax.tick_params(axis="x", labelrotation=45, labelsize=7)
+        ax.set_xticklabels(ax.get_xticklabels(), ha="right", rotation_mode="anchor")
         ax.tick_params(axis="y", labelsize=7)
+        ax.set_xlabel("Category", fontsize=8)
+        ax.set_ylabel("Category", fontsize=8)
         fig.tight_layout()
         st.caption(
             f"Based on {corr_data.shape[0]} months. "
             f"Showing categories with at least {min_months} months of data."
         )
         with heat_mid:
+            cbar = ax.collections[0].colorbar
+            cbar.ax.tick_params(labelsize=7)
+            cbar.set_label("Correlation", fontsize=8)
             st.pyplot(fig, clear_figure=True, use_container_width=False)
 
         corr_pairs = corr.where(~np.eye(corr.shape[0], dtype=bool))
