@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ["python312"]
+
+[phases.install]
+cmds = ["uv sync"]
+
+[start]
+cmd = "uv run streamlit run app.py --server.port=$PORT --server.address=0.0.0.0 --server.headless=true"
