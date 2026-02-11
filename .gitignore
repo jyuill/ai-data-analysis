@@ -52,5 +52,6 @@ Thumbs.db
 # Data files (optional - uncomment if you don't want to track CSV)
 # *.csv
 
-# Streamlit
-.streamlit/
+# Streamlit (but keep config.toml for deployment)
+.streamlit/*
+!.streamlit/config.toml
