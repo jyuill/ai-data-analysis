@@ -8,6 +8,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from matplotlib.ticker import StrMethodFormatter
 import streamlit as st
+import streamlit_authenticator as stauth
 import gspread
 from google.oauth2.service_account import Credentials
 
@@ -88,6 +89,49 @@ def currency_axes(ax: plt.Axes, axis: str = "y") -> None:
 
 def main() -> None:
     st.set_page_config(page_title="Expenses Explorer", layout="wide")
+
+    # Authentication
+    # Get credentials from environment variables
+    auth_username = os.getenv("AUTH_USERNAME", "admin")
+    auth_name = os.getenv("AUTH_NAME", "Admin User")
+    auth_password_hash = os.getenv("AUTH_PASSWORD_HASH")
+
+    if not auth_password_hash:
+        st.error("Authentication not configured. Set AUTH_PASSWORD_HASH environment variable.")
+        st.stop()
+
+    # Configure authenticator
+    credentials = {
+        "usernames": {
+            auth_username: {
+                "name": auth_name,
+                "password": auth_password_hash,
+            }
+        }
+    }
+
+    authenticator = stauth.Authenticate(
+        credentials,
+        "expenses_app",  # cookie name
+        "random_signature_key_12345",  # signature key (change this!)
+        cookie_expiry_days=30,
+    )
+
+    # Render login widget
+    authenticator.login(location="main")
+
+    if st.session_state.get("authentication_status") is False:
+        st.error("Username/password is incorrect")
+        st.stop()
+    elif st.session_state.get("authentication_status") is None:
+        st.warning("Please enter your username and password")
+        st.stop()
+
+    # Add logout button in sidebar
+    with st.sidebar:
+        st.write(f"Welcome {st.session_state.get('name', 'User')}")
+        authenticator.logout(location="sidebar")
+
     st.title("Expenses Explorer")
     st.markdown(
         """
