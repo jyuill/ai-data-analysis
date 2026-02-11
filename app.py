@@ -6,11 +6,36 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from matplotlib.ticker import StrMethodFormatter
 import streamlit as st
+import gspread
+from google.oauth2.service_account import Credentials
+
+# Google Sheets configuration
+SPREADSHEET_ID = "1dZhNtCPDG2tAzMkd5FpVh1GqtDXeJFEHhVYd2wY12n0"
+SHEET_NAME = "spending-r"
+SHEET_RANGE = "A10:O"  # Open-ended range to accommodate growing data
+CREDENTIALS_FILE = "credentials/original-return-107905-3b03bf4c17bf.json"
 
 
 @st.cache_data
-def load_data(path: str = "expenses.csv") -> pd.DataFrame:
-    df = pd.read_csv(path, encoding="utf-8-sig")
+def load_data(use_google_sheets: bool = True) -> pd.DataFrame:
+    if use_google_sheets:
+        # Authenticate with Google Sheets
+        scopes = [
+            "https://www.googleapis.com/auth/spreadsheets.readonly",
+        ]
+        creds = Credentials.from_service_account_file(CREDENTIALS_FILE, scopes=scopes)
+        client = gspread.authorize(creds)
+
+        # Open the spreadsheet and get the data
+        sheet = client.open_by_key(SPREADSHEET_ID).worksheet(SHEET_NAME)
+        data = sheet.get(SHEET_RANGE)
+
+        # Convert to DataFrame (first row is headers)
+        df = pd.DataFrame(data[1:], columns=data[0])
+    else:
+        # Fallback to CSV
+        df = pd.read_csv("expenses.csv", encoding="utf-8-sig")
+
     df.columns = [c.strip() for c in df.columns]
     df["date"] = pd.to_datetime(df["date"], errors="coerce")
     df["amount"] = pd.to_numeric(df["amount"], errors="coerce")
@@ -60,6 +85,10 @@ def main() -> None:
         }
         div[data-testid="stDataFrame"] {
             font-size: 1.25rem;
+        }
+        /* Make multiselect dropdown taller */
+        div[data-baseweb="select"] > div {
+            max-height: 400px;
         }
         </style>
         """,
