@@ -4,6 +4,7 @@ credentials/
 .env
 .env.local
 .env.*.local
+run_local.sh.production
 
 # Python
 __pycache__/
