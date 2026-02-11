@@ -5,7 +5,7 @@ from google.oauth2.service_account import Credentials
 SPREADSHEET_ID = "1dZhNtCPDG2tAzMkd5FpVh1GqtDXeJFEHhVYd2wY12n0"
 SHEET_NAME = "spending-r"
 SHEET_RANGE = "A10:O"
-CREDENTIALS_FILE = "original-return-107905-3b03bf4c17bf.json"
+CREDENTIALS_FILE = "credentials/original-return-107905-3b03bf4c17bf.json"
 
 try:
     print("Authenticating with Google Sheets...")

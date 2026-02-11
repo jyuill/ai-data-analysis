@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import json
+import os
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -23,7 +25,17 @@ def load_data(use_google_sheets: bool = True) -> pd.DataFrame:
         scopes = [
             "https://www.googleapis.com/auth/spreadsheets.readonly",
         ]
-        creds = Credentials.from_service_account_file(CREDENTIALS_FILE, scopes=scopes)
+
+        # Check for credentials in environment variable (for Railway/cloud deployment)
+        credentials_json = os.getenv("GOOGLE_CREDENTIALS_JSON")
+        if credentials_json:
+            # Parse JSON from environment variable
+            credentials_info = json.loads(credentials_json)
+            creds = Credentials.from_service_account_info(credentials_info, scopes=scopes)
+        else:
+            # Fall back to file-based credentials (for local development)
+            creds = Credentials.from_service_account_file(CREDENTIALS_FILE, scopes=scopes)
+
         client = gspread.authorize(creds)
 
         # Open the spreadsheet and get the data

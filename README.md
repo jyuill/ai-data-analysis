@@ -29,8 +29,15 @@ uv run streamlit run app.py
 - smooth process that required iteration but good responses each time and saved many hrs of hand-coding.
 - CRUCIALLY: Codex able to add commentary at the bottom, highlighting basic observations and simple calculations (date range, top category, median mthly) but also more complex calculations like which category had biggest range in monthly spending and even which had biggest percentage change in monthly spending. Impressive.
 
+#### UPGRADES
+
+- used **Claude Code** (in terminal/cli) to switch from expenses.csv to the googlesheets source, in order to keep it up to date and more data added there.
+- very slick
+
 ### Overall Verdict
 
-- worked ok
-- some operations took multiple requests and attempts
-- Streamlit development went exceptionally well
+- worked ok.
+- some operations took multiple requests and attempts.
+- Streamlit development went exceptionally well.
+- additional work from Claude Code was impressive, smooth experience (although, in fairness, used Codex via chat window and not terminal, so not apples-to-apples comp).
+- **terminal/cli** seems to be the more efficient way to go, rather than chat window.
