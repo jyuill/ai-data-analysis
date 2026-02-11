@@ -34,6 +34,31 @@ uv run streamlit run app.py
 - used **Claude Code** (in terminal/cli) to switch from expenses.csv to the googlesheets source, in order to keep it up to date and more data added there.
 - very slick
 
+#### Authentication
+
+- Claude Code implemented authentication for deployment to cloud (railway.com)
+- AUTH_SETUP.md, generate_password.py, hash_password.py
+- run_local.sh: run app locally with terminal: ./run_local.sh 
+
+Password setting:
+- terminal: python generate_password.py
+    - this asks for password to hash > enter desired password
+    - provides Hashed password, like: $2b$12$.5e4O9Lf0...wA5YS8hhqPhu
+- copy/paste hashed version into Railway variables as AUTH_PASSWORD_HASH
+
+Other Railway.com requiremnets/settings:
+- Profile
+- nixpacks.toml
+- Railway project > Settings > Networking > Public Networking
+    - Generate
+    - Port 8080
+    - customize up.railway.app url if desired
+- Variables:
+    - AUTH_NAME: see run_local.sh
+    - AUTH_USERNAME: see run_local.sh
+    - AUTH_PASSWORD_HASH: see above
+    - GOOGLE_CREDENTIALS_JSON: paste in entire google auth json file
+
 ### Overall Verdict
 
 - worked ok.
