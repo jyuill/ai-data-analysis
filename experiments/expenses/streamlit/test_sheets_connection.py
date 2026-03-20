@@ -1,18 +1,21 @@
 """Test script to verify Google Sheets connection"""
+from pathlib import Path
+
 import gspread
 from google.oauth2.service_account import Credentials
 
 SPREADSHEET_ID = "1dZhNtCPDG2tAzMkd5FpVh1GqtDXeJFEHhVYd2wY12n0"
 SHEET_NAME = "spending-r"
 SHEET_RANGE = "A10:O"
-CREDENTIALS_FILE = "credentials/original-return-107905-3b03bf4c17bf.json"
+APP_DIR = Path(__file__).resolve().parent
+CREDENTIALS_FILE = APP_DIR / "credentials" / "original-return-107905-3b03bf4c17bf.json"
 
 try:
     print("Authenticating with Google Sheets...")
     scopes = [
         "https://www.googleapis.com/auth/spreadsheets.readonly",
     ]
-    creds = Credentials.from_service_account_file(CREDENTIALS_FILE, scopes=scopes)
+    creds = Credentials.from_service_account_file(str(CREDENTIALS_FILE), scopes=scopes)
     client = gspread.authorize(creds)
 
     print(f"Opening spreadsheet {SPREADSHEET_ID}...")

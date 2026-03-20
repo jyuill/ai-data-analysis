@@ -1,68 +1,59 @@
-# PURPOSE
+# AI Data Analysis Playground
 
-Playground for experimenting with different approaches for leveraging AI to explore and analyze data, for the purposes of efficiency and streamlining the process, especially tedious elements.
+Repo for experimenting with AI-assisted data analysis workflows in both Python and R.
 
-## Experiment #1: Codex App / Chat for Expenses
+## Repository Structure
 
-- Started by providing prompts directly into desktop Codex app to analyze expenses.csv file provided (subset of data from my personal expense tracking).
-- Updates / refinements using the chat window in VS Code.
-- RESULT: expenses_analysis.ipynb
+- `experiments/expenses/`
+  - `data/expenses.csv`: local fallback expense data
+  - `notebooks/expenses_analysis.ipynb`: notebook analysis
+  - `notebooks/expenses_analysis.html`: exported notebook report
+  - `streamlit/app.py`: Streamlit explorer app
+  - `streamlit/run_local.sh`: local run script with test auth env vars
+  - `streamlit/generate_password.py` and `streamlit/hash_password.py`: auth helpers
+  - `streamlit/test_sheets_connection.py`: Google Sheets connectivity check
+  - `docs/AUTH_SETUP.md`: authentication/deployment notes
+- `experiments/python/`: reserved for new Python experiments
 
-### Export
-
-For a clean, report-style HTML export that hides code cells:
-
-```bash
-uv run jupyter nbconvert --to html --no-input expenses_analysis.ipynb
-```
-
-### Streamlit App
-
-Streamlit app developed by Codex via chat window in VS Code.
-
-Run the interactive explorer:
+## Run The Streamlit App
 
 ```bash
-uv run streamlit run app.py
+uv run streamlit run experiments/expenses/streamlit/app.py
 ```
 
-- smooth process that required iteration but good responses each time and saved many hrs of hand-coding.
-- CRUCIALLY: Codex able to add commentary at the bottom, highlighting basic observations and simple calculations (date range, top category, median mthly) but also more complex calculations like which category had biggest range in monthly spending and even which had biggest percentage change in monthly spending. Impressive.
+Or run the local helper script:
 
-#### UPGRADES
+```bash
+./experiments/expenses/streamlit/run_local.sh
+```
 
-- used **Claude Code** (in terminal/cli) to switch from expenses.csv to the googlesheets source, in order to keep it up to date and more data added there.
-- very slick
+## Work With The Notebook
 
-#### Authentication
+Open:
 
-- Claude Code implemented authentication for deployment to cloud (railway.com)
-- AUTH_SETUP.md, generate_password.py, hash_password.py
-- run_local.sh: run app locally with terminal: ./run_local.sh 
+- `experiments/expenses/notebooks/expenses_analysis.ipynb`
 
-Password setting:
-- terminal: python generate_password.py
-    - this asks for password to hash > enter desired password
-    - provides Hashed password, like: $2b$12$.5e4O9Lf0...wA5YS8hhqPhu
-- copy/paste hashed version into Railway variables as AUTH_PASSWORD_HASH
+Export to HTML (hide code cells):
 
-Other Railway.com requiremnets/settings:
-- Profile
-- nixpacks.toml
-- Railway project > Settings > Networking > Public Networking
-    - Generate
-    - Port 8080
-    - customize up.railway.app url if desired
-- Variables:
-    - AUTH_NAME: see run_local.sh
-    - AUTH_USERNAME: see run_local.sh
-    - AUTH_PASSWORD_HASH: see above
-    - GOOGLE_CREDENTIALS_JSON: paste in entire google auth json file
+```bash
+uv run jupyter nbconvert --to html --no-input \
+  experiments/expenses/notebooks/expenses_analysis.ipynb
+```
 
-### Overall Verdict
+## Railway Deployment
 
-- worked ok.
-- some operations took multiple requests and attempts.
-- Streamlit development went exceptionally well.
-- additional work from Claude Code was impressive, smooth experience (although, in fairness, used Codex via chat window and not terminal, so not apples-to-apples comp).
-- **terminal/cli** seems to be the more efficient way to go, rather than chat window.
+Entrypoint is configured in:
+
+- `Procfile`
+- `nixpacks.toml`
+
+Both now run:
+
+- `experiments/expenses/streamlit/app.py`
+
+Set these Railway variables:
+
+- `AUTH_USERNAME`
+- `AUTH_NAME`
+- `AUTH_PASSWORD_HASH`
+- `GOOGLE_CREDENTIALS_JSON`

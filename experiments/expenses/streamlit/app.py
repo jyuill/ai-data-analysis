@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import os
+from pathlib import Path
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -16,7 +17,10 @@ from google.oauth2.service_account import Credentials
 SPREADSHEET_ID = "1dZhNtCPDG2tAzMkd5FpVh1GqtDXeJFEHhVYd2wY12n0"
 SHEET_NAME = "spending-r"
 SHEET_RANGE = "A10:O"  # Open-ended range to accommodate growing data
-CREDENTIALS_FILE = "credentials/original-return-107905-3b03bf4c17bf.json"
+APP_DIR = Path(__file__).resolve().parent
+EXPENSES_DIR = APP_DIR.parent
+DATA_FILE = EXPENSES_DIR / "data" / "expenses.csv"
+CREDENTIALS_FILE = APP_DIR / "credentials" / "original-return-107905-3b03bf4c17bf.json"
 
 
 @st.cache_data
@@ -35,7 +39,9 @@ def load_data(use_google_sheets: bool = True) -> pd.DataFrame:
             creds = Credentials.from_service_account_info(credentials_info, scopes=scopes)
         else:
             # Fall back to file-based credentials (for local development)
-            creds = Credentials.from_service_account_file(CREDENTIALS_FILE, scopes=scopes)
+            creds = Credentials.from_service_account_file(
+                str(CREDENTIALS_FILE), scopes=scopes
+            )
 
         client = gspread.authorize(creds)
 
@@ -47,7 +53,7 @@ def load_data(use_google_sheets: bool = True) -> pd.DataFrame:
         df = pd.DataFrame(data[1:], columns=data[0])
     else:
         # Fallback to CSV
-        df = pd.read_csv("expenses.csv", encoding="utf-8-sig")
+        df = pd.read_csv(DATA_FILE, encoding="utf-8-sig")
 
     df.columns = [c.strip() for c in df.columns]
     df["date"] = pd.to_datetime(df["date"], errors="coerce")

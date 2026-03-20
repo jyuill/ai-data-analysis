@@ -19,7 +19,7 @@ export AUTH_PASSWORD_HASH="your_hashed_password_here"
 Use the included `hash_password.py` script:
 
 ```bash
-.venv/bin/python hash_password.py
+.venv/bin/python experiments/expenses/streamlit/hash_password.py
 ```
 
 This will output a bcrypt hash that you can use as `AUTH_PASSWORD_HASH`.
@@ -33,7 +33,7 @@ export AUTH_NAME="Admin User"
 export AUTH_PASSWORD_HASH="your_hash_here"
 
 # Run the app
-streamlit run app.py
+streamlit run experiments/expenses/streamlit/app.py
 ```
 
 ## Railway Deployment
@@ -54,12 +54,12 @@ Add these environment variables in your Railway project settings:
 - Username: `admin`
 - Password: `testpass123`
 
-**IMPORTANT:** Change the password before deploying! Generate a new hash with `hash_password.py` using a secure password.
+**IMPORTANT:** Change the password before deploying. Generate a new hash with `experiments/expenses/streamlit/hash_password.py` using a secure password.
 
 ## Security Notes
 
 - Never commit your password hashes to git
 - Use strong, unique passwords for production
 - The app uses bcrypt for secure password hashing
-- Sessions expire after 30 days (configurable in app.py)
+- Sessions expire after 30 days (configurable in `experiments/expenses/streamlit/app.py`)
 - Always use HTTPS in production (Railway provides this automatically)

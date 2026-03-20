@@ -1,9 +1,12 @@
 from __future__ import annotations
 
+from pathlib import Path
 import pandas as pd
 
 
-def load_expenses(path: str = "expenses.csv") -> pd.DataFrame:
+def load_expenses(path: str | Path | None = None) -> pd.DataFrame:
+    if path is None:
+        path = Path(__file__).resolve().parent / "data" / "expenses.csv"
     df = pd.read_csv(path, encoding="utf-8-sig")
     category = df["category"].astype(str).str.strip().str.lower()
     df = df[category != "transfer/pmt"].reset_index(drop=True)

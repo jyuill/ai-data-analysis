@@ -1,5 +1,5 @@
 # Credentials and secrets
-credentials/
+experiments/expenses/streamlit/credentials/
 *.json
 .env
 .env.local
