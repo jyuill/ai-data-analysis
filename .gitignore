@@ -38,6 +38,12 @@ env/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
 # IDEs
 .vscode/
 .idea/
