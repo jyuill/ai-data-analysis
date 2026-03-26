@@ -1,0 +1,137 @@
+---
+title: "Personal expenses analysis"
+date: "2026-03-26"
+format: html
+---
+
+::: {.callout-note}
+This report was generated using AI (Databot) under general human direction. At the time of generation, the contents have not been comprehensively reviewed by a human analyst.
+
+<!--
+To indicate human review: Delete the line above about contents not being reviewed, and replace this comment with:
+The contents have been reviewed and validated by [Your Name], [Your Role] on [Date].
+-->
+:::
+
+# Introduction
+
+This report analyzes personal expense data loaded from `experiments/expenses/data/expenses.csv`. The dataset contains transactions across multiple accounts and categories, covering the period from March 2025 through January 2026. Non-expense entries (income, rental income, transfers, and investments) have been excluded so the analysis focuses on true spending.
+
+```{r}
+#| label: load-packages
+library(tidyverse)
+library(gt)
+```
+
+```{r}
+#| label: load-data
+expenses_raw <- read.csv("../../../expenses/data/expenses.csv")
+
+# Drop unnecessary columns
+expenses_raw <- expenses_raw[, !names(expenses_raw) %in% c("type", "id", "spend_type", "vendor")]
+
+# Filter out non-expense categories
+expenses <- expenses_raw |>
+  filter(!category %in% c("income", "rental inc", "transfer/pmt", "investment"))
+```
+
+# Spending by category
+
+The table below shows total spending per category, sorted from highest to lowest.
+
+```{r}
+#| label: spending-by-category
+expenses |>
+  group_by(category) |>
+  summarise(total = sum(amount) * -1) |>
+  arrange(desc(total))
+```
+
+The top three expense categories are food & bev, travel/transport, and rent, which together account for the majority of total spending.
+
+# Monthly spending breakdown
+
+The table below breaks down total spending by category and month, giving a view of how spending patterns shift over time.
+
+```{r}
+#| label: monthly-breakdown-table
+monthly_wide <- expenses |>
+  group_by(month, category) |>
+  summarise(total = sum(amount) * -1, .groups = "drop") |>
+  mutate(month = factor(month, levels = sort(unique(month)))) |>
+  arrange(month) |>
+  pivot_wider(names_from = month, values_from = total, values_fill = 0)
+
+month_cols <- names(monthly_wide)[-1]
+
+monthly_wide |>
+  gt() |>
+  fmt_currency(columns = all_of(month_cols), currency = "USD", decimals = 0) |>
+  data_color(
+    columns = all_of(month_cols),
+    rows = everything(),
+    method = "numeric",
+    palette = c("white", "yellow", "red"),
+    domain = c(0, max(select(monthly_wide, all_of(month_cols))))
+  ) |>
+  cols_label(category = "Category") |>
+  tab_header(title = "Monthly spending by category") |>
+  opt_stylize(style = 1)
+```
+
+Note that January 2026 (`01-2026`) appears to be a partial month and should be interpreted with caution.
+
+# Monthly spending chart
+
+The stacked bar chart below visualizes total spending by category for each month.
+
+```{r}
+#| label: monthly-spending-chart
+expenses |>
+  group_by(month, category) |>
+  summarise(total = sum(amount) * -1, .groups = "drop") |>
+  mutate(month = factor(month, levels = sort(unique(month)))) |>
+  ggplot(aes(x = month, y = total, fill = category)) +
+  geom_col() +
+  scale_y_continuous(labels = scales::dollar) +
+  scale_fill_brewer(palette = "Set3") +
+  labs(
+    title = "Monthly spending by category",
+    x = "Month",
+    y = "Total spending",
+    fill = "Category"
+  ) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+November and December 2025 stand out as the highest-spending months, likely driven by holiday and travel costs. May 2025 shows a notable spike in `int/bank chg/tax`, explained by a large tax payment (see below).
+
+# Top 10 largest expenses
+
+The table below lists the 10 largest individual transactions in the dataset.
+
+```{r}
+#| label: top-10-expenses
+expenses |>
+  arrange(amount) |>
+  head(10) |>
+  select(date, name, category, month, amount) |>
+  mutate(amount = amount * -1)
+```
+
+Key observations:
+
+- The largest single expense is a **$6,300.50 tax payment** (CANADA TXD) in May 2025, which explains the `int/bank chg/tax` spike that month.
+- Two large **travel bookings** appear in late 2025: G Adventures ($5,566.40 in December) and Expedia ($3,319.20 in November), contributing to the high year-end spending.
+- A **$2,239.38 Apple charge** in August 2025 is notably large for a business expense and may warrant further review.
+- Monthly **rent payments** of $2,125.00 appear consistently throughout the year.
+
+# Key takeaways
+
+- **Food & bev** and **travel/transport** are the largest discretionary expense categories.
+- **Rent** is a steady fixed cost of $2,125/month.
+- A **CRA tax payment of $6,300.50** in May 2025 caused a one-time spike in the `int/bank chg/tax` category.
+- **November and December 2025** were the highest-spending months overall, driven by travel bookings.
+- The **Apple charge of $2,239.38** in August 2025 is an outlier worth investigating further.
+- **January 2026** data is incomplete and should not be compared directly to other months.

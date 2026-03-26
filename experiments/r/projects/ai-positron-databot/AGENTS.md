@@ -1,4 +1,7 @@
-# Project Memory
+# Project Memory from Databot
+
+Placed here for reference from Databot session.
+Needs to be in repo root for Databot to automatically access. (as of March 2026)
 
 ## Data Files
 

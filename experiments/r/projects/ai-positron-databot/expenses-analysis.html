@@ -1,0 +1,1365 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-03-26">
+
+<title>Personal expenses analysis</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="expenses-analysis_files/libs/clipboard/clipboard.min.js"></script>
+<script src="expenses-analysis_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="expenses-analysis_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="expenses-analysis_files/libs/quarto-html/popper.min.js"></script>
+<script src="expenses-analysis_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="expenses-analysis_files/libs/quarto-html/anchor.min.js"></script>
+<link href="expenses-analysis_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="expenses-analysis_files/libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="expenses-analysis_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="expenses-analysis_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="expenses-analysis_files/libs/bootstrap/bootstrap-138a6193a3bd40baf1e627da441a4734.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Personal expenses analysis</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 26, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This report was generated using AI (Databot) under general human direction. At the time of generation, the contents have not been comprehensively reviewed by a human analyst.</p>
+<!--
+To indicate human review: Delete the line above about contents not being reviewed, and replace this comment with:
+The contents have been reviewed and validated by [Your Name], [Your Role] on [Date].
+-->
+</div>
+</div>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>This report analyzes personal expense data loaded from <code>experiments/expenses/data/expenses.csv</code>. The dataset contains transactions across multiple accounts and categories, covering the period from March 2025 through January 2026. Non-expense entries (income, rental income, transfers, and investments) have been excluded so the analysis focuses on true spending.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'tibble' was built under R version 4.4.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'readr' was built under R version 4.4.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.6
+✔ forcats   1.0.0     ✔ stringr   1.6.0
+✔ ggplot2   3.5.2     ✔ tibble    3.3.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gt)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>expenses_raw <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"../../../expenses/data/expenses.csv"</span>)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Drop unnecessary columns</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>expenses_raw <span class="ot">&lt;-</span> expenses_raw[, <span class="sc">!</span><span class="fu">names</span>(expenses_raw) <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"type"</span>, <span class="st">"id"</span>, <span class="st">"spend_type"</span>, <span class="st">"vendor"</span>)]</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter out non-expense categories</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>expenses <span class="ot">&lt;-</span> expenses_raw <span class="sc">|&gt;</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span>category <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"income"</span>, <span class="st">"rental inc"</span>, <span class="st">"transfer/pmt"</span>, <span class="st">"investment"</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="spending-by-category" class="level1">
+<h1>Spending by category</h1>
+<p>The table below shows total spending per category, sorted from highest to lowest.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>expenses <span class="sc">|&gt;</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(category) <span class="sc">|&gt;</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">total =</span> <span class="fu">sum</span>(amount) <span class="sc">*</span> <span class="sc">-</span><span class="dv">1</span>) <span class="sc">|&gt;</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(total))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 13 × 2
+   category            total
+   &lt;chr&gt;               &lt;dbl&gt;
+ 1 food &amp; bev        28165. 
+ 2 travel/transport  25086. 
+ 3 rent              23375  
+ 4 int/bank chg/tax   7117. 
+ 5 auto/local trans   6606. 
+ 6 business           4313. 
+ 7 supplies/services  4169. 
+ 8 recreation/educ    3953. 
+ 9 utilities          3752. 
+10 gifts/donations    3291. 
+11 entertainment      2180. 
+12 unknown             260  
+13 misc                 15.6</code></pre>
+</div>
+</div>
+<p>The top three expense categories are food &amp; bev, travel/transport, and rent, which together account for the majority of total spending.</p>
+</section>
+<section id="monthly-spending-breakdown" class="level1">
+<h1>Monthly spending breakdown</h1>
+<p>The table below breaks down total spending by category and month, giving a view of how spending patterns shift over time.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>monthly_wide <span class="ot">&lt;-</span> expenses <span class="sc">|&gt;</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(month, category) <span class="sc">|&gt;</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">total =</span> <span class="fu">sum</span>(amount) <span class="sc">*</span> <span class="sc">-</span><span class="dv">1</span>, <span class="at">.groups =</span> <span class="st">"drop"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">month =</span> <span class="fu">factor</span>(month, <span class="at">levels =</span> <span class="fu">sort</span>(<span class="fu">unique</span>(month)))) <span class="sc">|&gt;</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(month) <span class="sc">|&gt;</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_wider</span>(<span class="at">names_from =</span> month, <span class="at">values_from =</span> total, <span class="at">values_fill =</span> <span class="dv">0</span>)</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>month_cols <span class="ot">&lt;-</span> <span class="fu">names</span>(monthly_wide)[<span class="sc">-</span><span class="dv">1</span>]</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>monthly_wide <span class="sc">|&gt;</span></span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gt</span>() <span class="sc">|&gt;</span></span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">fmt_currency</span>(<span class="at">columns =</span> <span class="fu">all_of</span>(month_cols), <span class="at">currency =</span> <span class="st">"USD"</span>, <span class="at">decimals =</span> <span class="dv">0</span>) <span class="sc">|&gt;</span></span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">data_color</span>(</span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">columns =</span> <span class="fu">all_of</span>(month_cols),</span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">rows =</span> <span class="fu">everything</span>(),</span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">method =</span> <span class="st">"numeric"</span>,</span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">palette =</span> <span class="fu">c</span>(<span class="st">"white"</span>, <span class="st">"yellow"</span>, <span class="st">"red"</span>),</span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">domain =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="fu">max</span>(<span class="fu">select</span>(monthly_wide, <span class="fu">all_of</span>(month_cols))))</span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cols_label</span>(<span class="at">category =</span> <span class="st">"Category"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tab_header</span>(<span class="at">title =</span> <span class="st">"Monthly spending by category"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">opt_stylize</span>(<span class="at">style =</span> <span class="dv">1</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div id="gsatfluacr" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#gsatfluacr table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#gsatfluacr thead, #gsatfluacr tbody, #gsatfluacr tfoot, #gsatfluacr tr, #gsatfluacr td, #gsatfluacr th {
+  border-style: none;
+}
+
+#gsatfluacr p {
+  margin: 0;
+  padding: 0;
+}
+
+#gsatfluacr .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #004D80;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #004D80;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#gsatfluacr .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#gsatfluacr .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#gsatfluacr .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#gsatfluacr .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#gsatfluacr .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #0076BA;
+}
+
+#gsatfluacr .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #0076BA;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #0076BA;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#gsatfluacr .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#gsatfluacr .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#gsatfluacr .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#gsatfluacr .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#gsatfluacr .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #0076BA;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#gsatfluacr .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#gsatfluacr .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #0076BA;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #0076BA;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#gsatfluacr .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #0076BA;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #0076BA;
+  vertical-align: middle;
+}
+
+#gsatfluacr .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#gsatfluacr .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#gsatfluacr .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: none;
+  border-top-width: 1px;
+  border-top-color: #89D3FE;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #89D3FE;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #89D3FE;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#gsatfluacr .gt_stub {
+  color: #FFFFFF;
+  background-color: #0076BA;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #0076BA;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#gsatfluacr .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#gsatfluacr .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#gsatfluacr .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#gsatfluacr .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#gsatfluacr .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #0076BA;
+}
+
+#gsatfluacr .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#gsatfluacr .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #0076BA;
+}
+
+#gsatfluacr .gt_grand_summary_row {
+  color: #333333;
+  background-color: #89D3FE;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#gsatfluacr .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #0076BA;
+}
+
+#gsatfluacr .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #0076BA;
+}
+
+#gsatfluacr .gt_striped {
+  background-color: #F4F4F4;
+}
+
+#gsatfluacr .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #0076BA;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #0076BA;
+}
+
+#gsatfluacr .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#gsatfluacr .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#gsatfluacr .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#gsatfluacr .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#gsatfluacr .gt_left {
+  text-align: left;
+}
+
+#gsatfluacr .gt_center {
+  text-align: center;
+}
+
+#gsatfluacr .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#gsatfluacr .gt_font_normal {
+  font-weight: normal;
+}
+
+#gsatfluacr .gt_font_bold {
+  font-weight: bold;
+}
+
+#gsatfluacr .gt_font_italic {
+  font-style: italic;
+}
+
+#gsatfluacr .gt_super {
+  font-size: 65%;
+}
+
+#gsatfluacr .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#gsatfluacr .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#gsatfluacr .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#gsatfluacr .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#gsatfluacr .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#gsatfluacr .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#gsatfluacr .gt_indent_5 {
+  text-indent: 25px;
+}
+
+#gsatfluacr .katex-display {
+  display: inline-flex !important;
+  margin-bottom: 0.75em !important;
+}
+
+#gsatfluacr div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+  height: 0px !important;
+}
+</style>
+
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-bootstrap="false">
+<thead>
+<tr class="gt_heading header">
+<td colspan="12" class="gt_heading gt_title gt_font_normal gt_bottom_border">Monthly spending by category</td>
+</tr>
+<tr class="gt_col_headings even">
+<th id="category" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Category</th>
+<th id="a01-2026" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">01-2026</th>
+<th id="a03-2025" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">03-2025</th>
+<th id="a04-2025" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">04-2025</th>
+<th id="a05-2025" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">05-2025</th>
+<th id="a06-2025" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">06-2025</th>
+<th id="a07-2025" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">07-2025</th>
+<th id="a08-2025" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">08-2025</th>
+<th id="a09-2025" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">09-2025</th>
+<th id="a10-2025" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">10-2025</th>
+<th id="a11-2025" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">11-2025</th>
+<th id="a12-2025" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">12-2025</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_left" headers="category">auto/local trans</td>
+<td class="gt_row gt_right" headers="01-2026" style="background-color: #FFFFFF; color: #000000">$4</td>
+<td class="gt_row gt_right" headers="03-2025" style="background-color: #FFFF4C; color: #000000">$2,813</td>
+<td class="gt_row gt_right" headers="04-2025" style="background-color: #FFFFF3; color: #000000">$202</td>
+<td class="gt_row gt_right" headers="05-2025" style="background-color: #FFFFE7; color: #000000">$413</td>
+<td class="gt_row gt_right" headers="06-2025" style="background-color: #FFFFEA; color: #000000">$361</td>
+<td class="gt_row gt_right" headers="07-2025" style="background-color: #FFFFE1; color: #000000">$506</td>
+<td class="gt_row gt_right" headers="08-2025" style="background-color: #FFFFEB; color: #000000">$344</td>
+<td class="gt_row gt_right" headers="09-2025" style="background-color: #FFFFE0; color: #000000">$534</td>
+<td class="gt_row gt_right" headers="10-2025" style="background-color: #FFFFE4; color: #000000">$470</td>
+<td class="gt_row gt_right" headers="11-2025" style="background-color: #FFFFEA; color: #000000">$363</td>
+<td class="gt_row gt_right" headers="12-2025" style="background-color: #FFFFDC; color: #000000">$596</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_striped" headers="category">business</td>
+<td class="gt_row gt_right gt_striped" headers="01-2026" style="background-color: #FFFFFC; color: #000000">$46</td>
+<td class="gt_row gt_right gt_striped" headers="03-2025" style="background-color: #FFFFF9; color: #000000">$99</td>
+<td class="gt_row gt_right gt_striped" headers="04-2025" style="background-color: #FFFFF0; color: #000000">$254</td>
+<td class="gt_row gt_right gt_striped" headers="05-2025" style="background-color: #FFFFF1; color: #000000">$238</td>
+<td class="gt_row gt_right gt_striped" headers="06-2025" style="background-color: #FFFFF4; color: #000000">$197</td>
+<td class="gt_row gt_right gt_striped" headers="07-2025" style="background-color: #FFFFF9; color: #000000">$108</td>
+<td class="gt_row gt_right gt_striped" headers="08-2025" style="background-color: #FFFF6D; color: #000000">$2,387</td>
+<td class="gt_row gt_right gt_striped" headers="09-2025" style="background-color: #FFFFEF; color: #000000">$274</td>
+<td class="gt_row gt_right gt_striped" headers="10-2025" style="background-color: #FFFFED; color: #000000">$304</td>
+<td class="gt_row gt_right gt_striped" headers="11-2025" style="background-color: #FFFFF3; color: #000000">$199</td>
+<td class="gt_row gt_right gt_striped" headers="12-2025" style="background-color: #FFFFF3; color: #000000">$208</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="category">entertainment</td>
+<td class="gt_row gt_right" headers="01-2026" style="background-color: #FFFFF5; color: #000000">$164</td>
+<td class="gt_row gt_right" headers="03-2025" style="background-color: #FFFFF6; color: #000000">$150</td>
+<td class="gt_row gt_right" headers="04-2025" style="background-color: #FFFFF6; color: #000000">$150</td>
+<td class="gt_row gt_right" headers="05-2025" style="background-color: #FFFFF9; color: #000000">$96</td>
+<td class="gt_row gt_right" headers="06-2025" style="background-color: #FFFFE8; color: #000000">$398</td>
+<td class="gt_row gt_right" headers="07-2025" style="background-color: #FFFFE4; color: #000000">$454</td>
+<td class="gt_row gt_right" headers="08-2025" style="background-color: #FFFFF8; color: #000000">$113</td>
+<td class="gt_row gt_right" headers="09-2025" style="background-color: #FFFFF3; color: #000000">$204</td>
+<td class="gt_row gt_right" headers="10-2025" style="background-color: #FFFFF9; color: #000000">$105</td>
+<td class="gt_row gt_right" headers="11-2025" style="background-color: #FFFFF6; color: #000000">$149</td>
+<td class="gt_row gt_right" headers="12-2025" style="background-color: #FFFFF3; color: #000000">$198</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_striped" headers="category">food &amp; bev</td>
+<td class="gt_row gt_right gt_striped" headers="01-2026" style="background-color: #FFFFF3; color: #000000">$213</td>
+<td class="gt_row gt_right gt_striped" headers="03-2025" style="background-color: #FFFF5E; color: #000000">$2,590</td>
+<td class="gt_row gt_right gt_striped" headers="04-2025" style="background-color: #FFFF76; color: #000000">$2,265</td>
+<td class="gt_row gt_right gt_striped" headers="05-2025" style="background-color: #FFFF61; color: #000000">$2,547</td>
+<td class="gt_row gt_right gt_striped" headers="06-2025" style="background-color: #FFFF9D; color: #000000">$1,650</td>
+<td class="gt_row gt_right gt_striped" headers="07-2025" style="background-color: #FFFF40; color: #000000">$2,937</td>
+<td class="gt_row gt_right gt_striped" headers="08-2025" style="background-color: #FFE300; color: #000000">$3,794</td>
+<td class="gt_row gt_right gt_striped" headers="09-2025" style="background-color: #FFFF6C; color: #000000">$2,395</td>
+<td class="gt_row gt_right gt_striped" headers="10-2025" style="background-color: #FFFF4C; color: #000000">$2,804</td>
+<td class="gt_row gt_right gt_striped" headers="11-2025" style="background-color: #FFCA00; color: #000000">$4,240</td>
+<td class="gt_row gt_right gt_striped" headers="12-2025" style="background-color: #FFFF53; color: #000000">$2,731</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="category">gifts/donations</td>
+<td class="gt_row gt_right" headers="01-2026" style="background-color: #FFFFBA; color: #000000">$1,181</td>
+<td class="gt_row gt_right" headers="03-2025" style="background-color: #FFFFFF; color: #000000">$0</td>
+<td class="gt_row gt_right" headers="04-2025" style="background-color: #FFFFDC; color: #000000">$600</td>
+<td class="gt_row gt_right" headers="05-2025" style="background-color: #FFFFF7; color: #000000">$135</td>
+<td class="gt_row gt_right" headers="06-2025" style="background-color: #FFFFFF; color: #000000">$0</td>
+<td class="gt_row gt_right" headers="07-2025" style="background-color: #FFFFFF; color: #000000">$0</td>
+<td class="gt_row gt_right" headers="08-2025" style="background-color: #FFFFFF; color: #000000">$0</td>
+<td class="gt_row gt_right" headers="09-2025" style="background-color: #FFFFC4; color: #000000">$1,000</td>
+<td class="gt_row gt_right" headers="10-2025" style="background-color: #FFFFFF; color: #000000">$0</td>
+<td class="gt_row gt_right" headers="11-2025" style="background-color: #FFFFFB; color: #000000">$70</td>
+<td class="gt_row gt_right" headers="12-2025" style="background-color: #FFFFED; color: #000000">$305</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_striped" headers="category">rent</td>
+<td class="gt_row gt_right gt_striped" headers="01-2026" style="background-color: #FFFF7F; color: #000000">$2,125</td>
+<td class="gt_row gt_right gt_striped" headers="03-2025" style="background-color: #FFFF7F; color: #000000">$2,125</td>
+<td class="gt_row gt_right gt_striped" headers="04-2025" style="background-color: #FFFF7F; color: #000000">$2,125</td>
+<td class="gt_row gt_right gt_striped" headers="05-2025" style="background-color: #FFFF7F; color: #000000">$2,125</td>
+<td class="gt_row gt_right gt_striped" headers="06-2025" style="background-color: #FFFF7F; color: #000000">$2,125</td>
+<td class="gt_row gt_right gt_striped" headers="07-2025" style="background-color: #FFFF7F; color: #000000">$2,125</td>
+<td class="gt_row gt_right gt_striped" headers="08-2025" style="background-color: #FFFF7F; color: #000000">$2,125</td>
+<td class="gt_row gt_right gt_striped" headers="09-2025" style="background-color: #FFFF7F; color: #000000">$2,125</td>
+<td class="gt_row gt_right gt_striped" headers="10-2025" style="background-color: #FFFF7F; color: #000000">$2,125</td>
+<td class="gt_row gt_right gt_striped" headers="11-2025" style="background-color: #FFFF7F; color: #000000">$2,125</td>
+<td class="gt_row gt_right gt_striped" headers="12-2025" style="background-color: #FFFF7F; color: #000000">$2,125</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="category">supplies/services</td>
+<td class="gt_row gt_right" headers="01-2026" style="background-color: #FFFFFD; color: #000000">$30</td>
+<td class="gt_row gt_right" headers="03-2025" style="background-color: #FFFFF3; color: #000000">$203</td>
+<td class="gt_row gt_right" headers="04-2025" style="background-color: #FFFFF9; color: #000000">$99</td>
+<td class="gt_row gt_right" headers="05-2025" style="background-color: #FFFFEE; color: #000000">$283</td>
+<td class="gt_row gt_right" headers="06-2025" style="background-color: #FFFFF6; color: #000000">$159</td>
+<td class="gt_row gt_right" headers="07-2025" style="background-color: #FFFFBB; color: #000000">$1,158</td>
+<td class="gt_row gt_right" headers="08-2025" style="background-color: #FFFFE4; color: #000000">$457</td>
+<td class="gt_row gt_right" headers="09-2025" style="background-color: #FFFFF0; color: #000000">$259</td>
+<td class="gt_row gt_right" headers="10-2025" style="background-color: #FFFFE0; color: #000000">$530</td>
+<td class="gt_row gt_right" headers="11-2025" style="background-color: #FFFFE6; color: #000000">$429</td>
+<td class="gt_row gt_right" headers="12-2025" style="background-color: #FFFFDE; color: #000000">$561</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_striped" headers="category">utilities</td>
+<td class="gt_row gt_right gt_striped" headers="01-2026" style="background-color: #FFFFFF; color: #000000">$3</td>
+<td class="gt_row gt_right gt_striped" headers="03-2025" style="background-color: #FFFFDE; color: #000000">$558</td>
+<td class="gt_row gt_right gt_striped" headers="04-2025" style="background-color: #FFFFF6; color: #000000">$149</td>
+<td class="gt_row gt_right gt_striped" headers="05-2025" style="background-color: #FFFFF6; color: #000000">$149</td>
+<td class="gt_row gt_right gt_striped" headers="06-2025" style="background-color: #FFFFDE; color: #000000">$573</td>
+<td class="gt_row gt_right gt_striped" headers="07-2025" style="background-color: #FFFFED; color: #000000">$317</td>
+<td class="gt_row gt_right gt_striped" headers="08-2025" style="background-color: #FFFFEC; color: #000000">$329</td>
+<td class="gt_row gt_right gt_striped" headers="09-2025" style="background-color: #FFFFED; color: #000000">$313</td>
+<td class="gt_row gt_right gt_striped" headers="10-2025" style="background-color: #FFFFEC; color: #000000">$317</td>
+<td class="gt_row gt_right gt_striped" headers="11-2025" style="background-color: #FFFFF8; color: #000000">$121</td>
+<td class="gt_row gt_right gt_striped" headers="12-2025" style="background-color: #FFFFC9; color: #000000">$924</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="category">int/bank chg/tax</td>
+<td class="gt_row gt_right" headers="01-2026" style="background-color: #FFFFFF; color: #000000">$0</td>
+<td class="gt_row gt_right" headers="03-2025" style="background-color: #FFFFF7; color: #000000">$141</td>
+<td class="gt_row gt_right" headers="04-2025" style="background-color: #FFFFFB; color: #000000">$75</td>
+<td class="gt_row gt_right" headers="05-2025" style="background-color: #FF0000; color: #FFFFFF">$6,577</td>
+<td class="gt_row gt_right" headers="06-2025" style="background-color: #FFFFFE; color: #000000">$10</td>
+<td class="gt_row gt_right" headers="07-2025" style="background-color: #FFFFFE; color: #000000">$16</td>
+<td class="gt_row gt_right" headers="08-2025" style="background-color: #FFFFF9; color: #000000">$106</td>
+<td class="gt_row gt_right" headers="09-2025" style="background-color: #FFFFFE; color: #000000">$21</td>
+<td class="gt_row gt_right" headers="10-2025" style="background-color: #FFFFFB; color: #000000">$73</td>
+<td class="gt_row gt_right" headers="11-2025" style="background-color: #FFFFFF; color: #000000">$6</td>
+<td class="gt_row gt_right" headers="12-2025" style="background-color: #FFFFFA; color: #000000">$92</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_striped" headers="category">recreation/educ</td>
+<td class="gt_row gt_right gt_striped" headers="01-2026" style="background-color: #FFFFFF; color: #000000">$0</td>
+<td class="gt_row gt_right gt_striped" headers="03-2025" style="background-color: #FFFFCC; color: #000000">$867</td>
+<td class="gt_row gt_right gt_striped" headers="04-2025" style="background-color: #FFFFF3; color: #000000">$214</td>
+<td class="gt_row gt_right gt_striped" headers="05-2025" style="background-color: #FFFFDF; color: #000000">$545</td>
+<td class="gt_row gt_right gt_striped" headers="06-2025" style="background-color: #FFFFF3; color: #000000">$204</td>
+<td class="gt_row gt_right gt_striped" headers="07-2025" style="background-color: #FFFFFF; color: #000000">$0</td>
+<td class="gt_row gt_right gt_striped" headers="08-2025" style="background-color: #FFFFFF; color: #000000">$0</td>
+<td class="gt_row gt_right gt_striped" headers="09-2025" style="background-color: #FFFFE6; color: #000000">$434</td>
+<td class="gt_row gt_right gt_striped" headers="10-2025" style="background-color: #FFFFF1; color: #000000">$238</td>
+<td class="gt_row gt_right gt_striped" headers="11-2025" style="background-color: #FFFFAC; color: #000000">$1,401</td>
+<td class="gt_row gt_right gt_striped" headers="12-2025" style="background-color: #FFFFFC; color: #000000">$50</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="category">travel/transport</td>
+<td class="gt_row gt_right" headers="01-2026" style="background-color: #FFFFFF; color: #000000">$0</td>
+<td class="gt_row gt_right" headers="03-2025" style="background-color: #FFFF8B; color: #000000">$1,933</td>
+<td class="gt_row gt_right" headers="04-2025" style="background-color: #FFFFF8; color: #000000">$124</td>
+<td class="gt_row gt_right" headers="05-2025" style="background-color: #FFFFCF; color: #000000">$828</td>
+<td class="gt_row gt_right" headers="06-2025" style="background-color: #FFFFC2; color: #000000">$1,042</td>
+<td class="gt_row gt_right" headers="07-2025" style="background-color: #FFFF74; color: #000000">$2,290</td>
+<td class="gt_row gt_right" headers="08-2025" style="background-color: #FFF000; color: #000000">$3,553</td>
+<td class="gt_row gt_right" headers="09-2025" style="background-color: #FFFF7C; color: #000000">$2,169</td>
+<td class="gt_row gt_right" headers="10-2025" style="background-color: #FFFFA3; color: #000000">$1,551</td>
+<td class="gt_row gt_right" headers="11-2025" style="background-color: #FF6900; color: #FFFFFF">$5,789</td>
+<td class="gt_row gt_right" headers="12-2025" style="background-color: #FF6800; color: #FFFFFF">$5,805</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left gt_striped" headers="category">misc</td>
+<td class="gt_row gt_right gt_striped" headers="01-2026" style="background-color: #FFFFFF; color: #000000">$0</td>
+<td class="gt_row gt_right gt_striped" headers="03-2025" style="background-color: #FFFFFF; color: #000000">$0</td>
+<td class="gt_row gt_right gt_striped" headers="04-2025" style="background-color: #FFFFFF; color: #000000">$0</td>
+<td class="gt_row gt_right gt_striped" headers="05-2025" style="background-color: #FFFFFF; color: #000000">$0</td>
+<td class="gt_row gt_right gt_striped" headers="06-2025" style="background-color: #FFFFFF; color: #000000">$0</td>
+<td class="gt_row gt_right gt_striped" headers="07-2025" style="background-color: #FFFFFE; color: #000000">$16</td>
+<td class="gt_row gt_right gt_striped" headers="08-2025" style="background-color: #FFFFFF; color: #000000">$0</td>
+<td class="gt_row gt_right gt_striped" headers="09-2025" style="background-color: #FFFFFF; color: #000000">$0</td>
+<td class="gt_row gt_right gt_striped" headers="10-2025" style="background-color: #FFFFFF; color: #000000">$0</td>
+<td class="gt_row gt_right gt_striped" headers="11-2025" style="background-color: #FFFFFF; color: #000000">$0</td>
+<td class="gt_row gt_right gt_striped" headers="12-2025" style="background-color: #FFFFFF; color: #000000">$0</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="category">unknown</td>
+<td class="gt_row gt_right" headers="01-2026" style="background-color: #FFFFFF; color: #000000">$0</td>
+<td class="gt_row gt_right" headers="03-2025" style="background-color: #FFFFFF; color: #000000">$0</td>
+<td class="gt_row gt_right" headers="04-2025" style="background-color: #FFFFFF; color: #000000">$0</td>
+<td class="gt_row gt_right" headers="05-2025" style="background-color: #FFFFFF; color: #000000">$0</td>
+<td class="gt_row gt_right" headers="06-2025" style="background-color: #FFFFFF; color: #000000">$0</td>
+<td class="gt_row gt_right" headers="07-2025" style="background-color: #FFFFFF; color: #000000">$0</td>
+<td class="gt_row gt_right" headers="08-2025" style="background-color: #FFFFF0; color: #000000">$260</td>
+<td class="gt_row gt_right" headers="09-2025" style="background-color: #FFFFFF; color: #000000">$0</td>
+<td class="gt_row gt_right" headers="10-2025" style="background-color: #FFFFFF; color: #000000">$0</td>
+<td class="gt_row gt_right" headers="11-2025" style="background-color: #FFFFFF; color: #000000">$0</td>
+<td class="gt_row gt_right" headers="12-2025" style="background-color: #FFFFFF; color: #000000">$0</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<p>Note that January 2026 (<code>01-2026</code>) appears to be a partial month and should be interpreted with caution.</p>
+</section>
+<section id="monthly-spending-chart" class="level1">
+<h1>Monthly spending chart</h1>
+<p>The stacked bar chart below visualizes total spending by category for each month.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>expenses <span class="sc">|&gt;</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(month, category) <span class="sc">|&gt;</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">total =</span> <span class="fu">sum</span>(amount) <span class="sc">*</span> <span class="sc">-</span><span class="dv">1</span>, <span class="at">.groups =</span> <span class="st">"drop"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">month =</span> <span class="fu">factor</span>(month, <span class="at">levels =</span> <span class="fu">sort</span>(<span class="fu">unique</span>(month)))) <span class="sc">|&gt;</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> month, <span class="at">y =</span> total, <span class="at">fill =</span> category)) <span class="sc">+</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>() <span class="sc">+</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>dollar) <span class="sc">+</span></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_brewer</span>(<span class="at">palette =</span> <span class="st">"Set3"</span>) <span class="sc">+</span></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Monthly spending by category"</span>,</span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Month"</span>,</span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Total spending"</span>,</span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">"Category"</span></span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in RColorBrewer::brewer.pal(n, pal): n too large, allowed maximum for palette Set3 is 12
+Returning the palette you asked for with that many colors</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="expenses-analysis_files/figure-html/monthly-spending-chart-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>November and December 2025 stand out as the highest-spending months, likely driven by holiday and travel costs. May 2025 shows a notable spike in <code>int/bank chg/tax</code>, explained by a large tax payment (see below).</p>
+</section>
+<section id="top-10-largest-expenses" class="level1">
+<h1>Top 10 largest expenses</h1>
+<p>The table below lists the 10 largest individual transactions in the dataset.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>expenses <span class="sc">|&gt;</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(amount) <span class="sc">|&gt;</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(<span class="dv">10</span>) <span class="sc">|&gt;</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(date, name, category, month, amount) <span class="sc">|&gt;</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">amount =</span> amount <span class="sc">*</span> <span class="sc">-</span><span class="dv">1</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>         date                      name         category   month  amount
+1  2025-05-09                CANADA TXD int/bank chg/tax 05-2025 6300.50
+2  2025-12-31       WWW.GADVENTURES.COM travel/transport 12-2025 5566.40
+3  2025-11-17    EXPEDIA 72068286022956 travel/transport 11-2025 3319.20
+4  2025-08-31        TIGHNAMARA RESORTS travel/transport 08-2025 3008.47
+5  2025-08-28 Apple Bill800-676-2775 ON         business 08-2025 2239.38
+6  2025-03-03      CHQ#00041-4141056204             rent 03-2025 2125.00
+7  2025-04-01      CHQ#00042-1142721489             rent 04-2025 2125.00
+8  2025-05-01      CHQ#00043-4141804206             rent 05-2025 2125.00
+9  2025-06-02      CHQ#00044-1142194659             rent 06-2025 2125.00
+10 2025-07-02      CHQ#00045-3143144732             rent 07-2025 2125.00</code></pre>
+</div>
+</div>
+<p>Key observations:</p>
+<ul>
+<li>The largest single expense is a <strong>$6,300.50 tax payment</strong> (CANADA TXD) in May 2025, which explains the <code>int/bank chg/tax</code> spike that month.</li>
+<li>Two large <strong>travel bookings</strong> appear in late 2025: G Adventures ($5,566.40 in December) and Expedia ($3,319.20 in November), contributing to the high year-end spending.</li>
+<li>A <strong>$2,239.38 Apple charge</strong> in August 2025 is notably large for a business expense and may warrant further review.</li>
+<li>Monthly <strong>rent payments</strong> of $2,125.00 appear consistently throughout the year.</li>
+</ul>
+</section>
+<section id="key-takeaways" class="level1">
+<h1>Key takeaways</h1>
+<ul>
+<li><strong>Food &amp; bev</strong> and <strong>travel/transport</strong> are the largest discretionary expense categories.</li>
+<li><strong>Rent</strong> is a steady fixed cost of $2,125/month.</li>
+<li>A <strong>CRA tax payment of $6,300.50</strong> in May 2025 caused a one-time spike in the <code>int/bank chg/tax</code> category.</li>
+<li><strong>November and December 2025</strong> were the highest-spending months overall, driven by travel bookings.</li>
+<li>The <strong>Apple charge of $2,239.38</strong> in August 2025 is an outlier worth investigating further.</li>
+<li><strong>January 2026</strong> data is incomplete and should not be compared directly to other months.</li>
+</ul>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
