@@ -22,7 +22,7 @@ Streamlit app available at subdomain: https://expenses.johnyuill.com/
 uv run streamlit run experiments/expenses/streamlit/app.py
 ```
 
-Or run the local helper script:
+Or BETTER run the local helper script:
 
 ```bash
 ./experiments/expenses/streamlit/run_local.sh
@@ -51,6 +51,12 @@ Entrypoint is configured in:
 Both now run:
 
 - `experiments/expenses/streamlit/app.py`
+
+Settings:
+- repo: jyuill/ai-data-analysis
+- root directory: / (need top level for Profile, pyproject.toml, etc)
+- Deploy section:
+    - custom start command: uv run streamlit run experiments/expenses/streamlit/app.py --server.port=$PORT --server.address=0.0.0.0 --server.headless=true
 
 Set these Railway variables:
 
