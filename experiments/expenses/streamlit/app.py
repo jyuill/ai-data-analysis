@@ -57,7 +57,10 @@ def load_data(use_google_sheets: bool = True) -> pd.DataFrame:
 
     df.columns = [c.strip() for c in df.columns]
     df["date"] = pd.to_datetime(df["date"], errors="coerce")
-    df["amount"] = pd.to_numeric(df["amount"], errors="coerce")
+    df["amount"] = pd.to_numeric(
+        df["amount"].astype(str).str.replace(",", "", regex=False).str.strip(),
+        errors="coerce",
+    )
 
     # Keep only months that have data through at least the 25th
     df["month"] = df["date"].dt.to_period("M")
@@ -66,9 +69,10 @@ def load_data(use_google_sheets: bool = True) -> pd.DataFrame:
     ).loc[lambda s: s].index
     df = df[df["month"].isin(coverage_months)].copy()
 
-    # Keep only expenses, filter out internal transfers/payments
-    df = df[df["type"].str.upper() == "DEBIT"].copy()
-    excluded_categories = {"transfer/pmt", "investment", "rental inc"}
+    # Keep only expenses, filter out internal transfers/payments, income
+    # - focus only on expenses/outlays 
+    #df = df[df["type"].str.upper() == "DEBIT"].copy() # too inaccurate
+    excluded_categories = {"transfer/pmt", "income","investment", "rental inc"}
     df = df[
         ~df["category"].astype(str).str.strip().str.lower().isin(excluded_categories)
     ].copy()
@@ -163,15 +167,23 @@ def main() -> None:
         return
 
     with st.sidebar:
+        if st.button("Refresh data"):
+            load_data.clear()
+            st.session_state.pop("categories_select", None)
+            st.rerun()
         st.header("Filters")
         min_date = df["date"].min().date()
         max_date = df["date"].max().date()
+        default_start = max(
+            (pd.Timestamp(max_date) - pd.DateOffset(months=12)).replace(day=1).date(),
+            min_date,
+        )
         date_range = st.date_input(
-            "Date range", (min_date, max_date), min_value=min_date, max_value=max_date
+            "Date range", (default_start, max_date), min_value=min_date, max_value=max_date
         )
         categories = sorted(df["category"].unique().tolist())
         selected_categories = st.multiselect(
-            "Categories", categories, default=categories
+            "Categories", categories, default=categories, key="categories_select"
         )
 
     if isinstance(date_range, tuple) and len(date_range) == 2:
