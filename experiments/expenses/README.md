@@ -13,7 +13,8 @@ Streamlit app available at subdomain: https://expenses.johnyuill.com/
 ## Data Source
 
 - orig: [Expenses google sheet](https://docs.google.com/spreadsheets/d/1dZhNtCPDG2tAzMkd5FpVh1GqtDXeJFEHhVYd2wY12n0/edit?usp=sharing)
-- csv stored in `expenses/data/expenses.csv` -> just for experimental purposes 
+    - csv stored in `expenses/data/expenses.csv` -> just for experimental purposes 
+- CONNECT/IMPORT: 
 
 ## Run The Streamlit App
 

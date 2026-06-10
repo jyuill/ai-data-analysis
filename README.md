@@ -20,6 +20,12 @@ Repo for experimenting with AI-assisted data analysis workflows in both Python a
 - `experiments/python/`: reserved for new Python experiments
 - `experiments/R/`: reserved for new R experiments - includes template
 
+## Python Activation
+
+- entire project is set up with Python virtual environment using UV
+- to activate at start of new session (if needed):
+  - Terminal: `source .venv/bin/activate` (can be done from root folder)
+
 ## Experiment: Expenses
 
 Builds on work done in R repo 'expenses' to collect and categorize monthly personal expenses.

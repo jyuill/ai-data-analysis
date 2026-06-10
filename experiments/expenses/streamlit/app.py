@@ -16,7 +16,7 @@ from google.oauth2.service_account import Credentials
 # Google Sheets configuration
 SPREADSHEET_ID = "1dZhNtCPDG2tAzMkd5FpVh1GqtDXeJFEHhVYd2wY12n0"
 SHEET_NAME = "spending-r"
-SHEET_RANGE = "A10:O"  # Open-ended range to accommodate growing data
+SHEET_RANGE = "A11:O"  # Open-ended range to accommodate growing data
 APP_DIR = Path(__file__).resolve().parent
 EXPENSES_DIR = APP_DIR.parent
 DATA_FILE = EXPENSES_DIR / "data" / "expenses.csv"
